@@ -1,0 +1,406 @@
+﻿Andaman and Nicobar Islands|Bishnu Pada Ray
+Srikakulam|Kinjarapu Ram Mohan Naidu
+Vizianagaram|Appalanaidu Kalisetti
+Visakhapatnam|Mathukumilli Bharat
+Anakapalli|C. M. Ramesh
+Kakinada|Tangella Uday Srinivas
+Rajahmundry|Daggubati Purandeswari
+Narasapuram|Bhupathi Raju Srinivasa Varma
+Eluru|Putta Mahesh Kumar
+Machilipatnam|Vallabhaneni Balashowry
+Vijayawada|Kesineni Sivanath
+Guntur|Chandra Sekhar Pemmasani
+Narasaraopet|Lavu Sri Krishna Devarayalu
+Ongole|Magunta Sreenivasulu Reddy
+Nandyal|Byreddy Shabari
+Kurnool|B. Nagaraju Panchalingala
+Anantapur|G. Lakshminarayana
+Hindupur|B. K. Parthasarathi
+Kadapa|Y. S. Avinash Reddy
+Nellore|Vemireddy Prabhakar Reddy
+Rajampet|P. V. Midhun Reddy
+Arunachal West|Kiren Rijiju
+Arunachal East|Tapir Gao
+Dhubri|Rakibul Hussain
+Barpeta|Phani Bhusan Choudhury
+Darrangâ€“Udalguri|Dilip Saikia
+Guwahati|Bijuli Kalita Medhi
+Karimganj|Kripanath Mallah
+Nagaon|Pradyut Bordoloi
+Kaziranga|Kamakhya Prasad Tasa
+Sonitpur|Ranjit Dutta
+Lakhimpur|Pradan Baruah
+Dibrugarh|Sarbananda Sonowal
+Jorhat|Gaurav Gogoi
+Valmiki Nagar|Sunil Kushwaha
+Paschim Champaran|Sanjay Jaiswal
+Purvi Champaran|Radha Mohan Singh
+Sheohar|Lovely Anand
+Sitamarhi|Devesh Chandra Thakur
+Madhubani|Ashok Kumar Yadav
+Jhanjharpur|Ramprit Mandal
+Supaul|Dileshwar Kamait
+Araria|Pradeep Kumar Singh
+Kishanganj|Mohammad Jawed
+Katihar|Tariq Anwar
+Purnia|Pappu Yadav
+Madhepura|Dinesh Chandra Yadav
+Darbhanga|Gopal Jee Thakur
+Muzaffarpur|Raj Bhushan Choudhary
+Vaishali|Veena Devi
+Siwan|Vijay Lakshmi Kushwaha
+Maharajganj|Janardan Singh Sigriwal
+Saran|Rajiv Pratap Rudy
+Ujiarpur|Nityanand Rai
+Begusarai|Giriraj Singh
+Khagaria|Rajesh Verma
+Bhagalpur|Ajay Kumar Mandal
+Banka|Giridhari Yadav
+Munger|Rajiv Ranjan Singh
+Nalanda|Kaushalendra Kumar
+Patna Sahib|Ravi Shankar Prasad
+Pataliputra|Misa Bharti
+Arrah|Sudama Prasad
+Buxar|Sudhakar Singh
+Karakat|Raja Ram Kushwaha
+Jahanabad|Surendra Prasad Yadav
+Aurangabad|Abhay Kushwaha
+Nawada|Vivek Thakur
+Chandigarh|Manish Tewari
+Korba|Jyotsna Mahant
+Bilaspur|Tokhan Sahu
+Rajnandgaon|Santosh Pandey
+Durg|Vijay Baghel
+Raipur|Brijmohan Agrawal
+Mahasamund|Rupkumari Choudhary
+Daman and Diu|Umeshbhai Patel
+Chandni Chowk|Praveen Khandelwal
+North East Delhi|Manoj Tiwari
+East Delhi|Harsh Malhotra
+New Delhi|Bansuri Swaraj
+West Delhi|Kamaljeet Sehrawat
+South Delhi|Ramvir Singh Bidhuri
+North Goa|Shripad Naik
+South Goa|Viriato Fernandes
+Banaskantha|Geniben Thakor
+Patan|Bharatsinhji Dabhi
+Mahesana|Haribhai Patel
+Sabarkantha|Shobhanaben Baraiya
+Gandhinagar|Amit Shah
+Ahmedabad East|Hasmukh Patel
+Surendranagar|Chandubhai Shihora
+Rajkot|Parshottam Rupala
+Porbandar|Mansukh Mandaviya
+Jamnagar|Poonamben Maadam
+Junagadh|Rajesh Chudasama
+Amreli|Bharatbhai Sutariya
+Bhavnagar|Nimuben Bambhaniya
+Anand|Mitesh Patel
+Kheda|Devusinh Chauhan
+Panchmahal|Rajpalsinh Jadav
+Vadodara|Hemang Joshi
+Bharuch|Mansukhbhai Vasava
+Surat|Mukesh Dalal
+Navsari|C. R. Patil
+Kurukshetra|Naveen Jindal
+Hisar|Jai Parkash
+Karnal|Manohar Lal Khattar
+Sonipat|Satpal Brahamchari
+Rohtak|Deepender Singh Hooda
+Gurgaon|Rao Inderjit Singh
+Faridabad|Krishan Pal Gurjar
+Mandi|Kangana Ranaut
+Kangra|Rajeev Bhardwaj
+Hamirpur|Anurag Thakur
+Baramulla|Sheikh Abdul Rashid
+Srinagar|Aga Syed Ruhullah Mehdi
+Anantnagâ€“Rajouri|Mian Altaf Ahmed Larvi
+Udhampur|Jitendra Singh
+Jammu|Jugal Kishore Sharma
+Godda|Nishikant Dubey
+Chatra|Kalicharan Singh
+Koderma|Annpurna Devi
+Giridih|Chandra Prakash Choudhary
+Dhanbad|Dulu Mahato
+Ranchi|Sanjay Seth
+Jamshedpur|Bidyut Baran Mahato
+Hazaribagh|Manish Jaiswal
+Chikkodi|Priyanka Jarkiholi
+Belgaum|Jagadish Shettar
+Bagalkot|P. C. Gaddigoudar
+Bidar|Sagar Khandre
+Koppal|K. Rajashekar Basavaraj Hitnal
+Haveri|Basavaraj Bommai
+Dharwad|Pralhad Joshi
+Uttara Kannada|Vishweshwar Hegde Kageri
+Davanagere|Prabha Mallikarjun
+Shimoga|B. Y. Raghavendra
+Udupi Chikmagalur|Kota Srinivas Poojary
+Hassan|Shreyas M. Patel
+Dakshina Kannada|Brijesh Chowta
+Tumkur|V. Somanna
+Mandya|H. D. Kumaraswamy
+Mysore|Yaduveer Wadiyar
+Bangalore Rural|C. N. Manjunath
+Bangalore North|Shobha Karandlaje
+Bangalore Central|P. C. Mohan
+Bangalore South|Tejasvi Surya
+Chikballapur|K. Sudhakar
+Kasaragod|Rajmohan Unnithan
+Kannur|K. Sudhakaran
+Vatakara|Shafi Parambil
+Wayanad|Rahul Gandhi
+Kozhikode|M. K. Raghavan
+Malappuram|E. T. Muhammed Basheer
+Ponnani|M. P. Abdussamad Samadani
+Palakkad|V. K. Sreekandan
+Thrissur|Suresh Gopi
+Chalakudy|Benny Behanan
+Ernakulam|Hibi Eden
+Idukki|Dean Kuriakose
+Kottayam|Francis George
+Alappuzha|K. C. Venugopal
+Pathanamthitta|Anto Antony
+Kollam|N. K. Premachandran
+Attingal|Adoor Prakash
+Thiruvananthapuram|Shashi Tharoor
+Ladakh|Mohmad Haneefa
+Morena|Shivmangal Singh Tomar
+Gwalior|Bharat Singh Kushwah
+Guna|Jyotiraditya Scindia
+Sagar|Lata Wankhede
+Damoh|Rahul Lodhi
+Khajuraho|V. D. Sharma
+Satna|Ganesh Singh
+Rewa|Janardan Mishra
+Sidhi|Rajesh Mishra
+Jabalpur|Ashish Dubey
+Balaghat|Bharti Pardhi
+Chhindwara|Vivek Kumar Sahu
+Hoshangabad|Darshan Singh Choudhary
+Vidisha|Shivraj Singh Chauhan
+Bhopal|Alok Sharma
+Rajgarh|Rodmal Nagar
+Mandsaur|Sudhir Gupta
+Indore|Shankar Lalwani
+Khandwa|Gyaneswar Patil
+Dhule|Bachhav Shobha Dinesh
+Jalgaon|Smita Wagh
+Raver|Raksha Khadse
+Buldhana|Prataprao Jadhav
+Akola|Anup Dhotre
+Wardha|Amar Kale
+Nagpur|Nitin Gadkari
+Bhandaraâ€“Gondiya|Prashant Padole
+Chandrapur|Pratibha Dhanorkar
+Yavatmalâ€“Washim|Sanjay Deshmukh
+Hingoli|Nagesh Aashtikar Patil
+Nanded|Vasantrao Balwantrao Chavan
+Parbhani|Sanjay Jadhav
+Jalna|Kalyan Kale
+Aurangabad|Sandipanrao Bhumre
+Nashik|Rajabhau Waje
+Bhiwandi|Suresh Mhatre
+Kalyan|Shrikant Shinde
+Thane|Naresh Mhaske
+Mumbai North|Piyush Goyal
+Mumbai North West|Ravindra Waikar
+Mumbai North East|Sanjay Dina Patil
+Mumbai South|Arvind Sawant
+Raigad|Sunil Tatkare
+Maval|Shrirang Barne
+Pune|Murlidhar Mohol
+Baramati|Supriya Sule
+Shirur|Amol Kolhe
+Ahmednagar|Nilesh Lanke
+Beed|Bajrang Sonwane
+Osmanabad|Omprakash Rajenimbalkar
+Madha|Dhairyasheel Mohite Patil
+Sangli|Vishal Patil
+Satara|Udayanraje Bhosale
+Kolhapur|Chhatrapati Shahu Maharaj
+Hatkanangle|Dhairyasheel Mane
+Inner Manipur|Angomcha Bimol Akoijam
+Nagaland|S. Supongmeren Jamir
+Bargarh|Pradip Purohit
+Sambalpur|Dharmendra Pradhan
+Balasore|Pratap Chandra Sarangi
+Dhenkanal|Rudra Narayan Pany
+Bolangir|Sangeeta Kumari Singh Deo
+Kalahandi|Malvika Devi
+Kandhamal|Sukanta Kumar Panigrahi
+Cuttack|Bhartruhari Mahtab
+Kendrapara|Baijayant Panda
+Puri|Sambit Patra
+Bhubaneswar|Aparajita Sarangi
+Aska|Anita Subhadarshini
+Berhampur|Pradeep Kumar Panigrahy
+Puducherry|V. Vaithilingam
+Gurdaspur|Sukhjinder Singh Randhawa
+Amritsar|Gurjeet Singh Aujla
+Khadoor Sahib|Amritpal Singh
+Anandpur Sahib|Malwinder Singh Kang
+Ludhiana|Amrinder Singh Raja Warring
+Firozpur|Sher Singh Ghubaya
+Bathinda|Harsimrat Kaur Badal
+Sangrur|Gurmeet Singh Meet Hayer
+Patiala|Dharamvir Gandhi
+Churu|Rahul Kaswan
+Jhunjhunu|Brijendra Singh Ola
+Sikar|Amra Ram
+Jaipur Rural|Rao Rajendra Singh
+Jaipur|Manju Sharma
+Alwar|Bhupender Yadav
+Ajmer|Bhagirath Chaudhary
+Nagaur|Hanuman Beniwal
+Pali|P. P. Chaudhary
+Jodhpur|Gajendra Singh Shekhawat
+Barmer|Ummeda Ram Beniwal
+Jalore|Lumbaram Choudhary
+Chittorgarh|Chandra Prakash Joshi
+Rajsamand|Mahima Kumari Mewar
+Bhilwara|Damodar Agarwal
+Kota|Om Birla
+Jhalawarâ€“Baran|Dushyant Singh
+Sikkim|Indra Hang Subba
+Chennai North|Kalanidhi Veeraswamy
+Chennai South|Tamizhachi Thangapandian
+Chennai Central|Dayanidhi Maran
+Sriperumbudur|T.R. Baalu
+Arakkonam|S. Jagathrakshakan
+Vellore|D.M.K. Anand
+Krishnagiri|K. Gopinath
+Tiruvannamalai|C.N. Annadurai
+Arani|M.S. Tharanivendhan
+Kallakurichi|Malaiyarasan D
+Salem|T. M. Selvaganapathi
+Namakkal|V. S. Matheswaran
+Erode|K. E. Prakash
+Tiruppur|K. Subbarayan
+Coimbatore|Ganapathi P. Raj Kumar
+Pollachi|Eswarasamy
+Dindigul|R. Sachidanandam
+Karur|Jothimani
+Tiruchirappalli|Durai Vaiyapuri
+Perambalur|Arun Nehru
+Cuddalore|M. K. Vishnu Prasad
+Mayiladuthurai|Sudha Ramakrishnan
+Thanjavur|S. Murasoli
+Sivaganga|Karti Chidambaram
+Madurai|S. Venkatesan
+Theni|Thanga Tamil Selvan
+Virudhunagar|Manickam Tagore
+Ramanathapuram|Navas Kani
+Thoothukkudi|Kanimozhi Karunanidhi
+Tirunelveli|Robert Bruce
+Kanniyakumari|Vijay Vasanth
+Karimnagar|Bandi Sanjay Kumar
+Nizamabad|Dharmapuri Arvind
+Zahirabad|Suresh Shetkar
+Medak|Raghunandan Rao
+Malkajgiri|Etela Rajender
+Secunderabad|G. Kishan Reddy
+Hyderabad|Asaduddin Owaisi
+Chevella|Konda Vishweshwar Reddy
+Mahbubnagar|D. K. Aruna
+Nalgonda|Raghuveer Reddy Kunduru
+Bhongir|Chamala Kiran Kumar Reddy
+Khammam|R. Raghuram Reddy
+Tripura West|Biplab Kumar Deb
+Saharanpur|Imran Masood
+Kairana|Iqra Choudhary
+Muzaffarnagar|Harendra Singh Malik
+Bijnor|Chandan Chauhan
+Moradabad|Ruchi Veera
+Rampur|Mohibbullah Nadvi
+Sambhal|Zia ur Rahman Barq
+Amroha|Kanwar Singh Tanwar
+Meerut|Arun Govil
+Baghpat|Rajkumar Sangwan
+Ghaziabad|Atul Garg
+Gautam Buddha Nagar|Mahesh Sharma
+Aligarh|Satish Kumar Gautam
+Mathura|Hema Malini
+Fatehpur Sikri|Rajkumar Chahar
+Firozabad|Akshay Yadav
+Mainpuri|Dimple Yadav
+Etah|Devesh Shakya
+Badaun|Aditya Yadav
+Aonla|Neeraj Kushwaha Maurya
+Bareilly|Chhatrapal Singh Gangwar
+Pilibhit|Jitin Prasada
+Kheri|Utkarsh Verma
+Dhaurahra|Anand Bhadauriya
+Sitapur|Rakesh Rathore
+Unnao|Sakshi Maharaj
+Lucknow|Rajnath Singh
+Rae Bareli|Rahul Gandhi
+Amethi|Kishori Lal Sharma
+Sultanpur|Rambhual Nishad
+Pratapgarh|S. P. Singh Patel
+Farrukhabad|Mukesh Rajput
+Kannauj|Akhilesh Yadav
+Kanpur|Ramesh Awasthi
+Akbarpur|Devendra Singh Bhole
+Jhansi|Anurag Sharma
+Hamirpur|Ajendra Singh Lodhi
+Banda|Krishna Devi Patel
+Fatehpur|Naresh Uttam Patel
+Phulpur|Praveen Patel
+Allahabad|Ujjwal Rewati Raman Singh
+Faizabad|Awadhesh Prasad
+Ambedkar Nagar|Lalji Verma
+Kaiserganj|Karan Bhushan Singh
+Shrawasti|Ram Shiromani Verma
+Gonda|Kirti Vardhan Singh
+Domariyaganj|Jagdambika Pal
+Basti|Ram Prasad Chaudhary
+Sant Kabir Nagar|Laxmikant Nishad
+Maharajganj|Pankaj Chaudhary
+Gorakhpur|Ravi Kishan
+Kushi Nagar|Vijay Kumar Dubey
+Deoria|Shashank Mani
+Azamgarh|Dharmendra Yadav
+Ghosi|Rajeev Kumar Rai
+Salempur|Ramashankar Rajbhar
+Ballia|Sanatan Pandey
+Jaunpur|Babu Singh Kushwaha
+Ghazipur|Afzal Ansari
+Chandauli|Bijendra Singh
+Varanasi|Narendra Modi
+Bhadohi|Vinod Kumar Bind
+Mirzapur|Anupriya Patel
+Tehri Garhwal|Mala Rajya Laxmi Shah
+Garhwal|Anil Baluni
+Nainitalâ€“Udhamsingh Nagar|Ajay Bhatt
+Haridwar|Trivendra Singh Rawat
+Darjeeling|Raju Bista
+Raiganj|Kartick Chandra Paul
+Balurghat|Sukanta Majumdar
+Maldaha Uttar|Khagen Murmu
+Maldaha Dakshin|Isha Khan Choudhury
+Jangipur|Khalilur Rahaman
+Baharampur|Yusuf Pathan
+Murshidabad|Abu Taher Khan
+Krishnanagar|Mahua Moitra
+Barrackpur|Partha Bhowmick
+Dum Dum|Saugata Roy
+Barasat|Kakoli Ghosh Dastidar
+Basirhat|Haji Nurul Islam
+Diamond Harbour|Abhishek Banerjee
+Jadavpur|Saayoni Ghosh
+Kolkata Dakshin|Mala Roy
+Kolkata Uttar|Sudip Bandyopadhyay
+Howrah|Prasun Banerjee
+Uluberia|Sajda Ahmed
+Sreerampur|Kalyan Banerjee
+Hooghly|Rachana Banerjee
+Tamluk|Abhijit Gangopadhyay
+Kanthi|Soumendu Adhikari
+Ghatal|Deepak Adhikari
+Medinipur|June Malia
+Purulia|Jyotirmay Singh Mahato
+Bankura|Arup Chakraborty
+Bardhamanâ€“Durgapur|Kirti Azad
+Asansol|Shatrughan Sinha
+Birbhum|Satabdi Roy

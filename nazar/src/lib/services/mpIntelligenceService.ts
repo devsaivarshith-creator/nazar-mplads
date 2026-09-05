@@ -46,9 +46,14 @@ export interface MP360Intelligence {
  * Synchronous resolver (fast fallback)
  */
 export function get360MPIntelligence(query: string): MP360Intelligence {
-  const mp = findMPByQuery(query) || resolveAnyMP(query);
+  const resolvedMp = findMPByQuery(query) || resolveAnyMP(query);
+  if (!resolvedMp) {
+    throw new Error(`MP not found for query: ${query}`);
+  }
+  const mp = resolvedMp;
   const delayedSample = getMPDelayedProjects(mp);
   const unspent = mp.sanctioned_amount - mp.expenditure_amount;
+
 
   const attendance = mp.attendance_rate || 82;
   const debates = mp.debates_count || 45;

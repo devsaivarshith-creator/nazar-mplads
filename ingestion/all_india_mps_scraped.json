@@ -1,0 +1,3250 @@
+[
+  {
+    "id": "MP-IND-﻿ANDA-000",
+    "name": "Bishnu Pada Ray",
+    "constituency": "﻿Andaman and Nicobar Islands",
+    "state": "India",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-SRIKA-001",
+    "name": "Kinjarapu Ram Mohan Naidu",
+    "constituency": "Srikakulam",
+    "state": "Andhra Pradesh",
+    "party": "TDP",
+    "party_color": "#FFED00"
+  },
+  {
+    "id": "MP-AND-VIZIA-002",
+    "name": "Appalanaidu Kalisetti",
+    "constituency": "Vizianagaram",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-VISAK-003",
+    "name": "Mathukumilli Bharat",
+    "constituency": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-ANAKA-004",
+    "name": "C. M. Ramesh",
+    "constituency": "Anakapalli",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-KAKIN-005",
+    "name": "Tangella Uday Srinivas",
+    "constituency": "Kakinada",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-RAJAH-006",
+    "name": "Daggubati Purandeswari",
+    "constituency": "Rajahmundry",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-NARAS-007",
+    "name": "Bhupathi Raju Srinivasa Varma",
+    "constituency": "Narasapuram",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-ELURU-008",
+    "name": "Putta Mahesh Kumar",
+    "constituency": "Eluru",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-MACHI-009",
+    "name": "Vallabhaneni Balashowry",
+    "constituency": "Machilipatnam",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-VIJAY-010",
+    "name": "Kesineni Sivanath",
+    "constituency": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-GUNTU-011",
+    "name": "Chandra Sekhar Pemmasani",
+    "constituency": "Guntur",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-NARAS-012",
+    "name": "Lavu Sri Krishna Devarayalu",
+    "constituency": "Narasaraopet",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-ONGOL-013",
+    "name": "Magunta Sreenivasulu Reddy",
+    "constituency": "Ongole",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-NANDY-014",
+    "name": "Byreddy Shabari",
+    "constituency": "Nandyal",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-KURNO-015",
+    "name": "B. Nagaraju Panchalingala",
+    "constituency": "Kurnool",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-ANANT-016",
+    "name": "G. Lakshminarayana",
+    "constituency": "Anantapur",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-HINDU-017",
+    "name": "B. K. Parthasarathi",
+    "constituency": "Hindupur",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-KADAP-018",
+    "name": "Y. S. Avinash Reddy",
+    "constituency": "Kadapa",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-NELLO-019",
+    "name": "Vemireddy Prabhakar Reddy",
+    "constituency": "Nellore",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-AND-RAJAM-020",
+    "name": "P. V. Midhun Reddy",
+    "constituency": "Rajampet",
+    "state": "Andhra Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ARU-ARUNA-021",
+    "name": "Kiren Rijiju",
+    "constituency": "Arunachal West",
+    "state": "Arunachal Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ARU-ARUNA-022",
+    "name": "Tapir Gao",
+    "constituency": "Arunachal East",
+    "state": "Arunachal Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ASS-DHUBR-023",
+    "name": "Rakibul Hussain",
+    "constituency": "Dhubri",
+    "state": "Assam",
+    "party": "INC",
+    "party_color": "#19AAED"
+  },
+  {
+    "id": "MP-ASS-BARPE-024",
+    "name": "Phani Bhusan Choudhury",
+    "constituency": "Barpeta",
+    "state": "Assam",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-IND-DARRA-025",
+    "name": "Dilip Saikia",
+    "constituency": "Darrang--“Udalguri",
+    "state": "India",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ASS-GUWAH-026",
+    "name": "Bijuli Kalita Medhi",
+    "constituency": "Guwahati",
+    "state": "Assam",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ASS-KARIM-027",
+    "name": "Kripanath Mallah",
+    "constituency": "Karimganj",
+    "state": "Assam",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ASS-NAGAO-028",
+    "name": "Pradyut Bordoloi",
+    "constituency": "Nagaon",
+    "state": "Assam",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ASS-KAZIR-029",
+    "name": "Kamakhya Prasad Tasa",
+    "constituency": "Kaziranga",
+    "state": "Assam",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ASS-SONIT-030",
+    "name": "Ranjit Dutta",
+    "constituency": "Sonitpur",
+    "state": "Assam",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ASS-LAKHI-031",
+    "name": "Pradan Baruah",
+    "constituency": "Lakhimpur",
+    "state": "Assam",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ASS-DIBRU-032",
+    "name": "Sarbananda Sonowal",
+    "constituency": "Dibrugarh",
+    "state": "Assam",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ASS-JORHA-033",
+    "name": "Gaurav Gogoi",
+    "constituency": "Jorhat",
+    "state": "Assam",
+    "party": "INC",
+    "party_color": "#19AAED"
+  },
+  {
+    "id": "MP-BIH-VALMI-034",
+    "name": "Sunil Kushwaha",
+    "constituency": "Valmiki Nagar",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-PASCH-035",
+    "name": "Sanjay Jaiswal",
+    "constituency": "Paschim Champaran",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-PURVI-036",
+    "name": "Radha Mohan Singh",
+    "constituency": "Purvi Champaran",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-SHEOH-037",
+    "name": "Lovely Anand",
+    "constituency": "Sheohar",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-SITAM-038",
+    "name": "Devesh Chandra Thakur",
+    "constituency": "Sitamarhi",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-MADHU-039",
+    "name": "Ashok Kumar Yadav",
+    "constituency": "Madhubani",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-JHANJ-040",
+    "name": "Ramprit Mandal",
+    "constituency": "Jhanjharpur",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-SUPAU-041",
+    "name": "Dileshwar Kamait",
+    "constituency": "Supaul",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-ARARI-042",
+    "name": "Pradeep Kumar Singh",
+    "constituency": "Araria",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-KISHA-043",
+    "name": "Mohammad Jawed",
+    "constituency": "Kishanganj",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-KATIH-044",
+    "name": "Tariq Anwar",
+    "constituency": "Katihar",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-PURNI-045",
+    "name": "Pappu Yadav",
+    "constituency": "Purnia",
+    "state": "Bihar",
+    "party": "IND",
+    "party_color": "#6B7280"
+  },
+  {
+    "id": "MP-BIH-MADHE-046",
+    "name": "Dinesh Chandra Yadav",
+    "constituency": "Madhepura",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-DARBH-047",
+    "name": "Gopal Jee Thakur",
+    "constituency": "Darbhanga",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-MUZAF-048",
+    "name": "Raj Bhushan Choudhary",
+    "constituency": "Muzaffarpur",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-VAISH-049",
+    "name": "Veena Devi",
+    "constituency": "Vaishali",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-SIWAN-050",
+    "name": "Vijay Lakshmi Kushwaha",
+    "constituency": "Siwan",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-MAHAR-051",
+    "name": "Janardan Singh Sigriwal",
+    "constituency": "Maharajganj",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-SARAN-052",
+    "name": "Rajiv Pratap Rudy",
+    "constituency": "Saran",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-UJIAR-053",
+    "name": "Nityanand Rai",
+    "constituency": "Ujiarpur",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-BEGUS-054",
+    "name": "Giriraj Singh",
+    "constituency": "Begusarai",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-KHAGA-055",
+    "name": "Rajesh Verma",
+    "constituency": "Khagaria",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-BHAGA-056",
+    "name": "Ajay Kumar Mandal",
+    "constituency": "Bhagalpur",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-BANKA-057",
+    "name": "Giridhari Yadav",
+    "constituency": "Banka",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-MUNGE-058",
+    "name": "Rajiv Ranjan Singh",
+    "constituency": "Munger",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-NALAN-059",
+    "name": "Kaushalendra Kumar",
+    "constituency": "Nalanda",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-PATNA-060",
+    "name": "Ravi Shankar Prasad",
+    "constituency": "Patna Sahib",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-PATAL-061",
+    "name": "Misa Bharti",
+    "constituency": "Pataliputra",
+    "state": "Bihar",
+    "party": "RJD",
+    "party_color": "#009900"
+  },
+  {
+    "id": "MP-BIH-ARRAH-062",
+    "name": "Sudama Prasad",
+    "constituency": "Arrah",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-BUXAR-063",
+    "name": "Sudhakar Singh",
+    "constituency": "Buxar",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-KARAK-064",
+    "name": "Raja Ram Kushwaha",
+    "constituency": "Karakat",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-JAHAN-065",
+    "name": "Surendra Prasad Yadav",
+    "constituency": "Jahanabad",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-AURAN-066",
+    "name": "Abhay Kushwaha",
+    "constituency": "Aurangabad",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-BIH-NAWAD-067",
+    "name": "Vivek Thakur",
+    "constituency": "Nawada",
+    "state": "Bihar",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-CHA-CHAND-068",
+    "name": "Manish Tewari",
+    "constituency": "Chandigarh",
+    "state": "Chandigarh",
+    "party": "INC",
+    "party_color": "#19AAED"
+  },
+  {
+    "id": "MP-CHH-KORBA-069",
+    "name": "Jyotsna Mahant",
+    "constituency": "Korba",
+    "state": "Chhattisgarh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-CHH-BILAS-070",
+    "name": "Tokhan Sahu",
+    "constituency": "Bilaspur",
+    "state": "Chhattisgarh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-CHH-RAJNA-071",
+    "name": "Santosh Pandey",
+    "constituency": "Rajnandgaon",
+    "state": "Chhattisgarh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-CHH-DURG-072",
+    "name": "Vijay Baghel",
+    "constituency": "Durg",
+    "state": "Chhattisgarh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-CHH-RAIPU-073",
+    "name": "Brijmohan Agrawal",
+    "constituency": "Raipur",
+    "state": "Chhattisgarh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-CHH-MAHAS-074",
+    "name": "Rupkumari Choudhary",
+    "constituency": "Mahasamund",
+    "state": "Chhattisgarh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-DAD-DAMAN-075",
+    "name": "Umeshbhai Patel",
+    "constituency": "Daman and Diu",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-DEL-CHAND-076",
+    "name": "Praveen Khandelwal",
+    "constituency": "Chandni Chowk",
+    "state": "Delhi",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-DEL-NORTH-077",
+    "name": "Manoj Tiwari",
+    "constituency": "North East Delhi",
+    "state": "Delhi",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-DEL-EAST_-078",
+    "name": "Harsh Malhotra",
+    "constituency": "East Delhi",
+    "state": "Delhi",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-DEL-NEW_D-079",
+    "name": "Bansuri Swaraj",
+    "constituency": "New Delhi",
+    "state": "Delhi",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-DEL-WEST_-080",
+    "name": "Kamaljeet Sehrawat",
+    "constituency": "West Delhi",
+    "state": "Delhi",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-DEL-SOUTH-081",
+    "name": "Ramvir Singh Bidhuri",
+    "constituency": "South Delhi",
+    "state": "Delhi",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GOA-NORTH-082",
+    "name": "Shripad Naik",
+    "constituency": "North Goa",
+    "state": "Goa",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GOA-SOUTH-083",
+    "name": "Viriato Fernandes",
+    "constituency": "South Goa",
+    "state": "Goa",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-BANAS-084",
+    "name": "Geniben Thakor",
+    "constituency": "Banaskantha",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-PATAN-085",
+    "name": "Bharatsinhji Dabhi",
+    "constituency": "Patan",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-MAHES-086",
+    "name": "Haribhai Patel",
+    "constituency": "Mahesana",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-SABAR-087",
+    "name": "Shobhanaben Baraiya",
+    "constituency": "Sabarkantha",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-GANDH-088",
+    "name": "Amit Shah",
+    "constituency": "Gandhinagar",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-AHMED-089",
+    "name": "Hasmukh Patel",
+    "constituency": "Ahmedabad East",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-SUREN-090",
+    "name": "Chandubhai Shihora",
+    "constituency": "Surendranagar",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-RAJKO-091",
+    "name": "Parshottam Rupala",
+    "constituency": "Rajkot",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-PORBA-092",
+    "name": "Mansukh Mandaviya",
+    "constituency": "Porbandar",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-JAMNA-093",
+    "name": "Poonamben Maadam",
+    "constituency": "Jamnagar",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-JUNAG-094",
+    "name": "Rajesh Chudasama",
+    "constituency": "Junagadh",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-AMREL-095",
+    "name": "Bharatbhai Sutariya",
+    "constituency": "Amreli",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-BHAVN-096",
+    "name": "Nimuben Bambhaniya",
+    "constituency": "Bhavnagar",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-ANAND-097",
+    "name": "Mitesh Patel",
+    "constituency": "Anand",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-KHEDA-098",
+    "name": "Devusinh Chauhan",
+    "constituency": "Kheda",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-PANCH-099",
+    "name": "Rajpalsinh Jadav",
+    "constituency": "Panchmahal",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-VADOD-100",
+    "name": "Hemang Joshi",
+    "constituency": "Vadodara",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-BHARU-101",
+    "name": "Mansukhbhai Vasava",
+    "constituency": "Bharuch",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-SURAT-102",
+    "name": "Mukesh Dalal",
+    "constituency": "Surat",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-GUJ-NAVSA-103",
+    "name": "C. R. Patil",
+    "constituency": "Navsari",
+    "state": "Gujarat",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-HAR-KURUK-104",
+    "name": "Naveen Jindal",
+    "constituency": "Kurukshetra",
+    "state": "Haryana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-HAR-HISAR-105",
+    "name": "Jai Parkash",
+    "constituency": "Hisar",
+    "state": "Haryana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-HAR-KARNA-106",
+    "name": "Manohar Lal Khattar",
+    "constituency": "Karnal",
+    "state": "Haryana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-HAR-SONIP-107",
+    "name": "Satpal Brahamchari",
+    "constituency": "Sonipat",
+    "state": "Haryana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-HAR-ROHTA-108",
+    "name": "Deepender Singh Hooda",
+    "constituency": "Rohtak",
+    "state": "Haryana",
+    "party": "INC",
+    "party_color": "#19AAED"
+  },
+  {
+    "id": "MP-HAR-GURGA-109",
+    "name": "Rao Inderjit Singh",
+    "constituency": "Gurgaon",
+    "state": "Haryana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-HAR-FARID-110",
+    "name": "Krishan Pal Gurjar",
+    "constituency": "Faridabad",
+    "state": "Haryana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-HIM-MANDI-111",
+    "name": "Kangana Ranaut",
+    "constituency": "Mandi",
+    "state": "Himachal Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-HIM-KANGR-112",
+    "name": "Rajeev Bhardwaj",
+    "constituency": "Kangra",
+    "state": "Himachal Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-HAMIR-113",
+    "name": "Anurag Thakur",
+    "constituency": "Hamirpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JAM-BARAM-114",
+    "name": "Sheikh Abdul Rashid",
+    "constituency": "Baramulla",
+    "state": "Jammu & Kashmir",
+    "party": "IND",
+    "party_color": "#6B7280"
+  },
+  {
+    "id": "MP-JAM-SRINA-115",
+    "name": "Aga Syed Ruhullah Mehdi",
+    "constituency": "Srinagar",
+    "state": "Jammu & Kashmir",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-IND-ANANT-116",
+    "name": "Mian Altaf Ahmed Larvi",
+    "constituency": "Anantnag--“Rajouri",
+    "state": "India",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JAM-UDHAM-117",
+    "name": "Jitendra Singh",
+    "constituency": "Udhampur",
+    "state": "Jammu & Kashmir",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JAM-JAMMU-118",
+    "name": "Jugal Kishore Sharma",
+    "constituency": "Jammu",
+    "state": "Jammu & Kashmir",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JHA-GODDA-119",
+    "name": "Nishikant Dubey",
+    "constituency": "Godda",
+    "state": "Jharkhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JHA-CHATR-120",
+    "name": "Kalicharan Singh",
+    "constituency": "Chatra",
+    "state": "Jharkhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JHA-KODER-121",
+    "name": "Annpurna Devi",
+    "constituency": "Koderma",
+    "state": "Jharkhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JHA-GIRID-122",
+    "name": "Chandra Prakash Choudhary",
+    "constituency": "Giridih",
+    "state": "Jharkhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JHA-DHANB-123",
+    "name": "Dulu Mahato",
+    "constituency": "Dhanbad",
+    "state": "Jharkhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JHA-RANCH-124",
+    "name": "Sanjay Seth",
+    "constituency": "Ranchi",
+    "state": "Jharkhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JHA-JAMSH-125",
+    "name": "Bidyut Baran Mahato",
+    "constituency": "Jamshedpur",
+    "state": "Jharkhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-JHA-HAZAR-126",
+    "name": "Manish Jaiswal",
+    "constituency": "Hazaribagh",
+    "state": "Jharkhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-CHIKK-127",
+    "name": "Priyanka Jarkiholi",
+    "constituency": "Chikkodi",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-BELGA-128",
+    "name": "Jagadish Shettar",
+    "constituency": "Belgaum",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-BAGAL-129",
+    "name": "P. C. Gaddigoudar",
+    "constituency": "Bagalkot",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-BIDAR-130",
+    "name": "Sagar Khandre",
+    "constituency": "Bidar",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-KOPPA-131",
+    "name": "K. Rajashekar Basavaraj Hitnal",
+    "constituency": "Koppal",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-HAVER-132",
+    "name": "Basavaraj Bommai",
+    "constituency": "Haveri",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-DHARW-133",
+    "name": "Pralhad Joshi",
+    "constituency": "Dharwad",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-UTTAR-134",
+    "name": "Vishweshwar Hegde Kageri",
+    "constituency": "Uttara Kannada",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-DAVAN-135",
+    "name": "Prabha Mallikarjun",
+    "constituency": "Davanagere",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-SHIMO-136",
+    "name": "B. Y. Raghavendra",
+    "constituency": "Shimoga",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-UDUPI-137",
+    "name": "Kota Srinivas Poojary",
+    "constituency": "Udupi Chikmagalur",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-HASSA-138",
+    "name": "Shreyas M. Patel",
+    "constituency": "Hassan",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-DAKSH-139",
+    "name": "Brijesh Chowta",
+    "constituency": "Dakshina Kannada",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-TUMKU-140",
+    "name": "V. Somanna",
+    "constituency": "Tumkur",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-MANDY-141",
+    "name": "H. D. Kumaraswamy",
+    "constituency": "Mandya",
+    "state": "Karnataka",
+    "party": "JD-S",
+    "party_color": "#6B7280"
+  },
+  {
+    "id": "MP-KAR-MYSOR-142",
+    "name": "Yaduveer Wadiyar",
+    "constituency": "Mysore",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-BANGA-143",
+    "name": "C. N. Manjunath",
+    "constituency": "Bangalore Rural",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-BANGA-144",
+    "name": "Shobha Karandlaje",
+    "constituency": "Bangalore North",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-BANGA-145",
+    "name": "P. C. Mohan",
+    "constituency": "Bangalore Central",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-BANGA-146",
+    "name": "Tejasvi Surya",
+    "constituency": "Bangalore South",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KAR-CHIKB-147",
+    "name": "K. Sudhakar",
+    "constituency": "Chikballapur",
+    "state": "Karnataka",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-KASAR-148",
+    "name": "Rajmohan Unnithan",
+    "constituency": "Kasaragod",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-KANNU-149",
+    "name": "K. Sudhakaran",
+    "constituency": "Kannur",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-VATAK-150",
+    "name": "Shafi Parambil",
+    "constituency": "Vatakara",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-WAYAN-151",
+    "name": "Rahul Gandhi",
+    "constituency": "Wayanad",
+    "state": "Kerala",
+    "party": "INC",
+    "party_color": "#19AAED"
+  },
+  {
+    "id": "MP-KER-KOZHI-152",
+    "name": "M. K. Raghavan",
+    "constituency": "Kozhikode",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-MALAP-153",
+    "name": "E. T. Muhammed Basheer",
+    "constituency": "Malappuram",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-PONNA-154",
+    "name": "M. P. Abdussamad Samadani",
+    "constituency": "Ponnani",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-PALAK-155",
+    "name": "V. K. Sreekandan",
+    "constituency": "Palakkad",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-THRIS-156",
+    "name": "Suresh Gopi",
+    "constituency": "Thrissur",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-CHALA-157",
+    "name": "Benny Behanan",
+    "constituency": "Chalakudy",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-ERNAK-158",
+    "name": "Hibi Eden",
+    "constituency": "Ernakulam",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-IDUKK-159",
+    "name": "Dean Kuriakose",
+    "constituency": "Idukki",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-KOTTA-160",
+    "name": "Francis George",
+    "constituency": "Kottayam",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-ALAPP-161",
+    "name": "K. C. Venugopal",
+    "constituency": "Alappuzha",
+    "state": "Kerala",
+    "party": "INC",
+    "party_color": "#19AAED"
+  },
+  {
+    "id": "MP-KER-PATHA-162",
+    "name": "Anto Antony",
+    "constituency": "Pathanamthitta",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-KOLLA-163",
+    "name": "N. K. Premachandran",
+    "constituency": "Kollam",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-ATTIN-164",
+    "name": "Adoor Prakash",
+    "constituency": "Attingal",
+    "state": "Kerala",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-KER-THIRU-165",
+    "name": "Shashi Tharoor",
+    "constituency": "Thiruvananthapuram",
+    "state": "Kerala",
+    "party": "INC",
+    "party_color": "#19AAED"
+  },
+  {
+    "id": "MP-LAD-LADAK-166",
+    "name": "Mohmad Haneefa",
+    "constituency": "Ladakh",
+    "state": "Ladakh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-MOREN-167",
+    "name": "Shivmangal Singh Tomar",
+    "constituency": "Morena",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-GWALI-168",
+    "name": "Bharat Singh Kushwah",
+    "constituency": "Gwalior",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-GUNA-169",
+    "name": "Jyotiraditya Scindia",
+    "constituency": "Guna",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-SAGAR-170",
+    "name": "Lata Wankhede",
+    "constituency": "Sagar",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-DAMOH-171",
+    "name": "Rahul Lodhi",
+    "constituency": "Damoh",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-KHAJU-172",
+    "name": "V. D. Sharma",
+    "constituency": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-SATNA-173",
+    "name": "Ganesh Singh",
+    "constituency": "Satna",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-REWA-174",
+    "name": "Janardan Mishra",
+    "constituency": "Rewa",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-SIDHI-175",
+    "name": "Rajesh Mishra",
+    "constituency": "Sidhi",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-JABAL-176",
+    "name": "Ashish Dubey",
+    "constituency": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-BALAG-177",
+    "name": "Bharti Pardhi",
+    "constituency": "Balaghat",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-CHHIN-178",
+    "name": "Vivek Kumar Sahu",
+    "constituency": "Chhindwara",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-HOSHA-179",
+    "name": "Darshan Singh Choudhary",
+    "constituency": "Hoshangabad",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-VIDIS-180",
+    "name": "Shivraj Singh Chauhan",
+    "constituency": "Vidisha",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-BHOPA-181",
+    "name": "Alok Sharma",
+    "constituency": "Bhopal",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-RAJGA-182",
+    "name": "Rodmal Nagar",
+    "constituency": "Rajgarh",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-MANDS-183",
+    "name": "Sudhir Gupta",
+    "constituency": "Mandsaur",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-INDOR-184",
+    "name": "Shankar Lalwani",
+    "constituency": "Indore",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAD-KHAND-185",
+    "name": "Gyaneswar Patil",
+    "constituency": "Khandwa",
+    "state": "Madhya Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-DHULE-186",
+    "name": "Bachhav Shobha Dinesh",
+    "constituency": "Dhule",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-JALGA-187",
+    "name": "Smita Wagh",
+    "constituency": "Jalgaon",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-RAVER-188",
+    "name": "Raksha Khadse",
+    "constituency": "Raver",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-BULDH-189",
+    "name": "Prataprao Jadhav",
+    "constituency": "Buldhana",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-AKOLA-190",
+    "name": "Anup Dhotre",
+    "constituency": "Akola",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-WARDH-191",
+    "name": "Amar Kale",
+    "constituency": "Wardha",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-NAGPU-192",
+    "name": "Nitin Gadkari",
+    "constituency": "Nagpur",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-IND-BHAND-193",
+    "name": "Prashant Padole",
+    "constituency": "Bhandara--“Gondiya",
+    "state": "India",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-CHAND-194",
+    "name": "Pratibha Dhanorkar",
+    "constituency": "Chandrapur",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-IND-YAVAT-195",
+    "name": "Sanjay Deshmukh",
+    "constituency": "Yavatmal--“Washim",
+    "state": "India",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-HINGO-196",
+    "name": "Nagesh Aashtikar Patil",
+    "constituency": "Hingoli",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-NANDE-197",
+    "name": "Vasantrao Balwantrao Chavan",
+    "constituency": "Nanded",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-PARBH-198",
+    "name": "Sanjay Jadhav",
+    "constituency": "Parbhani",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-JALNA-199",
+    "name": "Kalyan Kale",
+    "constituency": "Jalna",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-AURAN-200",
+    "name": "Sandipanrao Bhumre",
+    "constituency": "Aurangabad",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-NASHI-201",
+    "name": "Rajabhau Waje",
+    "constituency": "Nashik",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-BHIWA-202",
+    "name": "Suresh Mhatre",
+    "constituency": "Bhiwandi",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-KALYA-203",
+    "name": "Shrikant Shinde",
+    "constituency": "Kalyan",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-THANE-204",
+    "name": "Naresh Mhaske",
+    "constituency": "Thane",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-MUMBA-205",
+    "name": "Piyush Goyal",
+    "constituency": "Mumbai North",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-MUMBA-206",
+    "name": "Ravindra Waikar",
+    "constituency": "Mumbai North West",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-MUMBA-207",
+    "name": "Sanjay Dina Patil",
+    "constituency": "Mumbai North East",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-MUMBA-208",
+    "name": "Arvind Sawant",
+    "constituency": "Mumbai South",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-RAIGA-209",
+    "name": "Sunil Tatkare",
+    "constituency": "Raigad",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-MAVAL-210",
+    "name": "Shrirang Barne",
+    "constituency": "Maval",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-PUNE-211",
+    "name": "Murlidhar Mohol",
+    "constituency": "Pune",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-BARAM-212",
+    "name": "Supriya Sule",
+    "constituency": "Baramati",
+    "state": "Maharashtra",
+    "party": "NCP-SP",
+    "party_color": "#FF0000"
+  },
+  {
+    "id": "MP-MAH-SHIRU-213",
+    "name": "Amol Kolhe",
+    "constituency": "Shirur",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-AHMED-214",
+    "name": "Nilesh Lanke",
+    "constituency": "Ahmednagar",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-BEED-215",
+    "name": "Bajrang Sonwane",
+    "constituency": "Beed",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-OSMAN-216",
+    "name": "Omprakash Rajenimbalkar",
+    "constituency": "Osmanabad",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-MADHA-217",
+    "name": "Dhairyasheel Mohite Patil",
+    "constituency": "Madha",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-SANGL-218",
+    "name": "Vishal Patil",
+    "constituency": "Sangli",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-SATAR-219",
+    "name": "Udayanraje Bhosale",
+    "constituency": "Satara",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-KOLHA-220",
+    "name": "Chhatrapati Shahu Maharaj",
+    "constituency": "Kolhapur",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAH-HATKA-221",
+    "name": "Dhairyasheel Mane",
+    "constituency": "Hatkanangle",
+    "state": "Maharashtra",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-MAN-INNER-222",
+    "name": "Angomcha Bimol Akoijam",
+    "constituency": "Inner Manipur",
+    "state": "Manipur",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-NAG-NAGAL-223",
+    "name": "S. Supongmeren Jamir",
+    "constituency": "Nagaland",
+    "state": "Nagaland",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-BARGA-224",
+    "name": "Pradip Purohit",
+    "constituency": "Bargarh",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-SAMBA-225",
+    "name": "Dharmendra Pradhan",
+    "constituency": "Sambalpur",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-BALAS-226",
+    "name": "Pratap Chandra Sarangi",
+    "constituency": "Balasore",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-DHENK-227",
+    "name": "Rudra Narayan Pany",
+    "constituency": "Dhenkanal",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-BOLAN-228",
+    "name": "Sangeeta Kumari Singh Deo",
+    "constituency": "Bolangir",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-KALAH-229",
+    "name": "Malvika Devi",
+    "constituency": "Kalahandi",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-KANDH-230",
+    "name": "Sukanta Kumar Panigrahi",
+    "constituency": "Kandhamal",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-CUTTA-231",
+    "name": "Bhartruhari Mahtab",
+    "constituency": "Cuttack",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-KENDR-232",
+    "name": "Baijayant Panda",
+    "constituency": "Kendrapara",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-PURI-233",
+    "name": "Sambit Patra",
+    "constituency": "Puri",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-BHUBA-234",
+    "name": "Aparajita Sarangi",
+    "constituency": "Bhubaneswar",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-ASKA-235",
+    "name": "Anita Subhadarshini",
+    "constituency": "Aska",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-ODI-BERHA-236",
+    "name": "Pradeep Kumar Panigrahy",
+    "constituency": "Berhampur",
+    "state": "Odisha",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-PUD-PUDUC-237",
+    "name": "V. Vaithilingam",
+    "constituency": "Puducherry",
+    "state": "Puducherry",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-PUN-GURDA-238",
+    "name": "Sukhjinder Singh Randhawa",
+    "constituency": "Gurdaspur",
+    "state": "Punjab",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-PUN-AMRIT-239",
+    "name": "Gurjeet Singh Aujla",
+    "constituency": "Amritsar",
+    "state": "Punjab",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-PUN-KHADO-240",
+    "name": "Amritpal Singh",
+    "constituency": "Khadoor Sahib",
+    "state": "Punjab",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-PUN-ANAND-241",
+    "name": "Malwinder Singh Kang",
+    "constituency": "Anandpur Sahib",
+    "state": "Punjab",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-PUN-LUDHI-242",
+    "name": "Amrinder Singh Raja Warring",
+    "constituency": "Ludhiana",
+    "state": "Punjab",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-PUN-FIROZ-243",
+    "name": "Sher Singh Ghubaya",
+    "constituency": "Firozpur",
+    "state": "Punjab",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-PUN-BATHI-244",
+    "name": "Harsimrat Kaur Badal",
+    "constituency": "Bathinda",
+    "state": "Punjab",
+    "party": "SAD",
+    "party_color": "#003399"
+  },
+  {
+    "id": "MP-PUN-SANGR-245",
+    "name": "Gurmeet Singh Meet Hayer",
+    "constituency": "Sangrur",
+    "state": "Punjab",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-PUN-PATIA-246",
+    "name": "Dharamvir Gandhi",
+    "constituency": "Patiala",
+    "state": "Punjab",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-CHURU-247",
+    "name": "Rahul Kaswan",
+    "constituency": "Churu",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-JHUNJ-248",
+    "name": "Brijendra Singh Ola",
+    "constituency": "Jhunjhunu",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-SIKAR-249",
+    "name": "Amra Ram",
+    "constituency": "Sikar",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-JAIPU-250",
+    "name": "Rao Rajendra Singh",
+    "constituency": "Jaipur Rural",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-JAIPU-251",
+    "name": "Manju Sharma",
+    "constituency": "Jaipur",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-ALWAR-252",
+    "name": "Bhupender Yadav",
+    "constituency": "Alwar",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-AJMER-253",
+    "name": "Bhagirath Chaudhary",
+    "constituency": "Ajmer",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-NAGAU-254",
+    "name": "Hanuman Beniwal",
+    "constituency": "Nagaur",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-PALI-255",
+    "name": "P. P. Chaudhary",
+    "constituency": "Pali",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-JODHP-256",
+    "name": "Gajendra Singh Shekhawat",
+    "constituency": "Jodhpur",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-BARME-257",
+    "name": "Ummeda Ram Beniwal",
+    "constituency": "Barmer",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-JALOR-258",
+    "name": "Lumbaram Choudhary",
+    "constituency": "Jalore",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-CHITT-259",
+    "name": "Chandra Prakash Joshi",
+    "constituency": "Chittorgarh",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-RAJSA-260",
+    "name": "Mahima Kumari Mewar",
+    "constituency": "Rajsamand",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-BHILW-261",
+    "name": "Damodar Agarwal",
+    "constituency": "Bhilwara",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-RAJ-KOTA-262",
+    "name": "Om Birla",
+    "constituency": "Kota",
+    "state": "Rajasthan",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-IND-JHALA-263",
+    "name": "Dushyant Singh",
+    "constituency": "Jhalawar--“Baran",
+    "state": "India",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-SIK-SIKKI-264",
+    "name": "Indra Hang Subba",
+    "constituency": "Sikkim",
+    "state": "Sikkim",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-CHENN-265",
+    "name": "Kalanidhi Veeraswamy",
+    "constituency": "Chennai North",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-CHENN-266",
+    "name": "Tamizhachi Thangapandian",
+    "constituency": "Chennai South",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-CHENN-267",
+    "name": "Dayanidhi Maran",
+    "constituency": "Chennai Central",
+    "state": "Tamil Nadu",
+    "party": "DMK",
+    "party_color": "#000000"
+  },
+  {
+    "id": "MP-TAM-SRIPE-268",
+    "name": "T.R. Baalu",
+    "constituency": "Sriperumbudur",
+    "state": "Tamil Nadu",
+    "party": "DMK",
+    "party_color": "#000000"
+  },
+  {
+    "id": "MP-TAM-ARAKK-269",
+    "name": "S. Jagathrakshakan",
+    "constituency": "Arakkonam",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-VELLO-270",
+    "name": "D.M.K. Anand",
+    "constituency": "Vellore",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-KRISH-271",
+    "name": "K. Gopinath",
+    "constituency": "Krishnagiri",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-TIRUV-272",
+    "name": "C.N. Annadurai",
+    "constituency": "Tiruvannamalai",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-ARANI-273",
+    "name": "M.S. Tharanivendhan",
+    "constituency": "Arani",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-KALLA-274",
+    "name": "Malaiyarasan D",
+    "constituency": "Kallakurichi",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-SALEM-275",
+    "name": "T. M. Selvaganapathi",
+    "constituency": "Salem",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-NAMAK-276",
+    "name": "V. S. Matheswaran",
+    "constituency": "Namakkal",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-ERODE-277",
+    "name": "K. E. Prakash",
+    "constituency": "Erode",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-TIRUP-278",
+    "name": "K. Subbarayan",
+    "constituency": "Tiruppur",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-COIMB-279",
+    "name": "Ganapathi P. Raj Kumar",
+    "constituency": "Coimbatore",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-POLLA-280",
+    "name": "Eswarasamy",
+    "constituency": "Pollachi",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-DINDI-281",
+    "name": "R. Sachidanandam",
+    "constituency": "Dindigul",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-KARUR-282",
+    "name": "Jothimani",
+    "constituency": "Karur",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-TIRUC-283",
+    "name": "Durai Vaiyapuri",
+    "constituency": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-PERAM-284",
+    "name": "Arun Nehru",
+    "constituency": "Perambalur",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-CUDDA-285",
+    "name": "M. K. Vishnu Prasad",
+    "constituency": "Cuddalore",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-MAYIL-286",
+    "name": "Sudha Ramakrishnan",
+    "constituency": "Mayiladuthurai",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-THANJ-287",
+    "name": "S. Murasoli",
+    "constituency": "Thanjavur",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-SIVAG-288",
+    "name": "Karti Chidambaram",
+    "constituency": "Sivaganga",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-MADUR-289",
+    "name": "S. Venkatesan",
+    "constituency": "Madurai",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-THENI-290",
+    "name": "Thanga Tamil Selvan",
+    "constituency": "Theni",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-VIRUD-291",
+    "name": "Manickam Tagore",
+    "constituency": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-RAMAN-292",
+    "name": "Navas Kani",
+    "constituency": "Ramanathapuram",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-THOOT-293",
+    "name": "Kanimozhi Karunanidhi",
+    "constituency": "Thoothukkudi",
+    "state": "Tamil Nadu",
+    "party": "DMK",
+    "party_color": "#000000"
+  },
+  {
+    "id": "MP-TAM-TIRUN-294",
+    "name": "Robert Bruce",
+    "constituency": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TAM-KANNI-295",
+    "name": "Vijay Vasanth",
+    "constituency": "Kanniyakumari",
+    "state": "Tamil Nadu",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-KARIM-296",
+    "name": "Bandi Sanjay Kumar",
+    "constituency": "Karimnagar",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-NIZAM-297",
+    "name": "Dharmapuri Arvind",
+    "constituency": "Nizamabad",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-ZAHIR-298",
+    "name": "Suresh Shetkar",
+    "constituency": "Zahirabad",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-MEDAK-299",
+    "name": "Raghunandan Rao",
+    "constituency": "Medak",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-MALKA-300",
+    "name": "Etela Rajender",
+    "constituency": "Malkajgiri",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-SECUN-301",
+    "name": "G. Kishan Reddy",
+    "constituency": "Secunderabad",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-HYDER-302",
+    "name": "Asaduddin Owaisi",
+    "constituency": "Hyderabad",
+    "state": "Telangana",
+    "party": "AIMIM",
+    "party_color": "#059669"
+  },
+  {
+    "id": "MP-TEL-CHEVE-303",
+    "name": "Konda Vishweshwar Reddy",
+    "constituency": "Chevella",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-MAHBU-304",
+    "name": "D. K. Aruna",
+    "constituency": "Mahbubnagar",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-NALGO-305",
+    "name": "Raghuveer Reddy Kunduru",
+    "constituency": "Nalgonda",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-BHONG-306",
+    "name": "Chamala Kiran Kumar Reddy",
+    "constituency": "Bhongir",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TEL-KHAMM-307",
+    "name": "R. Raghuram Reddy",
+    "constituency": "Khammam",
+    "state": "Telangana",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-TRI-TRIPU-308",
+    "name": "Biplab Kumar Deb",
+    "constituency": "Tripura West",
+    "state": "Tripura",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-SAHAR-309",
+    "name": "Imran Masood",
+    "constituency": "Saharanpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-KAIRA-310",
+    "name": "Iqra Choudhary",
+    "constituency": "Kairana",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-MUZAF-311",
+    "name": "Harendra Singh Malik",
+    "constituency": "Muzaffarnagar",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-BIJNO-312",
+    "name": "Chandan Chauhan",
+    "constituency": "Bijnor",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-MORAD-313",
+    "name": "Ruchi Veera",
+    "constituency": "Moradabad",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-RAMPU-314",
+    "name": "Mohibbullah Nadvi",
+    "constituency": "Rampur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-SAMBH-315",
+    "name": "Zia ur Rahman Barq",
+    "constituency": "Sambhal",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-AMROH-316",
+    "name": "Kanwar Singh Tanwar",
+    "constituency": "Amroha",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-MEERU-317",
+    "name": "Arun Govil",
+    "constituency": "Meerut",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-BAGHP-318",
+    "name": "Rajkumar Sangwan",
+    "constituency": "Baghpat",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-GHAZI-319",
+    "name": "Atul Garg",
+    "constituency": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-GAUTA-320",
+    "name": "Mahesh Sharma",
+    "constituency": "Gautam Buddha Nagar",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-ALIGA-321",
+    "name": "Satish Kumar Gautam",
+    "constituency": "Aligarh",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-MATHU-322",
+    "name": "Hema Malini",
+    "constituency": "Mathura",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-FATEH-323",
+    "name": "Rajkumar Chahar",
+    "constituency": "Fatehpur Sikri",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-FIROZ-324",
+    "name": "Akshay Yadav",
+    "constituency": "Firozabad",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-MAINP-325",
+    "name": "Dimple Yadav",
+    "constituency": "Mainpuri",
+    "state": "Uttar Pradesh",
+    "party": "SP",
+    "party_color": "#FF0000"
+  },
+  {
+    "id": "MP-UTT-ETAH-326",
+    "name": "Devesh Shakya",
+    "constituency": "Etah",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-BADAU-327",
+    "name": "Aditya Yadav",
+    "constituency": "Badaun",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-AONLA-328",
+    "name": "Neeraj Kushwaha Maurya",
+    "constituency": "Aonla",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-BAREI-329",
+    "name": "Chhatrapal Singh Gangwar",
+    "constituency": "Bareilly",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-PILIB-330",
+    "name": "Jitin Prasada",
+    "constituency": "Pilibhit",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-KHERI-331",
+    "name": "Utkarsh Verma",
+    "constituency": "Kheri",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-DHAUR-332",
+    "name": "Anand Bhadauriya",
+    "constituency": "Dhaurahra",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-SITAP-333",
+    "name": "Rakesh Rathore",
+    "constituency": "Sitapur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-UNNAO-334",
+    "name": "Sakshi Maharaj",
+    "constituency": "Unnao",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-LUCKN-335",
+    "name": "Rajnath Singh",
+    "constituency": "Lucknow",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-RAE_B-336",
+    "name": "Rahul Gandhi",
+    "constituency": "Rae Bareli",
+    "state": "Uttar Pradesh",
+    "party": "INC",
+    "party_color": "#19AAED"
+  },
+  {
+    "id": "MP-UTT-AMETH-337",
+    "name": "Kishori Lal Sharma",
+    "constituency": "Amethi",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-SULTA-338",
+    "name": "Rambhual Nishad",
+    "constituency": "Sultanpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-PRATA-339",
+    "name": "S. P. Singh Patel",
+    "constituency": "Pratapgarh",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-FARRU-340",
+    "name": "Mukesh Rajput",
+    "constituency": "Farrukhabad",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-KANNA-341",
+    "name": "Akhilesh Yadav",
+    "constituency": "Kannauj",
+    "state": "Uttar Pradesh",
+    "party": "SP",
+    "party_color": "#FF0000"
+  },
+  {
+    "id": "MP-UTT-KANPU-342",
+    "name": "Ramesh Awasthi",
+    "constituency": "Kanpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-AKBAR-343",
+    "name": "Devendra Singh Bhole",
+    "constituency": "Akbarpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-JHANS-344",
+    "name": "Anurag Sharma",
+    "constituency": "Jhansi",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-HAMIR-345",
+    "name": "Ajendra Singh Lodhi",
+    "constituency": "Hamirpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-BANDA-346",
+    "name": "Krishna Devi Patel",
+    "constituency": "Banda",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-FATEH-347",
+    "name": "Naresh Uttam Patel",
+    "constituency": "Fatehpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-PHULP-348",
+    "name": "Praveen Patel",
+    "constituency": "Phulpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-ALLAH-349",
+    "name": "Ujjwal Rewati Raman Singh",
+    "constituency": "Allahabad",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-FAIZA-350",
+    "name": "Awadhesh Prasad",
+    "constituency": "Faizabad",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-AMBED-351",
+    "name": "Lalji Verma",
+    "constituency": "Ambedkar Nagar",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-KAISE-352",
+    "name": "Karan Bhushan Singh",
+    "constituency": "Kaiserganj",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-SHRAW-353",
+    "name": "Ram Shiromani Verma",
+    "constituency": "Shrawasti",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-GONDA-354",
+    "name": "Kirti Vardhan Singh",
+    "constituency": "Gonda",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-DOMAR-355",
+    "name": "Jagdambika Pal",
+    "constituency": "Domariyaganj",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-BASTI-356",
+    "name": "Ram Prasad Chaudhary",
+    "constituency": "Basti",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-SANT_-357",
+    "name": "Laxmikant Nishad",
+    "constituency": "Sant Kabir Nagar",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-MAHAR-358",
+    "name": "Pankaj Chaudhary",
+    "constituency": "Maharajganj",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-GORAK-359",
+    "name": "Ravi Kishan",
+    "constituency": "Gorakhpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-KUSHI-360",
+    "name": "Vijay Kumar Dubey",
+    "constituency": "Kushi Nagar",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-DEORI-361",
+    "name": "Shashank Mani",
+    "constituency": "Deoria",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-AZAMG-362",
+    "name": "Dharmendra Yadav",
+    "constituency": "Azamgarh",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-GHOSI-363",
+    "name": "Rajeev Kumar Rai",
+    "constituency": "Ghosi",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-SALEM-364",
+    "name": "Ramashankar Rajbhar",
+    "constituency": "Salempur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-BALLI-365",
+    "name": "Sanatan Pandey",
+    "constituency": "Ballia",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-JAUNP-366",
+    "name": "Babu Singh Kushwaha",
+    "constituency": "Jaunpur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-GHAZI-367",
+    "name": "Afzal Ansari",
+    "constituency": "Ghazipur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-CHAND-368",
+    "name": "Bijendra Singh",
+    "constituency": "Chandauli",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-VARAN-369",
+    "name": "Narendra Modi",
+    "constituency": "Varanasi",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-BHADO-370",
+    "name": "Vinod Kumar Bind",
+    "constituency": "Bhadohi",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-MIRZA-371",
+    "name": "Anupriya Patel",
+    "constituency": "Mirzapur",
+    "state": "Uttar Pradesh",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-TEHRI-372",
+    "name": "Mala Rajya Laxmi Shah",
+    "constituency": "Tehri Garhwal",
+    "state": "Uttarakhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-GARHW-373",
+    "name": "Anil Baluni",
+    "constituency": "Garhwal",
+    "state": "Uttarakhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-IND-NAINI-374",
+    "name": "Ajay Bhatt",
+    "constituency": "Nainital--“Udhamsingh Nagar",
+    "state": "India",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-UTT-HARID-375",
+    "name": "Trivendra Singh Rawat",
+    "constituency": "Haridwar",
+    "state": "Uttarakhand",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-DARJE-376",
+    "name": "Raju Bista",
+    "constituency": "Darjeeling",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-RAIGA-377",
+    "name": "Kartick Chandra Paul",
+    "constituency": "Raiganj",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-BALUR-378",
+    "name": "Sukanta Majumdar",
+    "constituency": "Balurghat",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-MALDA-379",
+    "name": "Khagen Murmu",
+    "constituency": "Maldaha Uttar",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-MALDA-380",
+    "name": "Isha Khan Choudhury",
+    "constituency": "Maldaha Dakshin",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-JANGI-381",
+    "name": "Khalilur Rahaman",
+    "constituency": "Jangipur",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-BAHAR-382",
+    "name": "Yusuf Pathan",
+    "constituency": "Baharampur",
+    "state": "West Bengal",
+    "party": "AITC",
+    "party_color": "#1DAF6C"
+  },
+  {
+    "id": "MP-WES-MURSH-383",
+    "name": "Abu Taher Khan",
+    "constituency": "Murshidabad",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-KRISH-384",
+    "name": "Mahua Moitra",
+    "constituency": "Krishnanagar",
+    "state": "West Bengal",
+    "party": "AITC",
+    "party_color": "#1DAF6C"
+  },
+  {
+    "id": "MP-WES-BARRA-385",
+    "name": "Partha Bhowmick",
+    "constituency": "Barrackpur",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-DUM_D-386",
+    "name": "Saugata Roy",
+    "constituency": "Dum Dum",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-BARAS-387",
+    "name": "Kakoli Ghosh Dastidar",
+    "constituency": "Barasat",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-BASIR-388",
+    "name": "Haji Nurul Islam",
+    "constituency": "Basirhat",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-DIAMO-389",
+    "name": "Abhishek Banerjee",
+    "constituency": "Diamond Harbour",
+    "state": "West Bengal",
+    "party": "AITC",
+    "party_color": "#1DAF6C"
+  },
+  {
+    "id": "MP-WES-JADAV-390",
+    "name": "Saayoni Ghosh",
+    "constituency": "Jadavpur",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-KOLKA-391",
+    "name": "Mala Roy",
+    "constituency": "Kolkata Dakshin",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-KOLKA-392",
+    "name": "Sudip Bandyopadhyay",
+    "constituency": "Kolkata Uttar",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-HOWRA-393",
+    "name": "Prasun Banerjee",
+    "constituency": "Howrah",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-ULUBE-394",
+    "name": "Sajda Ahmed",
+    "constituency": "Uluberia",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-SREER-395",
+    "name": "Kalyan Banerjee",
+    "constituency": "Sreerampur",
+    "state": "West Bengal",
+    "party": "AITC",
+    "party_color": "#1DAF6C"
+  },
+  {
+    "id": "MP-WES-HOOGH-396",
+    "name": "Rachana Banerjee",
+    "constituency": "Hooghly",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-TAMLU-397",
+    "name": "Abhijit Gangopadhyay",
+    "constituency": "Tamluk",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-KANTH-398",
+    "name": "Soumendu Adhikari",
+    "constituency": "Kanthi",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-GHATA-399",
+    "name": "Deepak Adhikari",
+    "constituency": "Ghatal",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-MEDIN-400",
+    "name": "June Malia",
+    "constituency": "Medinipur",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-PURUL-401",
+    "name": "Jyotirmay Singh Mahato",
+    "constituency": "Purulia",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-BANKU-402",
+    "name": "Arup Chakraborty",
+    "constituency": "Bankura",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-IND-BARDH-403",
+    "name": "Kirti Azad",
+    "constituency": "Bardhaman--“Durgapur",
+    "state": "India",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-ASANS-404",
+    "name": "Shatrughan Sinha",
+    "constituency": "Asansol",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  },
+  {
+    "id": "MP-WES-BIRBH-405",
+    "name": "Satabdi Roy",
+    "constituency": "Birbhum",
+    "state": "West Bengal",
+    "party": "BJP",
+    "party_color": "#FF9933"
+  }
+]
