@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #fbfbf9;
+    --foreground: #1c2024;
+    --card: #ffffff;
+    --card-foreground: #1c2024;
+    --border: #edece8;
+    --primary-saffron: #e65100;
+    --primary-saffron-light: #fff3e0;
+    --secondary-green: #2e7d32;
+    --secondary-green-light: #e8f5e9;
+    --navy-dark: #0f172a;
+    --muted: #64748b;
+    --muted-light: #f1f5f9;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.shadow-soft {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.03);
+}
+
+.shadow-card {
+  box-shadow: 0 2px 12px -2px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-pill {
+  box-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.07), 0 2px 8px -2px rgba(0, 0, 0, 0.04);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(237, 236, 232, 0.8);
+}
