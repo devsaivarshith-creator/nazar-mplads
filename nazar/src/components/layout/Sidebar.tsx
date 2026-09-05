@@ -12,6 +12,7 @@ import {
   HelpCircle,
   Settings,
   Sparkles,
+  Users,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { EmblemLogo } from "@/components/ui/EmblemLogo";
@@ -20,6 +21,7 @@ const NAV_ITEMS = [
   { label: "Home", href: "/", icon: Home },
   { label: "Explore", href: "/explore", icon: Search },
   { label: "Projects", href: "/projects", icon: FileText },
+  { label: "MP Intelligence", href: "/mps", icon: Users },
   { label: "Reports", href: "/reports", icon: BarChart3 },
   { label: "Investigations", href: "/investigations", icon: Shield },
   { label: "Sources", href: "/sources", icon: Database },

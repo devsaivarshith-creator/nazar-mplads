@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Header } from "@/components/layout/Header";
+import { AIAssistantWidget } from "@/components/AIAssistantWidget";
 
 export const metadata: Metadata = {
   title: "NAZAR — National Anomaly & Zone-based Review",
@@ -43,6 +44,9 @@ export default function RootLayout({
           <Header />
           <main className="flex-1 overflow-y-auto">{children}</main>
         </div>
+
+        {/* Bottom-Right Floating AI Assistant Widget */}
+        <AIAssistantWidget />
       </body>
     </html>
   );

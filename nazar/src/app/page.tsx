@@ -32,11 +32,11 @@ const PROMPT_SUGGESTIONS = [
 ];
 
 const EXPLORE_CATEGORIES = [
+  { label: "Compare MPs", href: "/mps", icon: Users, color: "text-purple-700 bg-purple-50 border-purple-200/60" },
   { label: "State", href: "/explore?by=state", icon: FileText, color: "text-amber-700 bg-amber-50 border-amber-200/60" },
   { label: "District", href: "/explore?by=district", icon: MapPin, color: "text-emerald-700 bg-emerald-50 border-emerald-200/60" },
   { label: "Constituency", href: "/explore?by=constituency", icon: Users, color: "text-blue-700 bg-blue-50 border-blue-200/60" },
-  { label: "MP", href: "/explore?by=mp", icon: User, color: "text-purple-700 bg-purple-50 border-purple-200/60" },
-  { label: "Project", href: "/projects", icon: FileSpreadsheet, color: "text-rose-700 bg-rose-50 border-rose-200/60" },
+  { label: "Projects", href: "/projects", icon: FileSpreadsheet, color: "text-rose-700 bg-rose-50 border-rose-200/60" },
   { label: "Sector", href: "/explore?by=sector", icon: Layers, color: "text-teal-700 bg-teal-50 border-teal-200/60" },
 ];
 
@@ -131,6 +131,40 @@ export default function HomePage() {
           <p className="text-sm sm:text-base text-[#64748b] font-normal max-w-lg mx-auto">
             Search. Analyse. Generate insights from MPLADS data.
           </p>
+        </div>
+
+        {/* Interactive Stats Ribbon (Inspired by Nirikshak AI) */}
+        <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-6 py-2 px-4 max-w-3xl mx-auto rounded-2xl bg-white/90 border border-[#e8e6de] shadow-sm backdrop-blur-sm text-xs text-neutral-700">
+          <div className="flex items-center gap-1.5 font-medium">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span className="font-bold text-neutral-900">2,18,913</span> Projects Monitored
+          </div>
+          <span className="text-neutral-300 hidden sm:inline">•</span>
+          <div className="flex items-center gap-1.5 font-medium">
+            <span className="font-bold text-amber-800">₹12,129 Cr</span> Sanctioned
+          </div>
+          <span className="text-neutral-300 hidden sm:inline">•</span>
+          <div className="flex items-center gap-1.5 font-medium">
+            <span className="font-bold text-emerald-700">₹8,008 Cr</span> Expended
+          </div>
+          <span className="text-neutral-300 hidden sm:inline">•</span>
+          <div className="flex items-center gap-1.5 font-medium">
+            <span className="font-bold text-rose-700">2,000+</span> Audited Observations
+          </div>
+        </div>
+
+        {/* Toddler-Friendly 1-Click Comparison Shortcuts */}
+        <div className="flex flex-wrap items-center justify-center gap-2 text-xs">
+          <span className="text-[11px] font-semibold text-neutral-500 uppercase tracking-wider">⚡ 1-Click MP Compare:</span>
+          <Link href="/mps" className="px-2.5 py-1 rounded-full bg-white hover:bg-neutral-50 border border-[#d8d6cc] text-neutral-800 font-medium transition-all hover:scale-105 shadow-2xs">
+            Owaisi vs Sanjay (TS)
+          </Link>
+          <Link href="/mps" className="px-2.5 py-1 rounded-full bg-white hover:bg-neutral-50 border border-[#d8d6cc] text-neutral-800 font-medium transition-all hover:scale-105 shadow-2xs">
+            Modi vs Rahul (UP)
+          </Link>
+          <Link href="/mps" className="px-2.5 py-1 rounded-full bg-white hover:bg-neutral-50 border border-[#d8d6cc] text-neutral-800 font-medium transition-all hover:scale-105 shadow-2xs">
+            Tharoor vs Tejasvi (Capitals)
+          </Link>
         </div>
 
         {/* Big Search Bar */}

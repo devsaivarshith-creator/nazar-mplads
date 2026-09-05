@@ -209,3 +209,38 @@ export interface SourceRecord {
   raw_data: Record<string, any>;
   verification_status: "Verified Public Record" | "Third-party Mirror" | "Pending Recrawl";
 }
+
+export interface MPSectorBreakdown {
+  sector: string;
+  amount: number;
+  count: number;
+  percentage: number;
+}
+
+export interface MPProfile {
+  id: string;
+  name: string;
+  party: string;
+  party_color: string;
+  house: "Lok Sabha" | "Rajya Sabha";
+  state: string;
+  constituency: string;
+  term: string;
+  sanctioned_amount: number;
+  recommended_amount: number;
+  expenditure_amount: number;
+  utilization_rate: number; // percentage e.g. 78.4
+  completion_rate: number; // percentage e.g. 82.1
+  total_works_recommended: number;
+  total_works_sanctioned: number;
+  completed_works: number;
+  in_progress_works: number;
+  delayed_works: number;
+  flagged_observations: number;
+  top_sectors: MPSectorBreakdown[];
+  implementing_agencies: string[];
+  key_priorities: string[];
+  observations_summary: string;
+  avatar_initials: string;
+}
+
