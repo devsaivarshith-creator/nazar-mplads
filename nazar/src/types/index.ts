@@ -244,3 +244,48 @@ export interface MPProfile {
   avatar_initials: string;
 }
 
+export interface MPDelayedProject {
+  id: string;
+  title: string;
+  sector: string;
+  sanctioned_amount: number;
+  sanction_date: string;
+  target_completion: string;
+  days_overdue: number;
+  agency: string;
+  cause: string;
+  risk_level: "HIGH" | "MEDIUM" | "LOW";
+  status: string;
+}
+
+export interface InvestigationDossier {
+  dossier_id: string;
+  generated_at: string;
+  subject_name: string;
+  subject_constituency: string;
+  subject_state: string;
+  subject_party: string;
+  executive_summary: string;
+  financial_overview: {
+    sanctioned: number;
+    expended: number;
+    unspent: number;
+    utilization_rate: number;
+    completion_rate: number;
+  };
+  delayed_projects: MPDelayedProject[];
+  anomalies: {
+    type: string;
+    description: string;
+    severity: "HIGH" | "MEDIUM" | "LOW";
+    recommended_action: string;
+  }[];
+  web_search_evidence: {
+    source_title: string;
+    source_url: string;
+    verified_status: string;
+    relevance_note: string;
+  }[];
+  investigation_notes: string[];
+  recommendations: string[];
+}
