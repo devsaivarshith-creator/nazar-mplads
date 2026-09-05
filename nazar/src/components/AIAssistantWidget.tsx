@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { MP_PROFILES, getMPById } from "@/lib/data/mpsData";
 import { formatCurrency } from "@/lib/utils";
+import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 
 export function AIAssistantWidget() {
   const [isOpen, setIsOpen] = useState(false);
@@ -229,8 +230,8 @@ export function AIAssistantWidget() {
                   </div>
                 </div>
 
-                <div className="bg-[#fcfbf7] p-3.5 rounded-xl border border-[#ece9df] whitespace-pre-line font-sans text-xs text-neutral-800 leading-relaxed max-h-[340px] overflow-y-auto select-text">
-                  {aiReport}
+                <div className="bg-[#fcfbf7] p-3.5 rounded-xl border border-[#ece9df] max-h-[340px] overflow-y-auto select-text">
+                  <MarkdownRenderer content={aiReport} />
                 </div>
               </div>
             ) : (

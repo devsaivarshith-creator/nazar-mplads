@@ -22,6 +22,7 @@ import {
 import { MP_PROFILES, getMPById } from "@/lib/data/mpsData";
 import { formatCurrency } from "@/lib/utils";
 import { MPProfile } from "@/types";
+import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 
 export default function MPIntelligencePage() {
   const [activeTab, setActiveTab] = useState<"compare" | "directory">("compare");
@@ -430,8 +431,8 @@ export default function MPIntelligencePage() {
                     Model: gemini-3.6-flash · Strict Evidence Grounding
                   </span>
                 </div>
-                <div className="text-sm text-neutral-200 whitespace-pre-line leading-relaxed font-sans">
-                  {aiAnalysis}
+                <div className="text-sm text-neutral-200 leading-relaxed font-sans">
+                  <MarkdownRenderer content={aiAnalysis} isDark={true} />
                 </div>
               </div>
             )}

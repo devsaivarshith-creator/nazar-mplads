@@ -50,6 +50,7 @@ import {
 import { getMPDelayedProjects, generateDossierForMP } from "@/lib/data/mpsData";
 import { formatCurrency } from "@/lib/utils";
 import { MPProfile, MPDelayedProject, InvestigationDossier } from "@/types";
+import { MarkdownRenderer } from "@/components/MarkdownRenderer";
 
 const PROMPT_SUGGESTIONS = [
   "Incomplete projects by MP Asaduddin Owaisi in Hyderabad",
@@ -558,7 +559,11 @@ ${activeDossier.recommendations.map((r: any, i: number) => `${i + 1}. ${r}`).joi
                       : "bg-[#fcfbf7] border border-[#e8e5db] text-[#2d3339] rounded-tl-xs shadow-2xs space-y-3"
                   }`}
                 >
-                  <div className="whitespace-pre-line">{msg.content}</div>
+                  {msg.role === "user" ? (
+                    <div className="whitespace-pre-line">{msg.content}</div>
+                  ) : (
+                    <MarkdownRenderer content={msg.content} />
+                  )}
 
                   {/* Interactive Delayed Projects Card (If present in AI response) */}
                   {msg.delayedProjects && msg.delayedProjects.length > 0 && (
