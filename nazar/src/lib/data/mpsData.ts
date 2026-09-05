@@ -950,6 +950,37 @@ export function getMPDelayedProjects(mp: MPProfile): MPDelayedProject[] {
     ];
   }
 
+  if (mp.id.includes("SKL") || mp.constituency.toLowerCase().includes("srikakulam")) {
+    return [
+      {
+        id: `SKL-2023-0142`,
+        title: "Uddanam Coastal Piped Drinking Water Pipeline & Purification Hub",
+        sector: "Rural Drinking Water Supply",
+        sanctioned_amount: 6420000,
+        sanction_date: "2023-03-12",
+        target_completion: "2023-10-31",
+        days_overdue: 280,
+        agency: "Panchayat Raj Engineering Department (PRED AP)",
+        cause: "Feeder trenching held up awaiting National Highway road-cutting permissions",
+        risk_level: "HIGH",
+        status: "Road Cutting Clearance Pending"
+      },
+      {
+        id: `SKL-2022-0318`,
+        title: "Fishermen Cyclone Multi-Purpose Shelter & Cold Storage Facility at Kalingapatnam",
+        sector: "Fishermen Infrastructure & Coastal Safety",
+        sanctioned_amount: 4250000,
+        sanction_date: "2022-10-15",
+        target_completion: "2023-06-30",
+        days_overdue: 410,
+        agency: "Andhra Pradesh Roads & Buildings (R&B) Department",
+        cause: "Coastal CRZ environmental clearance verification and contractor milestone billing review",
+        risk_level: "HIGH",
+        status: "CRZ Review / Physical Progress Stalled"
+      }
+    ];
+  }
+
   if (mp.id.includes("VAR")) {
     return [
       {

@@ -127,11 +127,22 @@ export default function HomePage() {
     setConversationMode(true);
     setIsAiThinking(true);
 
-    // Identify MP using 360 intelligence resolver
-    const intel = get360MPIntelligence(text);
-    const resolvedMP = intel.mp;
-    setActiveMP(resolvedMP);
-    setActiveMP360(intel);
+    const { findMPByQuery, isGeneralQuery, isStateMPListQuery } = await import("@/lib/data/allIndiaMPsData");
+    const isGeneral = isGeneralQuery(text);
+    const isStateList = isStateMPListQuery(text).isStateList;
+
+    let resolvedMP: MPProfile | null = null;
+    let intel: any = null;
+
+    if (!isGeneral && !isStateList) {
+      intel = get360MPIntelligence(text);
+      resolvedMP = intel.mp;
+      setActiveMP(resolvedMP);
+      setActiveMP360(intel);
+    } else {
+      setActiveMP(null);
+      setActiveMP360(null);
+    }
 
     const userMsg: ChatMessage = {
       id: `msg-${Date.now()}-user`,
@@ -159,20 +170,20 @@ export default function HomePage() {
         const data = await res.json();
         const serverMP = data.mpProfile || resolvedMP;
         const serverIntel = data.mp360 || intel;
-        setActiveMP(serverMP);
-        setActiveMP360(serverIntel);
+        if (serverMP) setActiveMP(serverMP);
+        if (serverIntel) setActiveMP360(serverIntel);
 
-        const delayedProjects = data.delayedWorks || serverIntel.mplads_lifecycle.delayed_projects_sample;
+        const delayedProjects = data.delayedWorks || serverIntel?.mplads_lifecycle?.delayed_projects_sample;
         
         const assistantMsg: ChatMessage = {
           id: `msg-${Date.now()}-ai`,
           role: "assistant",
-          content: data.reply || serverIntel.ai_summary,
+          content: data.reply || serverIntel?.ai_summary || "Investigation insight generated.",
           timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
-          sources: data.sources || serverIntel.web_evidence_sources.map((s: any) => `${s.source_name} (${s.source_type})`),
-          delayedProjects,
-          mpProfile: serverMP,
-          mp360: serverIntel,
+          sources: data.sources || serverIntel?.web_evidence_sources?.map((s: any) => `${s.source_name} (${s.source_type})`) || [],
+          delayedProjects: (!isGeneral && !isStateList && delayedProjects?.length > 0) ? delayedProjects : undefined,
+          mpProfile: serverMP || undefined,
+          mp360: serverIntel || undefined,
         };
 
         setMessages((prev) => [...prev, assistantMsg]);
@@ -184,15 +195,16 @@ export default function HomePage() {
     }
 
     // Fallback response with 360 intelligence
+    const fallbackDelayed = intel?.mplads_lifecycle?.delayed_projects_sample;
     const assistantMsg: ChatMessage = {
       id: `msg-${Date.now()}-ai`,
       role: "assistant",
-      content: intel.ai_summary,
+      content: intel?.ai_summary || "Public records search completed.",
       timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
-      sources: intel.web_evidence_sources.map(s => `${s.source_name} (${s.source_type})`),
-      delayedProjects: intel.mplads_lifecycle.delayed_projects_sample,
-      mpProfile: resolvedMP,
-      mp360: intel,
+      sources: intel?.web_evidence_sources?.map((s: any) => `${s.source_name} (${s.source_type})`) || [],
+      delayedProjects: fallbackDelayed,
+      mpProfile: resolvedMP || undefined,
+      mp360: intel || undefined,
     };
 
     setMessages((prev) => [...prev, assistantMsg]);
@@ -215,8 +227,25 @@ export default function HomePage() {
     setChatInput("");
     setIsAiThinking(true);
 
-    const intel = get360MPIntelligence(text);
-    const targetMP = activeMP || intel.mp;
+    const { findMPByQuery, isGeneralQuery, isStateMPListQuery } = await import("@/lib/data/allIndiaMPsData");
+    const explicitNewMP = findMPByQuery(text);
+    const isGeneral = isGeneralQuery(text);
+    const isStateList = isStateMPListQuery(text).isStateList;
+
+    let targetMP: MPProfile | null = null;
+    let localIntel: any = null;
+
+    if (explicitNewMP) {
+      targetMP = explicitNewMP;
+      localIntel = get360MPIntelligence(explicitNewMP.name);
+      setActiveMP(targetMP);
+      setActiveMP360(localIntel);
+    } else if (isGeneral || isStateList) {
+      targetMP = null;
+    } else {
+      targetMP = activeMP || get360MPIntelligence(text).mp;
+      localIntel = activeMP360 || (targetMP ? get360MPIntelligence(targetMP.name) : null);
+    }
 
     try {
       const res = await fetch("/api/ai", {
@@ -232,20 +261,24 @@ export default function HomePage() {
 
       if (res.ok) {
         const data = await res.json();
-        const serverMP = data.mpProfile || targetMP;
-        const serverIntel = data.mp360 || activeMP360 || intel;
-        if (serverMP) setActiveMP(serverMP);
-        if (serverIntel) setActiveMP360(serverIntel);
+        const serverMP = data.mpProfile;
+        const serverIntel = data.mp360;
+        
+        if (serverMP) {
+          setActiveMP(serverMP);
+          setActiveMP360(serverIntel);
+        }
 
         const delayedProjects = data.delayedWorks || serverIntel?.mplads_lifecycle?.delayed_projects_sample;
+        const hasDelayedIntent = text.toLowerCase().includes("delayed") || text.toLowerCase().includes("incomplete") || text.toLowerCase().includes("stalled") || text.toLowerCase().includes("work") || text.toLowerCase().includes("project");
         
         const assistantMsg: ChatMessage = {
           id: `msg-${Date.now()}-ai`,
           role: "assistant",
           content: data.reply || serverIntel?.ai_summary || "Investigation insight generated.",
           timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
-          sources: data.sources || serverIntel?.web_evidence_sources?.map((s: any) => `${s.source_name} (${s.source_type})`),
-          delayedProjects: text.toLowerCase().includes("delayed") || text.toLowerCase().includes("incomplete") || text.toLowerCase().includes("stalled") || text.toLowerCase().includes("work") || text.toLowerCase().includes("project") ? delayedProjects : undefined,
+          sources: data.sources || serverIntel?.web_evidence_sources?.map((s: any) => `${s.source_name} (${s.source_type})`) || [],
+          delayedProjects: (hasDelayedIntent || (serverMP && !data.isGeneral && !data.isStateList)) ? delayedProjects : undefined,
           mpProfile: serverMP || undefined,
           mp360: serverIntel || undefined,
         };
@@ -262,12 +295,12 @@ export default function HomePage() {
     const assistantMsg: ChatMessage = {
       id: `msg-${Date.now()}-ai`,
       role: "assistant",
-      content: intel.ai_summary,
+      content: localIntel?.ai_summary || "Investigation insight generated.",
       timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
-      sources: intel.web_evidence_sources.map(s => `${s.source_name} (${s.source_type})`),
-      delayedProjects: intel.mplads_lifecycle.delayed_projects_sample,
+      sources: localIntel?.web_evidence_sources?.map((s: any) => `${s.source_name} (${s.source_type})`) || [],
+      delayedProjects: localIntel?.mplads_lifecycle?.delayed_projects_sample,
       mpProfile: targetMP || undefined,
-      mp360: intel,
+      mp360: localIntel || undefined,
     };
     setMessages((prev) => [...prev, assistantMsg]);
     setIsAiThinking(false);

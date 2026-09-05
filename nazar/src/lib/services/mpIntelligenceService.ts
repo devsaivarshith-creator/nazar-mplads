@@ -359,6 +359,21 @@ export function generateGroundedConversationalReply(options: {
   const mp = intel.mp;
   const unspent = intel.mplads_lifecycle.unspent_balance;
 
+  // 0. Who is the MP of [Constituency] question
+  if (q.includes("who is the mp") || q.includes("who is mp") || q.includes("who represents") || (q.includes("mp of") && !q.includes("delayed") && !q.includes("project"))) {
+    return (
+      `### 🏛️ Representative for **${mp.constituency}, ${mp.state}**\n\n` +
+      `The Member of Parliament representing **${mp.constituency}** in the 18th Lok Sabha is **${mp.name}** (${mp.party}).\n\n` +
+      `• **House & Tenure**: ${mp.house} · ${mp.term}\n` +
+      `• **Parliamentary Attendance**: **${intel.parliamentary_scorecard.attendance}%** (${intel.parliamentary_scorecard.attendance_verdict})\n` +
+      `• **Debates & Questions**: ${intel.parliamentary_scorecard.debates} debates participated, ${intel.parliamentary_scorecard.questions} inquiries raised\n` +
+      `• **Declared Net Wealth**: **${intel.affidavit_disclosures.net_assets_formatted}** (Criminal Cases: ${intel.affidavit_disclosures.criminal_cases})\n` +
+      `• **MPLADS Fund Utilization**: **${intel.mplads_lifecycle.utilization_rate}%** (₹${(intel.mplads_lifecycle.expenditure_amount / 10000000).toFixed(2)} Cr spent of ₹${(intel.mplads_lifecycle.sanctioned_amount / 10000000).toFixed(2)} Cr sanctioned)\n\n` +
+      (intel.biography_snippet ? `> **Public Profile**: ${intel.biography_snippet}\n\n` : "") +
+      `*You can ask follow-ups on ${mp.name}'s attendance, election affidavits, or delayed projects in ${mp.constituency}.*`
+    );
+  }
+
   // 1. Criminal / Legal / Affidavit Question
   if (q.includes("criminal") || q.includes("case") || q.includes("court") || q.includes("police") || q.includes("fir") || q.includes("affidavit") || q.includes("legal")) {
     return (

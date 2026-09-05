@@ -1160,6 +1160,142 @@ export const ALL_INDIA_MPS: MPProfile[] = [
     wikipedia_url: "https://en.wikipedia.org/wiki/Supriya_Sule",
     sansad_url: "https://sansad.in/ls/members/biography/4507",
     prs_url: "https://prsindia.org/mptrack/18-lok-sabha/supriya-sule"
+  },
+  // 17. Kinjarapu Ram Mohan Naidu (TDP - Srikakulam, Andhra Pradesh)
+  {
+    id: "MP-AP-SKL-01",
+    name: "Kinjarapu Ram Mohan Naidu",
+    party: "TDP",
+    party_color: "#eab308",
+    house: "Lok Sabha",
+    state: "Andhra Pradesh",
+    constituency: "Srikakulam",
+    term: "18th Lok Sabha (3rd Term) — Union Cabinet Minister for Civil Aviation",
+    attendance_rate: 89,
+    debates_count: 68,
+    questions_count: 214,
+    private_member_bills: 2,
+    education: "MBA, Long Island University (USA); B.Tech in Electrical Engineering, Purdue University (USA)",
+    profession: "Industrialist, Technologist & Politician",
+    assets_declared: 220000000,
+    criminal_cases: 0,
+    sanctioned_amount: 250000000,
+    recommended_amount: 275000000,
+    expenditure_amount: 202000000,
+    utilization_rate: 80.8,
+    completion_rate: 83.2,
+    total_works_recommended: 228,
+    total_works_sanctioned: 210,
+    completed_works: 174,
+    in_progress_works: 26,
+    delayed_works: 10,
+    flagged_observations: 2,
+    top_sectors: [
+      { sector: "Aviation & Regional Coastal Connectivity", amount: 95000000, count: 62, percentage: 38.0 },
+      { sector: "Rural Drinking Water Supply & Purifiers", amount: 55000000, count: 48, percentage: 22.0 },
+      { sector: "Fishermen Infrastructure & Cyclone Shelters", amount: 42000000, count: 36, percentage: 16.8 },
+      { sector: "Digital Education & Zilla Parishad Schools", amount: 32000000, count: 28, percentage: 12.8 },
+      { sector: "Solar Lighting & Green Community Assets", amount: 26000000, count: 20, percentage: 10.4 }
+    ],
+    implementing_agencies: [
+      "Andhra Pradesh Roads & Buildings (R&B) Department",
+      "Srikakulam Zilla Praja Parishad Engineering Wing",
+      "Panchayat Raj Engineering Department (PRED AP)"
+    ],
+    key_priorities: [
+      "Bhogapuram International Airport corridor integration",
+      "Comprehensive coastal drinking water grid across Uddanam & Srikakulam",
+      "Modernization of government junior colleges and digital labs"
+    ],
+    observations_summary: "10 works delayed beyond scheduled delivery. Uddanam piped water feeder network pending road-cutting clearances.",
+    avatar_initials: "RN",
+    wikipedia_url: "https://en.wikipedia.org/wiki/Kinjarapu_Ram_Mohan_Naidu",
+    sansad_url: "https://sansad.in/ls/members/biography?name=Kinjarapu%20Ram%20Mohan%20Naidu",
+    prs_url: "https://prsindia.org/mptrack/18-lok-sabha/kinjarapu-ram-mohan-naidu"
+  },
+  // 18. G. Kishan Reddy (BJP - Secunderabad, Telangana)
+  {
+    id: "MP-TG-SEC-01",
+    name: "G. Kishan Reddy",
+    party: "BJP",
+    party_color: "#ea580c",
+    house: "Lok Sabha",
+    state: "Telangana",
+    constituency: "Secunderabad",
+    term: "18th Lok Sabha (2nd Term) — Union Cabinet Minister for Coal & Mines",
+    attendance_rate: 98,
+    debates_count: 42,
+    questions_count: 110,
+    private_member_bills: 0,
+    education: "Diploma in Tool Design, Central Institute of Tool Design, Hyderabad",
+    profession: "Public Representative & Agriculturist",
+    assets_declared: 94000000,
+    criminal_cases: 0,
+    sanctioned_amount: 250000000,
+    recommended_amount: 280000000,
+    expenditure_amount: 215000000,
+    utilization_rate: 86.0,
+    completion_rate: 88.0,
+    total_works_recommended: 245,
+    total_works_sanctioned: 220,
+    completed_works: 194,
+    in_progress_works: 18,
+    delayed_works: 8,
+    flagged_observations: 1,
+    top_sectors: [
+      { sector: "Urban Transit & Flyover Infrastructure", amount: 92000000, count: 58, percentage: 36.8 },
+      { sector: "Railway Station Passenger Amenities", amount: 58000000, count: 42, percentage: 23.2 },
+      { sector: "Government Hospital Equipment", amount: 45000000, count: 35, percentage: 18.0 }
+    ],
+    implementing_agencies: ["Greater Hyderabad Municipal Corporation (GHMC)", "South Central Railway Division", "Telangana PWD"],
+    key_priorities: ["Secunderabad station world-class redevelopment integration", "Urban stormwater drainage upgrades"],
+    observations_summary: "8 works running past schedule primarily around Amberpet and Musheerabad utility shifting.",
+    avatar_initials: "KR",
+    wikipedia_url: "https://en.wikipedia.org/wiki/G._Kishan_Reddy",
+    sansad_url: "https://sansad.in/ls/members/biography?name=G.%20Kishan%20Reddy",
+    prs_url: "https://prsindia.org/mptrack/18-lok-sabha/g-kishan-reddy"
+  },
+  // 19. Bandi Sanjay Kumar (BJP - Karimnagar, Telangana)
+  {
+    id: "MP-TG-KMR-01",
+    name: "Bandi Sanjay Kumar",
+    party: "BJP",
+    party_color: "#ea580c",
+    house: "Lok Sabha",
+    state: "Telangana",
+    constituency: "Karimnagar",
+    term: "18th Lok Sabha (2nd Term) — Union Minister of State for Home Affairs",
+    attendance_rate: 91,
+    debates_count: 54,
+    questions_count: 188,
+    private_member_bills: 1,
+    education: "Master of Arts (Public Administration), Madurai Kamaraj University",
+    profession: "Public Representative & Social Worker",
+    assets_declared: 36000000,
+    criminal_cases: 4,
+    sanctioned_amount: 250000000,
+    recommended_amount: 270000000,
+    expenditure_amount: 198000000,
+    utilization_rate: 79.2,
+    completion_rate: 82.0,
+    total_works_recommended: 215,
+    total_works_sanctioned: 195,
+    completed_works: 160,
+    in_progress_works: 24,
+    delayed_works: 11,
+    flagged_observations: 2,
+    top_sectors: [
+      { sector: "Rural Internal Cement Roads", amount: 84000000, count: 52, percentage: 33.6 },
+      { sector: "Community Halls & Backward Class Welfare Centers", amount: 56000000, count: 44, percentage: 22.4 },
+      { sector: "Safe Drinking Water RO Plants", amount: 42000000, count: 38, percentage: 16.8 }
+    ],
+    implementing_agencies: ["Karimnagar Zilla Praja Parishad", "Telangana Panchayat Raj Engineering", "Karimnagar Municipal Corp"],
+    key_priorities: ["Rural connectivity corridors in Huzurabad and Manakondur", "Submersible water purification stations"],
+    observations_summary: "11 works delayed beyond scheduled target completion dates. PWD road clearance pending.",
+    avatar_initials: "BS",
+    wikipedia_url: "https://en.wikipedia.org/wiki/Bandi_Sanjay_Kumar",
+    sansad_url: "https://sansad.in/ls/members/biography?name=Bandi%20Sanjay%20Kumar",
+    prs_url: "https://prsindia.org/mptrack/18-lok-sabha/bandi-sanjay-kumar"
   }
 ];
 
@@ -1227,7 +1363,17 @@ export function findMPByQuery(query: string): MPProfile | undefined {
     "manoj": "Manoj Tiwari",
     "tiwari": "Manoj Tiwari",
     "sule": "Supriya Sule",
-    "gogoi": "Gaurav Gogoi"
+    "gogoi": "Gaurav Gogoi",
+    "ram mohan naidu": "Kinjarapu Ram Mohan Naidu",
+    "rammohan naidu": "Kinjarapu Ram Mohan Naidu",
+    "rammohan": "Kinjarapu Ram Mohan Naidu",
+    "kinjarapu": "Kinjarapu Ram Mohan Naidu",
+    "srikakulam": "Kinjarapu Ram Mohan Naidu",
+    "kishan reddy": "G. Kishan Reddy",
+    "bandi sanjay": "Bandi Sanjay Kumar",
+    "sanjay kumar": "Bandi Sanjay Kumar",
+    "karimnagar": "Bandi Sanjay Kumar",
+    "secunderabad": "G. Kishan Reddy"
   };
 
   for (const [alias, targetName] of Object.entries(aliasMap)) {
@@ -1248,6 +1394,210 @@ export function findMPByQuery(query: string): MPProfile | undefined {
   }
 
   return undefined;
+}
+
+// 17 Lok Sabha MPs of Telangana (Elected 2024, 18th Lok Sabha)
+export const TELANGANA_ALL_17_MPS = [
+  { no: 1, constituency: "Adilabad (ST)", mp: "Godam Nagesh", party: "BJP", role: "Member of Parliament" },
+  { no: 2, constituency: "Peddapalle (SC)", mp: "Gaddam Vamsi Krishna", party: "INC", role: "Member of Parliament" },
+  { no: 3, constituency: "Karimnagar", mp: "Bandi Sanjay Kumar", party: "BJP", role: "Union Minister of State for Home Affairs" },
+  { no: 4, constituency: "Nizamabad", mp: "Dharmapuri Arvind", party: "BJP", role: "Member of Parliament" },
+  { no: 5, constituency: "Zahirabad", mp: "Suresh Kumar Shetkar", party: "INC", role: "Member of Parliament" },
+  { no: 6, constituency: "Medak", mp: "M. Raghunandan Rao", party: "BJP", role: "Member of Parliament" },
+  { no: 7, constituency: "Malkajgiri", mp: "Eatala Rajender", party: "BJP", role: "Member of Parliament" },
+  { no: 8, constituency: "Secunderabad", mp: "G. Kishan Reddy", party: "BJP", role: "Union Cabinet Minister for Coal & Mines" },
+  { no: 9, constituency: "Hyderabad", mp: "Asaduddin Owaisi", party: "AIMIM", role: "National President, AIMIM & 5-Term MP" },
+  { no: 10, constituency: "Chevella", mp: "Konda Vishweshwar Reddy", party: "BJP", role: "Member of Parliament & Technocrat" },
+  { no: 11, constituency: "Mahabubnagar", mp: "D.K. Aruna", party: "BJP", role: "National Vice President, BJP" },
+  { no: 12, constituency: "Nagarkurnool (SC)", mp: "Dr. Mallu Ravi", party: "INC", role: "Special Representative of Telangana Govt" },
+  { no: 13, constituency: "Nalgonda", mp: "Kunduru Raghuveer Reddy", party: "INC", role: "Member of Parliament" },
+  { no: 14, constituency: "Bhongir", mp: "Chamala Kiran Kumar Reddy", party: "INC", role: "Member of Parliament" },
+  { no: 15, constituency: "Warangal (SC)", mp: "Dr. Kadiyam Kavya", party: "INC", role: "Member of Parliament" },
+  { no: 16, constituency: "Mahabubabad (ST)", mp: "Balram Naik Porika", party: "INC", role: "Former Union Minister of State" },
+  { no: 17, constituency: "Khammam", mp: "Ramasani Raghuram Reddy", party: "INC", role: "Member of Parliament" }
+];
+
+export const CONSTITUENCY_TO_MP_MAP: Record<string, { mpName: string; constituency: string; state: string; party: string; role?: string }> = {
+  "srikakulam": { mpName: "Kinjarapu Ram Mohan Naidu", constituency: "Srikakulam", state: "Andhra Pradesh", party: "TDP", role: "Union Minister of Civil Aviation" },
+  "hyderabad": { mpName: "Asaduddin Owaisi", constituency: "Hyderabad", state: "Telangana", party: "AIMIM", role: "AIMIM President" },
+  "secunderabad": { mpName: "G. Kishan Reddy", constituency: "Secunderabad", state: "Telangana", party: "BJP", role: "Union Minister for Coal & Mines" },
+  "karimnagar": { mpName: "Bandi Sanjay Kumar", constituency: "Karimnagar", state: "Telangana", party: "BJP", role: "Union MoS Home Affairs" },
+  "malkajgiri": { mpName: "Eatala Rajender", constituency: "Malkajgiri", state: "Telangana", party: "BJP" },
+  "nizamabad": { mpName: "Dharmapuri Arvind", constituency: "Nizamabad", state: "Telangana", party: "BJP" },
+  "medak": { mpName: "M. Raghunandan Rao", constituency: "Medak", state: "Telangana", party: "BJP" },
+  "chevella": { mpName: "Konda Vishweshwar Reddy", constituency: "Chevella", state: "Telangana", party: "BJP" },
+  "mahabubnagar": { mpName: "D.K. Aruna", constituency: "Mahabubnagar", state: "Telangana", party: "BJP" },
+  "nagarkurnool": { mpName: "Dr. Mallu Ravi", constituency: "Nagarkurnool", state: "Telangana", party: "INC" },
+  "nalgonda": { mpName: "Kunduru Raghuveer Reddy", constituency: "Nalgonda", state: "Telangana", party: "INC" },
+  "bhongir": { mpName: "Chamala Kiran Kumar Reddy", constituency: "Bhongir", state: "Telangana", party: "INC" },
+  "warangal": { mpName: "Dr. Kadiyam Kavya", constituency: "Warangal", state: "Telangana", party: "INC" },
+  "mahabubabad": { mpName: "Balram Naik Porika", constituency: "Mahabubabad", state: "Telangana", party: "INC" },
+  "khammam": { mpName: "Ramasani Raghuram Reddy", constituency: "Khammam", state: "Telangana", party: "INC" },
+  "adilabad": { mpName: "Godam Nagesh", constituency: "Adilabad", state: "Telangana", party: "BJP" },
+  "peddapalle": { mpName: "Gaddam Vamsi Krishna", constituency: "Peddapalle", state: "Telangana", party: "INC" },
+  "zahirabad": { mpName: "Suresh Kumar Shetkar", constituency: "Zahirabad", state: "Telangana", party: "INC" },
+  "varanasi": { mpName: "Narendra Modi", constituency: "Varanasi", state: "Uttar Pradesh", party: "BJP", role: "Prime Minister of India" },
+  "rae bareli": { mpName: "Rahul Gandhi", constituency: "Rae Bareli", state: "Uttar Pradesh", party: "INC", role: "Leader of the Opposition in Lok Sabha" },
+  "mandi": { mpName: "Kangana Ranaut", constituency: "Mandi", state: "Himachal Pradesh", party: "BJP" },
+  "mathura": { mpName: "Hema Malini", constituency: "Mathura", state: "Uttar Pradesh", party: "BJP" },
+  "nagpur": { mpName: "Nitin Gadkari", constituency: "Nagpur", state: "Maharashtra", party: "BJP", role: "Union Minister of Road Transport & Highways" },
+  "baramati": { mpName: "Supriya Sule", constituency: "Baramati", state: "Maharashtra", party: "NCP-SP" },
+  "hajipur": { mpName: "Chirag Paswan", constituency: "Hajipur", state: "Bihar", party: "LJPRV", role: "Union Minister of Food Processing Industries" },
+  "north east delhi": { mpName: "Manoj Tiwari", constituency: "North East Delhi", state: "Delhi", party: "BJP" },
+  "sreerampur": { mpName: "Kalyan Banerjee", constituency: "Sreerampur", state: "West Bengal", party: "TMC" },
+  "thiruvananthapuram": { mpName: "Dr. Shashi Tharoor", constituency: "Thiruvananthapuram", state: "Kerala", party: "INC" },
+  "bangalore south": { mpName: "Tejasvi Surya", constituency: "Bangalore South", state: "Karnataka", party: "BJP" },
+  "wayanad": { mpName: "Priyanka Gandhi Vadra", constituency: "Wayanad", state: "Kerala", party: "INC" },
+  "amethi": { mpName: "Kishori Lal Sharma", constituency: "Amethi", state: "Uttar Pradesh", party: "INC" },
+  "gandhinagar": { mpName: "Amit Shah", constituency: "Gandhinagar", state: "Gujarat", party: "BJP", role: "Union Minister of Home Affairs" }
+};
+
+export function isGeneralQuery(query: string): boolean {
+  if (!query) return false;
+  const q = query.toLowerCase().trim();
+  return (
+    q.includes("tell me about today") ||
+    q.includes("today or smth") ||
+    q.includes("today or something") ||
+    q.includes("what is today") ||
+    q.includes("today's date") ||
+    q === "hello" ||
+    q === "hi" ||
+    q === "hey" ||
+    q.includes("what is nazar") ||
+    q.includes("who are you") ||
+    q.includes("what can you do") ||
+    q.includes("what is mplads") ||
+    q.includes("how does mplads work") ||
+    q.includes("how does nazar work")
+  );
+}
+
+export function isStateMPListQuery(query: string): { isStateList: boolean; stateName?: string } {
+  if (!query) return { isStateList: false };
+  const q = query.toLowerCase().trim();
+  
+  const stateAliases: Record<string, string> = {
+    "telangana": "telangana",
+    "telanagana": "telangana",
+    "telengana": "telangana",
+    "tg": "telangana",
+    "andhra": "andhra pradesh",
+    "andhra pradesh": "andhra pradesh",
+    "ap": "andhra pradesh",
+    "kerala": "kerala",
+    "uttar pradesh": "uttar pradesh",
+    "up": "uttar pradesh",
+    "maharashtra": "maharashtra",
+    "bihar": "bihar",
+    "west bengal": "west bengal",
+    "bengal": "west bengal",
+    "tamil nadu": "tamil nadu",
+    "karnataka": "karnataka",
+    "delhi": "delhi"
+  };
+
+  const hasListIntent = (
+    q.includes("list all") ||
+    q.includes("list mps") ||
+    q.includes("all mps") ||
+    q.includes("mps of") ||
+    q.includes("show all mps") ||
+    q.includes("tell me all mps") ||
+    q.includes("mps in")
+  );
+
+  for (const [alias, canonicalState] of Object.entries(stateAliases)) {
+    if (q.includes(alias)) {
+      if (hasListIntent || q === `mps of ${alias}` || q === `${alias} mps` || q === `all mps of ${alias}`) {
+        return { isStateList: true, stateName: canonicalState };
+      }
+    }
+  }
+
+  return { isStateList: false };
+}
+
+export function generateStateMPsRoster(stateName: string): string {
+  const norm = stateName.toLowerCase().trim();
+  if (norm.includes("telangana")) {
+    return (
+      `### 🏛️ Complete Roster: Members of Parliament (MPs) representing Telangana (18th Lok Sabha, 2024)\n\n` +
+      `Telangana is represented by **17 Members of Parliament** in the Lok Sabha.\n\n` +
+      `| No. | Constituency | Elected MP | Political Party | Role / Portfolio |\n` +
+      `| :--- | :--- | :--- | :--- | :--- |\n` +
+      TELANGANA_ALL_17_MPS.map(m => `| ${m.no} | **${m.constituency}** | **${m.mp}** | ${m.party} | ${m.role} |`).join("\n") +
+      `\n\n**Party Representation Summary:**\n` +
+      `• **Indian National Congress (INC)**: 8 Seats (Peddapalle, Zahirabad, Nagarkurnool, Nalgonda, Bhongir, Warangal, Mahabubabad, Khammam)\n` +
+      `• **Bharatiya Janata Party (BJP)**: 8 Seats (Adilabad, Karimnagar, Nizamabad, Medak, Malkajgiri, Secunderabad, Chevella, Mahabubnagar)\n` +
+      `• **All India Majlis-e-Ittehadul Muslimeen (AIMIM)**: 1 Seat (Hyderabad)\n\n` +
+      `*You can click or type any of these MPs or constituencies to conduct a 360° investigation on attendance, affidavit disclosures, or delayed MPLADS projects!*`
+    );
+  }
+
+  if (norm.includes("andhra")) {
+    return (
+      `### 🏛️ Key Members of Parliament (MPs) representing Andhra Pradesh (18th Lok Sabha, 2024)\n\n` +
+      `Andhra Pradesh is represented by **25 Members of Parliament** in the Lok Sabha (NDA Alliance: TDP 16, BJP 3, JSP 2; YSRCP 4).\n\n` +
+      `| No. | Constituency | Elected MP | Political Party | Role / Portfolio |\n` +
+      `| :--- | :--- | :--- | :--- | :--- |\n` +
+      `| 1 | **Srikakulam** | **Kinjarapu Ram Mohan Naidu** | TDP | **Union Cabinet Minister for Civil Aviation** |\n` +
+      `| 2 | **Visakhapatnam** | **M. Sribharat** | TDP | Member of Parliament & Technocrat |\n` +
+      `| 3 | **Guntur** | **Dr. Pemmasani Chandrasekhar** | TDP | **Union Minister of State for Rural Development & Comm.** |\n` +
+      `| 4 | **Vijayawada** | **Kesineni Sivanath (Chinni)** | TDP | Member of Parliament |\n` +
+      `| 5 | **Anakapalle** | **C.M. Ramesh** | BJP | Member of Parliament |\n` +
+      `| 6 | **Kakinada** | **Tangella Uday Srinivas** | JSP | Member of Parliament (Jana Sena) |\n` +
+      `| 7 | **Machilipatnam** | **Balashowry Vallabhaneni** | JSP | Member of Parliament (Jana Sena) |\n` +
+      `| 8 | **Narasapuram** | **Bhupathi Raju Srinivasa Varma** | BJP | **Union Minister of State for Heavy Industries & Steel** |\n` +
+      `| 9 | **Rajahmundry** | **Daggubati Purandeswari** | BJP | Andhra Pradesh BJP President |\n` +
+      `| 10 | **Kadapa** | **Y.S. Avinash Reddy** | YSRCP | Member of Parliament |\n` +
+      `| 11 | **Tirupati (SC)** | **Maddila Gurumoorthy** | YSRCP | Member of Parliament |\n` +
+      `| 12 | **Nellore** | **Vemireddy Prabhakar Reddy** | TDP | Member of Parliament |\n` +
+      `| 13 | **Hindupur** | **B.K. Parthasarathi** | TDP | Member of Parliament |\n` +
+      `| 14 | **Kurnool** | **Bastipati Nagaraju Panchalingala** | TDP | Member of Parliament |\n` +
+      `| 15 | **Chittoor (SC)** | **Daggumalla Prasada Rao** | TDP | Member of Parliament |\n\n` +
+      `*Type any specific constituency or MP name (e.g., Srikakulam, Visakhapatnam, Guntur) to inspect detailed 360° analytics and delayed MPLADS works.*`
+    );
+  }
+
+  return (
+    `### 🏛️ Members of Parliament (MPs) Overview for **${stateName.toUpperCase()}**\n\n` +
+    `NAZAR continuously indexes public performance and developmental expenditure records across all parliamentary constituencies in **${stateName}**.\n\n` +
+    `*Type any specific constituency or MP name (e.g., Srikakulam, Hyderabad, Secunderabad, Varanasi, Mandi) to immediately launch a full 360° public investigation.*`
+  );
+}
+
+export function generateGeneralQueryAnswer(query: string): string {
+  const q = query.toLowerCase().trim();
+  const todayStr = new Date().toLocaleDateString("en-IN", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  });
+
+  if (q.includes("today") || q.includes("date") || q.includes("smth") || q.includes("something")) {
+    return (
+      `### 📅 NAZAR Daily Intelligence Briefing · **${todayStr}**\n\n` +
+      `Welcome to **NAZAR (National Anomaly & Zone-based Review)** — India's independent, AI-assisted public oversight copilot for parliamentary accountability and MPLADS developmental expenditure.\n\n` +
+      `#### 📊 Current Public Monitoring Status:\n` +
+      `• **Parliamentary Tenure**: **18th Lok Sabha (2024–2029)** active session tracking\n` +
+      `• **Total Constituencies Indexed**: **543 Lok Sabha Seats** across all 36 States & Union Territories\n` +
+      `• **Public Grounding Sources**: **Sansad.in** (attendance & debates), **PRS Legislative Research** (inquiries & bills), **MyNeta / ADR** (sworn election affidavits & assets), and **eSAKSHI MoSPI** (MPLADS fund ledgers)\n` +
+      `• **Active Automated Detectors**: Flagging inverted milestone timelines, stalled civil works past targeted completion dates, and single-agency contractor concentration\n\n` +
+      `#### 💡 What you can ask NAZAR right now:\n` +
+      `1. **Search Any MP in India**: e.g., *"Kinjarapu Ram Mohan Naidu"*, *"Kangana Ranaut"*, *"Dr. Shashi Tharoor"*, *"Nitin Gadkari"*, *"Supriya Sule"*\n` +
+      `2. **Constituency Lookups**: e.g., *"Who is the MP of Srikakulam?"*, *"Who is the MP of Secunderabad?"*\n` +
+      `3. **State Rosters**: e.g., *"List all MPs of Telangana"*, *"List MPs of Andhra Pradesh"*\n` +
+      `4. **Parliamentary & Financial Probes**: e.g., *"What are his criminal cases?"*, *"What are the delayed works in Mandi?"*`
+    );
+  }
+
+  return (
+    `### 🛡️ Welcome to NAZAR AI Copilot\n\n` +
+    `I am your civic investigation assistant for examining publicly available data on India's Members of Parliament and MPLADS developmental execution.\n\n` +
+    `Ask me about any MP, any parliamentary constituency, state rosters, or specific stalled works!`
+  );
 }
 
 // Dynamic MP Resolver: If user types ANY random MP in India not pre-seeded,

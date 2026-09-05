@@ -39,7 +39,29 @@ export class MockAIProvider implements AIProvider {
     question: string,
     contextData: any
   ): Promise<{ answer: string; sources: string[]; keyPoints?: string[] }> {
-    // 1. If 360 MP Intelligence or context is provided, ALWAYS synthesize for that specific MP!
+    // 1. Check if question is a general inquiry or state roster query first
+    try {
+      const { isGeneralQuery, isStateMPListQuery, generateGeneralQueryAnswer, generateStateMPsRoster } = require("@/lib/data/allIndiaMPsData");
+      
+      if (isGeneralQuery(question)) {
+        return {
+          answer: generateGeneralQueryAnswer(question),
+          sources: ["NAZAR Operational Intelligence Desk", "18th Lok Sabha Directorate"],
+          keyPoints: ["National 543 Constituencies Monitored", "Statutory eSAKSHI Integration", "Daily Public Briefing"]
+        };
+      }
+
+      const stateCheck = isStateMPListQuery(question);
+      if (stateCheck.isStateList && stateCheck.stateName) {
+        return {
+          answer: generateStateMPsRoster(stateCheck.stateName),
+          sources: ["Election Commission of India (ECI 2024)", "Lok Sabha Secretariat Member Directory"],
+          keyPoints: ["Complete Parliamentary Roster", "Constituency-level Oversight", "Party Breakdowns"]
+        };
+      }
+    } catch {}
+
+    // 2. If 360 MP Intelligence or context is provided, synthesize for that specific MP!
     if (contextData?.intel) {
       try {
         const { generateGroundedConversationalReply } = require("@/lib/services/mpIntelligenceService");
@@ -208,7 +230,7 @@ export class GeminiAIProvider implements AIProvider {
   }
 
   async generateExplanation(prompt: string, context: string): Promise<string> {
-    const models = ["gemini-2.5-flash", "gemini-3.6-flash", "gemini-flash-latest"];
+    const models = ["gemini-flash-lite-latest", "gemini-3.6-flash", "gemini-flash-latest", "gemini-2.5-flash"];
     for (const model of models) {
       try {
         const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${this.apiKey}`, {
@@ -231,7 +253,7 @@ export class GeminiAIProvider implements AIProvider {
   }
 
   async answerQuestion(question: string, contextData: any): Promise<any> {
-    const models = ["gemini-2.5-flash", "gemini-3.6-flash", "gemini-flash-latest"];
+    const models = ["gemini-flash-lite-latest", "gemini-3.6-flash", "gemini-flash-latest", "gemini-2.5-flash"];
     for (const model of models) {
       try {
         const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${this.apiKey}`, {

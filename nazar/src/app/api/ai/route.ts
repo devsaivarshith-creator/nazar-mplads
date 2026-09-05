@@ -25,12 +25,53 @@ export async function POST(req: Request) {
       const messages = body.messages || [];
       const userMessage = body.query || body.question || (messages[messages.length - 1]?.content) || "";
       
-      const { get360MPIntelligenceAsync, generateGroundedConversationalReply } = await import("@/lib/services/mpIntelligenceService");
+      const {
+        findMPByQuery,
+        isGeneralQuery,
+        isStateMPListQuery,
+        generateGeneralQueryAnswer,
+        generateStateMPsRoster
+      } = await import("@/lib/data/allIndiaMPsData");
 
-      // Check if user is asking a follow-up about the active MP, or inquiring about a new MP
-      let activeCandidateMP = body.mpProfile;
+      // 1. General Queries (e.g. "tell me about today or smth", "what is nazar", "hello")
+      if (isGeneralQuery(userMessage)) {
+        const answer = generateGeneralQueryAnswer(userMessage);
+        return NextResponse.json({
+          success: true,
+          reply: answer,
+          isGeneral: true,
+          sources: ["NAZAR Operational Intelligence Desk", "18th Lok Sabha Directorate"],
+          webSources: [],
+          mpProfile: null,
+          mp360: null,
+          delayedWorks: [],
+          provider: provider.name
+        });
+      }
+
+      // 2. State-wide MP Listings (e.g. "list all mps of telanagana", "list mps of andhra")
+      const stateCheck = isStateMPListQuery(userMessage);
+      if (stateCheck.isStateList && stateCheck.stateName) {
+        const answer = generateStateMPsRoster(stateCheck.stateName);
+        return NextResponse.json({
+          success: true,
+          reply: answer,
+          isStateList: true,
+          sources: ["Election Commission of India (ECI 2024)", "Lok Sabha Secretariat Member Directory"],
+          webSources: [],
+          mpProfile: null,
+          mp360: null,
+          delayedWorks: [],
+          provider: provider.name
+        });
+      }
+
+      // 3. MP Resolution: check if the new message explicitly names an MP or constituency
+      const explicitNewMP = findMPByQuery(userMessage);
+
+      // Check if user is asking a follow-up about the active MP
+      let activeCandidateMP = explicitNewMP || body.mpProfile;
       if (!activeCandidateMP && Array.isArray(messages) && messages.length > 0) {
-        const { findMPByQuery } = await import("@/lib/data/allIndiaMPsData");
         // Search previous messages (skipping the current question at the end)
         const startIndex = messages.length > 1 ? messages.length - 2 : 0;
         for (let i = startIndex; i >= 0; i--) {
@@ -45,7 +86,7 @@ export async function POST(req: Request) {
 
       const lowerQuery = userMessage.toLowerCase().trim();
 
-      const isFollowUp = activeCandidateMP && (
+      const isFollowUp = !explicitNewMP && activeCandidateMP && (
         lowerQuery.includes("delayed") ||
         lowerQuery.includes("work") ||
         lowerQuery.includes("project") ||
@@ -82,7 +123,13 @@ export async function POST(req: Request) {
         lowerQuery.includes("spent")
       );
 
-      const targetQuery = (isFollowUp && activeCandidateMP?.name) ? activeCandidateMP.name : userMessage;
+      const targetQuery = explicitNewMP?.name
+        ? explicitNewMP.name
+        : (isFollowUp && activeCandidateMP?.name)
+          ? activeCandidateMP.name
+          : userMessage;
+
+      const { get360MPIntelligenceAsync, generateGroundedConversationalReply } = await import("@/lib/services/mpIntelligenceService");
       
       // Run async live web search across Wikipedia, DDG, Sansad, PRS, and ADR
       const intel = await get360MPIntelligenceAsync(targetQuery);
