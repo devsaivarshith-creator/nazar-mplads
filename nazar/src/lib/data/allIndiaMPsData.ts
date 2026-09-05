@@ -1181,14 +1181,17 @@ export function findMPByQuery(query: string): MPProfile | undefined {
     const stateName = mp.state.toLowerCase();
 
     // Check full name or constituency
-    if (raw.includes(name) || name.includes(clean) || raw.includes(constName) || constName.includes(clean)) {
+    if (raw.includes(name) || raw.includes(constName)) {
+      return mp;
+    }
+    if (clean.length >= 4 && (name.includes(clean) || constName.includes(clean))) {
       return mp;
     }
 
     // Check individual name parts (e.g. "tharoor", "owaisi", "modi", "rahul", "akhilesh", "dimple", "kangana", "gadkari", "birla", "paswan", "govil", "pathan", "kanimozhi", "sule")
     const nameParts = name.split(" ");
     for (const part of nameParts) {
-      if (part.length > 2 && clean.includes(part)) {
+      if (part.length >= 4 && clean.includes(part)) {
         return mp;
       }
     }

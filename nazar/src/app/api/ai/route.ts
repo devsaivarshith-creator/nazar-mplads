@@ -14,8 +14,12 @@ export async function GET() {
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { action, prompt, context, question, contextData, params } = body;
+    let { action, prompt, context, question, contextData, params } = body;
     const provider = getAIProvider();
+
+    if (!action && (body.query || body.messages || body.prompt || body.question)) {
+      action = "chat";
+    }
 
     if (action === "chat") {
       const messages = body.messages || [];
@@ -24,7 +28,21 @@ export async function POST(req: Request) {
       const { get360MPIntelligenceAsync, generateGroundedConversationalReply } = await import("@/lib/services/mpIntelligenceService");
 
       // Check if user is asking a follow-up about the active MP, or inquiring about a new MP
-      const activeCandidateMP = body.mpProfile;
+      let activeCandidateMP = body.mpProfile;
+      if (!activeCandidateMP && Array.isArray(messages) && messages.length > 0) {
+        const { findMPByQuery } = await import("@/lib/data/allIndiaMPsData");
+        // Search previous messages (skipping the current question at the end)
+        const startIndex = messages.length > 1 ? messages.length - 2 : 0;
+        for (let i = startIndex; i >= 0; i--) {
+          const msgContent = messages[i]?.content || messages[i]?.text || "";
+          const found = findMPByQuery(msgContent);
+          if (found) {
+            activeCandidateMP = found;
+            break;
+          }
+        }
+      }
+
       const lowerQuery = userMessage.toLowerCase().trim();
 
       const isFollowUp = activeCandidateMP && (
@@ -50,6 +68,10 @@ export async function POST(req: Request) {
         lowerQuery.includes("background") ||
         lowerQuery.includes("who is he") ||
         lowerQuery.includes("who is she") ||
+        lowerQuery.includes("she") ||
+        lowerQuery.includes("he") ||
+        lowerQuery.includes("her") ||
+        lowerQuery.includes("his") ||
         lowerQuery.includes("tell me more") ||
         lowerQuery.includes("more details") ||
         lowerQuery.includes("controvers") ||
