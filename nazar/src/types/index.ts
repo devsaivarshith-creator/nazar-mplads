@@ -242,6 +242,38 @@ export interface MPProfile {
   key_priorities: string[];
   observations_summary: string;
   avatar_initials: string;
+  attendance_rate?: number;
+  debates_count?: number;
+  questions_count?: number;
+  private_member_bills?: number;
+  education?: string;
+  profession?: string;
+  assets_declared?: number;
+  criminal_cases?: number;
+  wikipedia_url?: string;
+  sansad_url?: string;
+  prs_url?: string;
+}
+
+export interface MPWebSearchIntelligence {
+  parliamentary_stats: {
+    attendance: number;
+    debates: number;
+    questions: number;
+    bills: number;
+  };
+  affidavit_disclosures: {
+    education: string;
+    profession: string;
+    assets: number;
+    criminal_cases: number;
+  };
+  sources: {
+    title: string;
+    url: string;
+    category: "Parliamentary" | "Affidavit" | "Gazette" | "Encyclopedia" | "News";
+    snippet: string;
+  }[];
 }
 
 export interface MPDelayedProject {
