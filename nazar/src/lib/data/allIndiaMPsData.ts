@@ -1,4 +1,4 @@
-import { MPProfile } from "@/types";
+﻿import { MPProfile } from "@/types";
 
 // NAZAR All-India MP Database — 18th Lok Sabha (2024-2029)
 // Sources: ECI 2024 Election Results, Wikipedia 18th Lok Sabha list, PRS Legislative Research
@@ -6,15 +6,15 @@ import { MPProfile } from "@/types";
 // Real utilization data scraped via NAZAR ingestion pipeline (ingestion/scrape_full_mplads.py)
 
 export const ALL_INDIA_MPS: MPProfile[] = [
-  // 1. Bishnu Pada Ray (BJP - ﻿Andaman and Nicobar Islands, India)
+  // 1. Bishnu Pada Ray (BJP - Andaman and Nicobar Islands)
   {
     id: "MP-IND-﻿AN-000",
     name: "Bishnu Pada Ray",
     party: "BJP",
     party_color: "#FF9933",
     house: "Lok Sabha",
-    state: "India",
-    constituency: "﻿Andaman and Nicobar Islands",
+    state: "Andaman & Nicobar Islands",
+    constituency: "Andaman and Nicobar Islands",
     term: "18th Lok Sabha (1st Term)",
     attendance_rate: 98,
     debates_count: 207,
@@ -1338,7 +1338,7 @@ export const ALL_INDIA_MPS: MPProfile[] = [
     party: "BJP",
     party_color: "#FF9933",
     house: "Lok Sabha",
-    state: "India",
+    state: "Andaman & Nicobar Islands",
     constituency: "Darrang--“Udalguri",
     term: "18th Lok Sabha (1st Term)",
     attendance_rate: 71,
@@ -6161,7 +6161,7 @@ export const ALL_INDIA_MPS: MPProfile[] = [
     party: "BJP",
     party_color: "#FF9933",
     house: "Lok Sabha",
-    state: "India",
+    state: "Andaman & Nicobar Islands",
     constituency: "Anantnag--“Rajouri",
     term: "18th Lok Sabha (1st Term)",
     attendance_rate: 84,
@@ -10242,7 +10242,7 @@ export const ALL_INDIA_MPS: MPProfile[] = [
     party: "BJP",
     party_color: "#FF9933",
     house: "Lok Sabha",
-    state: "India",
+    state: "Andaman & Nicobar Islands",
     constituency: "Bhandara--“Gondiya",
     term: "18th Lok Sabha (1st Term)",
     attendance_rate: 66,
@@ -10348,7 +10348,7 @@ export const ALL_INDIA_MPS: MPProfile[] = [
     party: "BJP",
     party_color: "#FF9933",
     house: "Lok Sabha",
-    state: "India",
+    state: "Andaman & Nicobar Islands",
     constituency: "Yavatmal--“Washim",
     term: "18th Lok Sabha (1st Term)",
     attendance_rate: 80,
@@ -13952,7 +13952,7 @@ export const ALL_INDIA_MPS: MPProfile[] = [
     party: "BJP",
     party_color: "#FF9933",
     house: "Lok Sabha",
-    state: "India",
+    state: "Andaman & Nicobar Islands",
     constituency: "Jhalawar--“Baran",
     term: "18th Lok Sabha (1st Term)",
     attendance_rate: 85,
@@ -19835,7 +19835,7 @@ export const ALL_INDIA_MPS: MPProfile[] = [
     party: "BJP",
     party_color: "#FF9933",
     house: "Lok Sabha",
-    state: "India",
+    state: "Andaman & Nicobar Islands",
     constituency: "Nainital--“Udhamsingh Nagar",
     term: "18th Lok Sabha (1st Term)",
     attendance_rate: 80,
@@ -21372,7 +21372,7 @@ export const ALL_INDIA_MPS: MPProfile[] = [
     party: "BJP",
     party_color: "#FF9933",
     house: "Lok Sabha",
-    state: "India",
+    state: "Andaman & Nicobar Islands",
     constituency: "Bardhaman--“Durgapur",
     term: "18th Lok Sabha (1st Term)",
     attendance_rate: 84,
