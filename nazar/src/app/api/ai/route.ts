@@ -21,9 +21,50 @@ export async function POST(req: Request) {
       const messages = body.messages || [];
       const userMessage = body.query || body.question || (messages[messages.length - 1]?.content) || "";
       
-      const { get360MPIntelligence } = await import("@/lib/services/mpIntelligenceService");
-      const intel = get360MPIntelligence(userMessage);
-      const mpProfile = body.mpProfile || intel.mp;
+      const { get360MPIntelligenceAsync, generateGroundedConversationalReply } = await import("@/lib/services/mpIntelligenceService");
+
+      // Check if user is asking a follow-up about the active MP, or inquiring about a new MP
+      const activeCandidateMP = body.mpProfile;
+      const lowerQuery = userMessage.toLowerCase().trim();
+
+      const isFollowUp = activeCandidateMP && (
+        lowerQuery.includes("delayed") ||
+        lowerQuery.includes("work") ||
+        lowerQuery.includes("project") ||
+        lowerQuery.includes("criminal") ||
+        lowerQuery.includes("case") ||
+        lowerQuery.includes("court") ||
+        lowerQuery.includes("affidavit") ||
+        lowerQuery.includes("education") ||
+        lowerQuery.includes("degree") ||
+        lowerQuery.includes("college") ||
+        lowerQuery.includes("attendance") ||
+        lowerQuery.includes("debate") ||
+        lowerQuery.includes("question") ||
+        lowerQuery.includes("bill") ||
+        lowerQuery.includes("asset") ||
+        lowerQuery.includes("wealth") ||
+        lowerQuery.includes("money") ||
+        lowerQuery.includes("worth") ||
+        lowerQuery.includes("rich") ||
+        lowerQuery.includes("background") ||
+        lowerQuery.includes("who is he") ||
+        lowerQuery.includes("who is she") ||
+        lowerQuery.includes("tell me more") ||
+        lowerQuery.includes("more details") ||
+        lowerQuery.includes("controvers") ||
+        lowerQuery.includes("career") ||
+        lowerQuery.includes("priority") ||
+        lowerQuery.includes("expenditure") ||
+        lowerQuery.includes("fund") ||
+        lowerQuery.includes("spent")
+      );
+
+      const targetQuery = (isFollowUp && activeCandidateMP?.name) ? activeCandidateMP.name : userMessage;
+      
+      // Run async live web search across Wikipedia, DDG, Sansad, PRS, and ADR
+      const intel = await get360MPIntelligenceAsync(targetQuery);
+      const mpProfile = intel.mp;
 
       // Deep multi-source grounding context
       const systemContext = `You are NAZAR's conversational public data investigator and AI copilot.
@@ -48,16 +89,17 @@ CURRENT SUBJECT MP 360° INTELLIGENCE:
 • Observations: ${mpProfile.observations_summary}`;
 
       let answer = "";
-      let sources = intel.web_evidence_sources.map(s => `${s.source_name} (${s.source_type})`);
+      const sources = intel.web_evidence_sources.map(s => `${s.source_name} (${s.source_type})`);
 
       // Try Gemini via provider
       try {
         const result = await provider.answerQuestion(userMessage, {
           systemContext,
+          intel,
           mpProfile,
           conversationHistory: messages
         });
-        if (result?.answer && result.answer.length > 30) {
+        if (result?.answer && result.answer.length > 50) {
           answer = result.answer;
         }
       } catch (err) {
@@ -66,13 +108,18 @@ CURRENT SUBJECT MP 360° INTELLIGENCE:
 
       if (!answer) {
         // High quality grounded synthesis from 360 MP service
-        answer = intel.ai_summary;
+        answer = generateGroundedConversationalReply({
+          query: userMessage,
+          intel,
+          conversationHistory: messages
+        });
       }
 
       return NextResponse.json({
         success: true,
         reply: answer,
         sources,
+        webSources: intel.web_evidence_sources,
         mpProfile,
         mp360: intel,
         delayedWorks: intel.mplads_lifecycle.delayed_projects_sample,
@@ -82,8 +129,8 @@ CURRENT SUBJECT MP 360° INTELLIGENCE:
 
     if (action === "dossier") {
       const { mpProfile, query } = body;
-      const { get360MPIntelligence } = await import("@/lib/services/mpIntelligenceService");
-      const intel = get360MPIntelligence(query || mpProfile?.name || "Asaduddin Owaisi");
+      const { get360MPIntelligenceAsync } = await import("@/lib/services/mpIntelligenceService");
+      const intel = await get360MPIntelligenceAsync(query || mpProfile?.name || "Asaduddin Owaisi");
       const targetMP = mpProfile || intel.mp;
       const { generateDossierForMP } = await import("@/lib/data/mpsData");
       

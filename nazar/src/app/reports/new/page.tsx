@@ -64,7 +64,16 @@ function ReportNewContent() {
         } else {
           clearInterval(interval);
           setTimeout(() => {
-            router.push("/reports/REP-HYD-2024");
+            const cleanTarget = scopeName.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-");
+            if (cleanTarget.includes("hyderabad")) {
+              router.push("/reports/REP-HYD-2024");
+            } else if (cleanTarget.includes("varanasi") || cleanTarget.includes("modi")) {
+              router.push("/reports/REP-VAR-2024");
+            } else if (cleanTarget.includes("rae-bareli") || cleanTarget.includes("rahul")) {
+              router.push("/reports/REP-RBL-2024");
+            } else {
+              router.push(`/reports/REP-${cleanTarget || "custom"}-2024`);
+            }
           }, 800);
           return prev;
         }

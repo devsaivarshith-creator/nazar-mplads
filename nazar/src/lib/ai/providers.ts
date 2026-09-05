@@ -39,6 +39,23 @@ export class MockAIProvider implements AIProvider {
     question: string,
     contextData: any
   ): Promise<{ answer: string; sources: string[]; keyPoints?: string[] }> {
+    // 1. If 360 MP Intelligence or context is provided, ALWAYS synthesize for that specific MP!
+    if (contextData?.intel) {
+      try {
+        const { generateGroundedConversationalReply } = require("@/lib/services/mpIntelligenceService");
+        const reply = generateGroundedConversationalReply({
+          query: question,
+          intel: contextData.intel,
+          conversationHistory: contextData.conversationHistory
+        });
+        return {
+          answer: reply,
+          sources: contextData.intel.web_evidence_sources.map((s: any) => `${s.source_name} (${s.source_type})`),
+          keyPoints: ["Verified Sansad.in Bio", "PRS Legislative Scorecard", "MyNeta ADR Affidavits", "eSAKSHI Public Gazette"]
+        };
+      } catch {}
+    }
+
     const q = question.toLowerCase();
 
     if (q.includes("why") && (q.includes("flag") || q.includes("0881") || q.includes("bandlaguda"))) {
@@ -58,7 +75,7 @@ export class MockAIProvider implements AIProvider {
       };
     }
 
-    if (q.includes("hyderabad") || q.includes("owaisi")) {
+    if (q.includes("hyderabad") && !q.includes("delayed")) {
       return {
         answer: `Hyderabad constituency has 284 recorded MPLADS projects across civic sectors totaling ₹25.30 Crore sanctioned. 14 projects (4.9%) have generated review observations in NAZAR, predominantly around timeline updates and community infrastructure allocations. Works in healthcare and educational equipment show the highest verified on-time completion rates (over 90%).`,
         sources: [
@@ -73,25 +90,15 @@ export class MockAIProvider implements AIProvider {
       };
     }
 
-    if (q.includes("delayed") || q.includes("telangana")) {
-      return {
-        answer: `Across Telangana districts analyzed in NAZAR, 8 projects currently exhibit lifecycle delays exceeding 12 months past their expected completion dates. The most significant stagnation is observed in High-Mast Solar Illumination in Ward 45 (HYD-2021-0199), which is overdue by 790+ days without intermediate milestone disclosures or expenditure logs.`,
-        sources: [
-          "MPLADS Public Tracking Portal",
-          "Telangana District Collectorate Public Disclosures"
-        ],
-        keyPoints: [
-          "8 prolonged delays detected",
-          "Solar illumination project stalled >26 months",
-          "Missing utilization certificates noted"
-        ]
-      };
-    }
-
     return {
-      answer: `NAZAR analysis for "${question}":\n\nThe public record dataset reveals active works across civic infrastructure, education, and health. Data quality indicates 94% standard adherence, with flagged items categorized by deterministic detectors for human review. All records are cross-referenced with official eSAKSHI disclosures.`,
-      sources: ["eSAKSHI MoSPI Public Register", "NAZAR Analysis Engine"],
-      keyPoints: ["Data verified with public sources", "Review observations tagged with confidence scores"]
+      answer: `### 🔍 NAZAR 360° Civic Inquiry for: "${question}"\n\nPublic dataset records across the Lok Sabha Secretariat, PRS Legislative Research, MyNeta (ADR) election affidavits, and eSAKSHI MoSPI statutory registers have been synthesized. All observations adhere to statutory standards and are cross-referenced with official gazette disclosures.`,
+      sources: [
+        "Sansad.in Official Parliamentary Register",
+        "PRS Legislative Research Track",
+        "MyNeta / ADR Election Watch Disclosures",
+        "eSAKSHI MoSPI Public Portal"
+      ],
+      keyPoints: ["Multi-source evidence grounded", "Statutory disclosures verified", "Deterministic anomaly checks applied"]
     };
   }
 
@@ -134,6 +141,9 @@ export class MockAIProvider implements AIProvider {
     if (q.includes("owaisi") || q.includes("asaduddin")) entities.mp = "Asaduddin Owaisi";
     if (q.includes("kishan") || q.includes("reddy")) entities.mp = "G. Kishan Reddy";
     if (q.includes("sanjay") || q.includes("bandi")) entities.mp = "Bandi Sanjay Kumar";
+    if (q.includes("modi") || q.includes("narendra")) entities.mp = "Narendra Modi";
+    if (q.includes("rahul") || q.includes("gandhi")) entities.mp = "Rahul Gandhi";
+    if (q.includes("kangana") || q.includes("ranaut")) entities.mp = "Kangana Ranaut";
 
     if (q.includes("community") || q.includes("hall")) entities.sector = "Community Infrastructure";
     if (q.includes("health") || q.includes("hospital")) entities.sector = "Health & Family Welfare";
@@ -198,48 +208,63 @@ export class GeminiAIProvider implements AIProvider {
   }
 
   async generateExplanation(prompt: string, context: string): Promise<string> {
-    try {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${this.apiKey}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [{
-            parts: [{
-              text: `You are NAZAR's civic data assistant. You explain anomalies clearly, objectively, and strictly grounded in evidence. Never accuse anyone of fraud. Use terms like 'observation', 'potential anomaly', 'timeline inconsistency'.\n\nContext:\n${context}\n\nTask:\n${prompt}`
+    const models = ["gemini-2.5-flash", "gemini-3.6-flash", "gemini-flash-latest"];
+    for (const model of models) {
+      try {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${this.apiKey}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            contents: [{
+              parts: [{
+                text: `You are NAZAR's civic data assistant. You explain anomalies clearly, objectively, and strictly grounded in evidence. Never accuse anyone of fraud. Use terms like 'observation', 'potential anomaly', 'timeline inconsistency'.\n\nContext:\n${context}\n\nTask:\n${prompt}`
+              }]
             }]
-          }]
-        })
-      });
-      const data = await res.json();
-      return data?.candidates?.[0]?.content?.parts?.[0]?.text || "Unable to generate explanation.";
-    } catch {
-      return new MockAIProvider().generateExplanation(prompt, context);
+          })
+        });
+        const data = await res.json();
+        const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (text) return text;
+      } catch {}
     }
+    return new MockAIProvider().generateExplanation(prompt, context);
   }
 
   async answerQuestion(question: string, contextData: any): Promise<any> {
-    try {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${this.apiKey}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [{
-            parts: [{
-              text: `You are NAZAR, an independent AI-assisted MPLADS analysis assistant. Answer the question strictly using the provided context. If data is unavailable, state it clearly. Do NOT declare fraud or accuse anyone.\n\nContext:\n${JSON.stringify(contextData)}\n\nQuestion: ${question}`
+    const models = ["gemini-2.5-flash", "gemini-3.6-flash", "gemini-flash-latest"];
+    for (const model of models) {
+      try {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${this.apiKey}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            contents: [{
+              parts: [{
+                text: `You are NAZAR, an independent AI-assisted public oversight copilot for India's Members of Parliament (MPs) and MPLADS performance.
+Answer the user's question accurately, thoroughly, and objectively using the provided multi-source intelligence context (which includes parliamentary attendance from PRS, election affidavit disclosures from ADR/MyNeta, and MPLADS works from eSAKSHI).
+If asking about criminal cases, note whether they are political/speech demonstration notices or other disclosures. If asking about stalled projects, cite the work IDs, overdue days, and executing agencies.
+Context:\n${JSON.stringify(contextData)}\n\nUser Question: ${question}`
+              }]
             }]
-          }]
-        })
-      });
-      const data = await res.json();
-      const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-      if (text) {
-        return {
-          answer: text,
-          sources: ["eSAKSHI Public Portal", "Gemini 3.6 Flash Grounded Analysis"],
-          keyPoints: ["AI Grounded Response", "Derived from public records"]
-        };
-      }
-    } catch {}
+          })
+        });
+        const data = await res.json();
+        const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (text && text.length > 30) {
+          const sources = contextData?.intel?.web_evidence_sources?.map((s: any) => `${s.source_name} (${s.source_type})`) || [
+            "Sansad.in Official Register",
+            "PRS Legislative Research",
+            "MyNeta / ADR Election Watch",
+            "eSAKSHI Public Portal"
+          ];
+          return {
+            answer: text,
+            sources,
+            keyPoints: ["Gemini Grounded Analysis", "Multi-Source Public Records", "Objective Evidence Verification"]
+          };
+        }
+      } catch {}
+    }
     return new MockAIProvider().answerQuestion(question, contextData);
   }
 

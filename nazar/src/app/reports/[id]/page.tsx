@@ -16,7 +16,7 @@ import {
   Calendar,
   Building,
 } from "lucide-react";
-import { MOCK_PREPARED_REPORTS } from "@/lib/data/mockData";
+import { MOCK_PREPARED_REPORTS, generateDynamicReport } from "@/lib/data/mockData";
 import { formatDate } from "@/lib/utils";
 import { GeneratedReport, ReportSection } from "@/types";
 
@@ -29,8 +29,8 @@ export default function ReportDetailPage({
   const reportId = resolvedParams.id;
 
   const initialReport =
-    MOCK_PREPARED_REPORTS.find((r) => r.id === reportId) ||
-    MOCK_PREPARED_REPORTS[0];
+    MOCK_PREPARED_REPORTS.find((r) => r.id.toLowerCase() === reportId.toLowerCase()) ||
+    generateDynamicReport(reportId);
 
   const [report, setReport] = useState<GeneratedReport>(initialReport);
   const [editingSectionId, setEditingSectionId] = useState<string | null>(null);

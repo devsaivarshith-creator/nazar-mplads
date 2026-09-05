@@ -476,5 +476,172 @@ export const MOCK_PREPARED_REPORTS: GeneratedReport[] = [
         sources: ["Civic Review Protocol"],
       }
     ]
+  },
+  {
+    id: "REP-VAR-2024",
+    title: "Implementation & Anomaly Review: Varanasi Parliamentary Constituency (Narendra Modi)",
+    scope_type: "Constituency",
+    scope_name: "Varanasi, Uttar Pradesh",
+    period: "FY 2021-22 to FY 2023-24",
+    topics: ["Heritage Tourism", "Diagnostics & Healthcare", "Urban Infrastructure", "UC Submission Velocity"],
+    executive_summary: "Review of 184 works in Varanasi constituency under MP Narendra Modi. Fund expenditure efficiency stands at 98.6% (₹24.65 Cr disbursed out of ₹25.00 Cr sanctioned). Focus is concentrated in ghat illumination, heritage public amenities, and diagnostic health center modernization.",
+    status: "finalized",
+    created_at: "2025-01-18T10:00:00Z",
+    project_count: 184,
+    flagged_count: 1,
+    total_expenditure: 246500000,
+    limitations: ["Relying exclusively on MoSPI eSAKSHI gazette disclosures."],
+    sources: [
+      {
+        title: "eSAKSHI Public Project Register (Varanasi)",
+        url: "https://mplads.gov.in/public/works/UP-VAR",
+        type: "Official Government Portal",
+        retrieved_at: "2025-01-15"
+      }
+    ],
+    sections: [
+      {
+        id: "sec-1",
+        title: "1. Executive Summary & Delivery Velocity",
+        content: "Sanctioned allocations of ₹25.00 Cr demonstrate rapid expenditure deployment (98.6% utilization), with 176 completed projects and only 1 work flagged with milestone delay.",
+        metrics: [
+          { label: "Total Sanctioned", value: "₹25.00 Cr" },
+          { label: "Reported Expenditure", value: "₹24.65 Cr" },
+          { label: "Utilization Rate", value: "98.6%" },
+          { label: "Works Completed", value: "176 / 184" }
+        ],
+        sources: ["eSAKSHI Portal"]
+      },
+      {
+        id: "sec-2",
+        title: "2. Sectoral Allocation Matrix",
+        content: "Heritage & Tourism commands 36.8%, Healthcare Diagnostics 27.2%, Urban Infrastructure 19.2%.",
+        sources: ["eSAKSHI Portal"]
+      }
+    ]
+  },
+  {
+    id: "REP-RBL-2024",
+    title: "Implementation & Anomaly Review: Rae Bareli Parliamentary Constituency (Rahul Gandhi)",
+    scope_type: "Constituency",
+    scope_name: "Rae Bareli, Uttar Pradesh",
+    period: "FY 2021-22 to FY 2023-24",
+    topics: ["Rural Connectivity", "Tubewell Irrigation", "Drinking Water", "Measurement Discrepancies"],
+    executive_summary: "Assessment of 202 sanctioned projects in Rae Bareli constituency under MP Rahul Gandhi. Total expenditure utilization stands at 75.0% (₹18.75 Cr expended). 16 rural works have exceeded scheduled completion milestones with contractor measurement notices flagged in 2 mandals.",
+    status: "finalized",
+    created_at: "2025-01-20T10:00:00Z",
+    project_count: 202,
+    flagged_count: 16,
+    total_expenditure: 187500000,
+    limitations: ["Relying exclusively on MoSPI eSAKSHI gazette disclosures."],
+    sources: [
+      {
+        title: "eSAKSHI Public Project Register (Rae Bareli)",
+        url: "https://mplads.gov.in/public/works/UP-RBL",
+        type: "Official Government Portal",
+        retrieved_at: "2025-01-18"
+      }
+    ],
+    sections: [
+      {
+        id: "sec-1",
+        title: "1. Executive Summary & Delivery Velocity",
+        content: "Out of ₹25.00 Cr sanctioned, ₹18.75 Cr has been expended across rural roads and drinking water plants. 16 works show overdue status beyond 180 days.",
+        metrics: [
+          { label: "Total Sanctioned", value: "₹25.00 Cr" },
+          { label: "Reported Expenditure", value: "₹18.75 Cr" },
+          { label: "Utilization Rate", value: "75.0%" },
+          { label: "Delayed Works", value: "16 Projects" }
+        ],
+        sources: ["eSAKSHI Portal"]
+      },
+      {
+        id: "sec-2",
+        title: "2. Sectoral Allocation Matrix",
+        content: "Rural Connectivity commands 39.2%, Irrigation & Tubewells 21.6%, Drinking Water 19.2%.",
+        sources: ["eSAKSHI Portal"]
+      }
+    ]
   }
 ];
+
+export function generateDynamicReport(scopeOrId: string): GeneratedReport {
+  const clean = scopeOrId.replace(/^REP-/i, "").replace(/-/g, " ").trim();
+  const { findMPByQuery, resolveAnyMP } = require("@/lib/data/allIndiaMPsData");
+  const mp = findMPByQuery(clean) || resolveAnyMP(clean);
+  const unspent = mp.sanctioned_amount - mp.expenditure_amount;
+  const unspentCr = (unspent / 10000000).toFixed(2);
+  const sanctionedCr = (mp.sanctioned_amount / 10000000).toFixed(2);
+  const expendedCr = (mp.expenditure_amount / 10000000).toFixed(2);
+
+  return {
+    id: `REP-${mp.id.replace(/[^a-zA-Z0-9]/g, "").slice(0, 10)}-2024`,
+    title: `Implementation & Anomaly Review: ${mp.constituency} (${mp.name})`,
+    scope_type: "Constituency",
+    scope_name: `${mp.constituency}, ${mp.state}`,
+    period: "FY 2021-22 to FY 2023-24",
+    topics: ["Project Implementation", "Financial Benchmarking", "Lifecycle Delays", "Civic Asset Verification"],
+    executive_summary: `This report analyzes ${mp.total_works_sanctioned} MPLADS works under MP ${mp.name} (${mp.party}) in ${mp.constituency}, ${mp.state}. Overall fund utilization stands at ${mp.utilization_rate}%. NAZAR identified ${mp.delayed_works} projects exceeding statutory completion deadlines and ${mp.flagged_observations} observations requiring administrative review.`,
+    status: "finalized",
+    created_at: new Date().toISOString(),
+    project_count: mp.total_works_sanctioned,
+    flagged_count: mp.delayed_works + mp.flagged_observations,
+    total_expenditure: mp.expenditure_amount,
+    limitations: [
+      "Analysis relies solely on publicly accessible eSAKSHI portal disclosures.",
+      "Cost variances may reflect legitimate site topography, material logistics, or geographical conditions.",
+      "NAZAR observations constitute administrative triage flags, not legal determinations."
+    ],
+    sources: [
+      {
+        title: `eSAKSHI Public Project Register (${mp.constituency})`,
+        url: `https://mplads.gov.in/esakshi/constituency/${encodeURIComponent(mp.constituency.toLowerCase())}`,
+        type: "Official Government Portal",
+        retrieved_at: new Date().toISOString().split("T")[0]
+      },
+      {
+        title: `Lok Sabha Sansad Portal Profile (${mp.name})`,
+        url: mp.sansad_url || "https://sansad.in",
+        type: "Official Parliamentary Bio",
+        retrieved_at: new Date().toISOString().split("T")[0]
+      }
+    ],
+    sections: [
+      {
+        id: "sec-1",
+        title: "1. Executive Summary & Statutory Overview",
+        content: `In ${mp.constituency} (${mp.state}), developmental sanctions total ₹${sanctionedCr} Cr across ${mp.total_works_sanctioned} community works. Recorded ground expenditure stands at ₹${expendedCr} Cr, leaving an unspent allocation balance of ₹${unspentCr} Cr. ${mp.delayed_works} projects have exceeded scheduled target completion dates.`,
+        metrics: [
+          { label: "Total Sanctioned", value: `₹${sanctionedCr} Cr` },
+          { label: "Reported Expenditure", value: `₹${expendedCr} Cr` },
+          { label: "Utilization Rate", value: `${mp.utilization_rate}%` },
+          { label: "Delayed Works Flagged", value: `${mp.delayed_works}` }
+        ],
+        sources: ["eSAKSHI Public Portal", "Lok Sabha Secretariat"]
+      },
+      {
+        id: "sec-2",
+        title: "2. Sectoral Allocation Breakdown",
+        content: `Expenditures in ${mp.constituency} have prioritized ${mp.top_sectors.map((s: any) => `${s.sector} (${s.percentage}%)`).join(", ")}.`,
+        data_table: {
+          headers: ["Sector", "Projects", "Sanctioned (₹)", "Share %"],
+          rows: mp.top_sectors.map((s: any) => [s.sector, s.count, `₹${(s.amount / 10000000).toFixed(2)} Cr`, `${s.percentage}%`])
+        },
+        sources: ["eSAKSHI Public Portal"]
+      },
+      {
+        id: "sec-3",
+        title: "3. Delayed & Stalled Projects Requiring Administrative Scrutiny",
+        content: `${mp.observations_summary} NAZAR recommends nodal inspection of ongoing works executed by ${mp.implementing_agencies.join(", ")}.`,
+        sources: ["NAZAR Lifecycle Detector", "eSAKSHI Disclosures"]
+      },
+      {
+        id: "sec-4",
+        title: "4. Recommended Administrative Actions",
+        content: `1. Reconcile entry timestamps and progress percentages in the district MIS.\n2. Review contractor billing and measurement books for works overdue beyond 180 days.\n3. Expedite physical site verification for community assets in high-density wards.\n4. Ensure compliance with quarterly Utilization Certificate (UC) submission guidelines.`,
+        sources: ["Civic Oversight Protocol"]
+      }
+    ]
+  };
+}
+
