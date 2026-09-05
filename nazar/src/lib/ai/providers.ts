@@ -199,7 +199,7 @@ export class GeminiAIProvider implements AIProvider {
 
   async generateExplanation(prompt: string, context: string): Promise<string> {
     try {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${this.apiKey}`, {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${this.apiKey}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -219,7 +219,7 @@ export class GeminiAIProvider implements AIProvider {
 
   async answerQuestion(question: string, contextData: any): Promise<any> {
     try {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${this.apiKey}`, {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${this.apiKey}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -235,7 +235,7 @@ export class GeminiAIProvider implements AIProvider {
       if (text) {
         return {
           answer: text,
-          sources: ["eSAKSHI Public Portal", "Gemini Grounded Analysis"],
+          sources: ["eSAKSHI Public Portal", "Gemini 3.6 Flash Grounded Analysis"],
           keyPoints: ["AI Grounded Response", "Derived from public records"]
         };
       }
@@ -303,9 +303,9 @@ export class OpenAIAIProvider implements AIProvider {
 }
 
 export function getAIProvider(): AIProvider {
-  const providerType = (process.env.AI_PROVIDER || "mock").toLowerCase();
+  const providerType = (process.env.AI_PROVIDER || "").toLowerCase();
 
-  if (providerType === "gemini" && process.env.GEMINI_API_KEY) {
+  if ((providerType === "gemini" || !providerType) && process.env.GEMINI_API_KEY) {
     return new GeminiAIProvider(process.env.GEMINI_API_KEY);
   }
   if (providerType === "openai" && process.env.OPENAI_API_KEY) {

@@ -73,6 +73,27 @@ export default function HomePage() {
 
     // Check if it's an AI inquiry question ("why", "explain", "how many", "flagged")
     if (q.includes("why") || q.includes("explain") || q.includes("how") || q.includes("flag")) {
+      try {
+        const response = await fetch("/api/ai", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            action: "answer",
+            question: textToSearch,
+            contextData: { query: textToSearch, context: "MPLADS civic monitoring query" }
+          })
+        });
+        if (response.ok) {
+          const data = await response.json();
+          if (data.answer) {
+            setAiResponse(data);
+            setIsSearching(false);
+            return;
+          }
+        }
+      } catch (e) {
+        console.warn("Falling back to local AI provider:", e);
+      }
       const ai = new MockAIProvider();
       const res = await ai.answerQuestion(textToSearch, {});
       setAiResponse(res);

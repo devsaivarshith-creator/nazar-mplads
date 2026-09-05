@@ -66,6 +66,28 @@ export default function ProjectDetailPage({
 
   const handleAskNazar = async () => {
     setAiLoading(true);
+    try {
+      const response = await fetch("/api/ai", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          action: "answer",
+          question: `Why did NAZAR flag project ${project.id}?`,
+          contextData: { project, findings: project.findings }
+        })
+      });
+      if (response.ok) {
+        const data = await response.json();
+        if (data.answer) {
+          setAiExplanation(data);
+          setAiLoading(false);
+          setActiveTab("findings");
+          return;
+        }
+      }
+    } catch (e) {
+      console.warn("Falling back to local AI provider:", e);
+    }
     const ai = new MockAIProvider();
     const res = await ai.answerQuestion(
       `Why did NAZAR flag project ${project.id}?`,
