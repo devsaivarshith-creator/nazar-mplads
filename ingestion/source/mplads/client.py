@@ -58,7 +58,7 @@ class MospiMpladsClient:
         return self._post("getTilesData", {"uname": uname})
 
     def get_works(self, state_id: int, constituency_id: int, key: str = "Works Recommended") -> List[Dict[str, Any]]:
-        """Fetches individual work records for a constituency"""
+        """Fetches individual work records for a constituency under a specific category"""
         combo = f"{state_id},{constituency_id},0,2"
         raw_res = self._post("getTilesReportData", {"combo": combo, "key": key})
         
@@ -75,3 +75,57 @@ class MospiMpladsClient:
         elif isinstance(raw_res, list):
             return raw_res
         return []
+
+    def get_all_category_works(self, state_id: int, constituency_id: int) -> Dict[str, Any]:
+        """
+        Fetches all 4 work-level datasets from MoSPI eSAKSHI for a constituency:
+        - Works Recommended
+        - Works Sanctioned
+        - Works Completed
+        - Expenditure on Completed and On-going Works as on Date
+        Plus live summary tiles and MP metadata.
+        """
+        summary = self.get_tiles_summary(state_id, constituency_id)
+        
+        mp_info = None
+        try:
+            mp_res = self.get_mp(constituency_id)
+            if mp_res and len(mp_res) > 0:
+                mp_info = mp_res[0]
+        except Exception:
+            pass
+
+        categories = [
+            "Works Recommended",
+            "Works Sanctioned",
+            "Works Completed",
+            "Expenditure on Completed and On-going Works as on Date",
+        ]
+
+        results = {
+            "summary": summary,
+            "mp": mp_info,
+            "works_recommended": [],
+            "works_sanctioned": [],
+            "works_completed": [],
+            "expenditure_works": [],
+        }
+
+        for cat in categories:
+            try:
+                works = self.get_works(state_id, constituency_id, key=cat)
+                # Filter out summary row if present (e.g. Total row)
+                clean_works = [w for w in works if isinstance(w, dict) and ("WORK_RECOMMENDATION_DTL_ID" in w or "WORK_DESCRIPTION" in w)]
+                if cat == "Works Recommended":
+                    results["works_recommended"] = clean_works
+                elif cat == "Works Sanctioned":
+                    results["works_sanctioned"] = clean_works
+                elif cat == "Works Completed":
+                    results["works_completed"] = clean_works
+                elif cat == "Expenditure on Completed and On-going Works as on Date":
+                    results["expenditure_works"] = clean_works
+            except Exception as e:
+                logger.warning(f"Failed to fetch {cat} for state {state_id}, const {constituency_id}: {e}")
+
+        return results
+

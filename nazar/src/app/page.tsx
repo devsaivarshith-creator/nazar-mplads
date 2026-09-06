@@ -37,6 +37,7 @@ import {
   Scale,
   DollarSign,
   Landmark,
+  BarChart2,
 } from "lucide-react";
 import {
   findMPByQuery,
@@ -87,6 +88,7 @@ export default function HomePage() {
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [promptIndex, setPromptIndex] = useState(0);
+  const [searchHistory, setSearchHistory] = useState<string[]>([]);
 
   // Conversational AI Investigation Studio State
   const [conversationMode, setConversationMode] = useState(false);
@@ -95,6 +97,16 @@ export default function HomePage() {
   const [activeMP360, setActiveMP360] = useState<MP360Intelligence | null>(null);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [chatInput, setChatInput] = useState("");
+
+  useEffect(() => {
+    // Load search history from local storage on mount
+    const saved = localStorage.getItem("nazarSearchHistory");
+    if (saved) {
+      try {
+        setSearchHistory(JSON.parse(saved));
+      } catch (e) {}
+    }
+  }, []);
 
   // Investigation Dossier Modal State
   const [dossierModalOpen, setDossierModalOpen] = useState(false);
@@ -125,21 +137,40 @@ export default function HomePage() {
     const text = (initialQuery || query).trim();
     if (!text) return;
 
+    // Add to history
+    setSearchHistory(prev => {
+      const newHistory = [text, ...prev.filter(q => q !== text)].slice(0, 5);
+      localStorage.setItem("nazarSearchHistory", JSON.stringify(newHistory));
+      return newHistory;
+    });
+
     setConversationMode(true);
     setIsAiThinking(true);
 
     const { findMPByQuery, isGeneralQuery, isStateMPListQuery } = await import("@/lib/data/allIndiaMPsData");
-    const isGeneral = isGeneralQuery(text);
-    const isStateList = isStateMPListQuery(text).isStateList;
+    const isGeneral = isGeneralQuery ? isGeneralQuery(text) : false;
+    const isStateList = isStateMPListQuery ? isStateMPListQuery(text).isStateList : false;
 
     let resolvedMP: MPProfile | null = null;
     let intel: any = null;
 
     if (!isGeneral && !isStateList) {
-      intel = get360MPIntelligence(text);
-      resolvedMP = intel.mp;
-      setActiveMP(resolvedMP);
-      setActiveMP360(intel);
+      try {
+        const found = findMPByQuery(text);
+        if (found) {
+          intel = get360MPIntelligence(found.name);
+          resolvedMP = found;
+          setActiveMP(resolvedMP);
+          setActiveMP360(intel);
+        } else {
+          setActiveMP(null);
+          setActiveMP360(null);
+        }
+      } catch (err) {
+        console.warn("Could not resolve MP for query:", text, err);
+        setActiveMP(null);
+        setActiveMP360(null);
+      }
     } else {
       setActiveMP(null);
       setActiveMP360(null);
@@ -238,14 +269,27 @@ export default function HomePage() {
 
     if (explicitNewMP) {
       targetMP = explicitNewMP;
-      localIntel = get360MPIntelligence(explicitNewMP.name);
+      try {
+        localIntel = get360MPIntelligence(explicitNewMP.name);
+      } catch {}
       setActiveMP(targetMP);
       setActiveMP360(localIntel);
     } else if (isGeneral || isStateList) {
       targetMP = null;
     } else {
-      targetMP = activeMP || get360MPIntelligence(text).mp;
-      localIntel = activeMP360 || (targetMP ? get360MPIntelligence(targetMP.name) : null);
+      let candidateMP = activeMP;
+      if (!candidateMP) {
+        try {
+          const fallback = findMPByQuery(text);
+          if (fallback) candidateMP = fallback;
+        } catch {}
+      }
+      targetMP = candidateMP;
+      try {
+        localIntel = activeMP360 || (targetMP ? get360MPIntelligence(targetMP.name) : null);
+      } catch {
+        localIntel = null;
+      }
     }
 
     try {
@@ -639,6 +683,57 @@ ${activeDossier.recommendations.map((r: any, i: number) => `${i + 1}. ${r}`).joi
                       </div>
                     </div>
                   )}
+
+                  {/* Interactive Quick-Action Toolbar on AI Messages */}
+                  {msg.role === "assistant" && (
+                    <div className="pt-3 border-t border-[#eeebe1] flex flex-wrap items-center gap-1.5">
+                      <span className="text-[10px] uppercase font-bold text-neutral-400 tracking-wider">Quick Inquiries:</span>
+                      <button
+                        onClick={() => handleSendFollowUp("Show full financial velocity breakdown, unspent balance and sector allocations")}
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-amber-50/80 hover:bg-amber-100 text-amber-900 border border-amber-200/80 text-[11px] font-medium transition-all hover:scale-105 active:scale-95 shadow-3xs"
+                        title="Analyze MPLADS expenditure velocity"
+                      >
+                        <BarChart2 className="w-3 h-3 text-amber-700" />
+                        <span>Financial Velocity</span>
+                      </button>
+                      <button
+                        onClick={() => handleSendFollowUp("List all delayed and stalled projects with root causes, overdue days and executing agencies")}
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-rose-50/80 hover:bg-rose-100 text-rose-900 border border-rose-200/80 text-[11px] font-medium transition-all hover:scale-105 active:scale-95 shadow-3xs"
+                        title="Query overdue works"
+                      >
+                        <AlertTriangle className="w-3 h-3 text-rose-700" />
+                        <span>Delayed Works</span>
+                      </button>
+                      <button
+                        onClick={() => handleSendFollowUp("Show election affidavit disclosures on net assets, education and legal cases from ADR / MyNeta")}
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-blue-50/80 hover:bg-blue-100 text-blue-900 border border-blue-200/80 text-[11px] font-medium transition-all hover:scale-105 active:scale-95 shadow-3xs"
+                        title="Inspect ADR sworn affidavit"
+                      >
+                        <Scale className="w-3 h-3 text-blue-700" />
+                        <span>Affidavits (ADR)</span>
+                      </button>
+                      <button
+                        onClick={() => handleSendFollowUp("What is the PRS parliamentary performance including attendance percentage, debates participated and questions raised?")}
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-purple-50/80 hover:bg-purple-100 text-purple-900 border border-purple-200/80 text-[11px] font-medium transition-all hover:scale-105 active:scale-95 shadow-3xs"
+                        title="View PRS legislative performance"
+                      >
+                        <Building2 className="w-3 h-3 text-purple-700" />
+                        <span>PRS Scorecard</span>
+                      </button>
+                      <button
+                        onClick={() => {
+                          navigator.clipboard.writeText(msg.content);
+                          const btn = document.getElementById(`copy-btn-${msg.id}`);
+                          if (btn) btn.innerText = "Copied!";
+                          setTimeout(() => { if (btn) btn.innerText = "Copy"; }, 2000);
+                        }}
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-neutral-100 hover:bg-neutral-200 text-neutral-700 border border-neutral-200 text-[11px] font-medium transition-all ml-auto shadow-3xs"
+                      >
+                        <Copy className="w-3 h-3 text-neutral-500" />
+                        <span id={`copy-btn-${msg.id}`}>Copy</span>
+                      </button>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -844,6 +939,34 @@ ${activeDossier.recommendations.map((r: any, i: number) => `${i + 1}. ${r}`).joi
               <RotateCw className="w-3.5 h-3.5" />
             </button>
           </div>
+
+          {/* Search History */}
+          {searchHistory.length > 0 && (
+            <div className="flex flex-col items-center gap-2 pt-2">
+              <span className="text-[11px] font-bold tracking-[0.1em] uppercase text-[#8b95a1]">Recent Searches</span>
+              <div className="flex flex-wrap items-center justify-center gap-2 max-w-3xl mx-auto">
+                {searchHistory.map((historyItem, idx) => (
+                  <button
+                    key={`history-${idx}`}
+                    onClick={() => handleInitiateInvestigation(historyItem)}
+                    className="text-xs flex items-center gap-1.5 bg-neutral-100 text-[#475569] hover:text-[#1c2024] hover:bg-neutral-200 border border-neutral-200 px-3 py-1.5 rounded-full shadow-xs transition-all duration-150"
+                  >
+                    <Clock className="w-3 h-3" />
+                    <span>{historyItem.length > 30 ? historyItem.substring(0, 30) + "..." : historyItem}</span>
+                  </button>
+                ))}
+                <button
+                  onClick={() => {
+                    setSearchHistory([]);
+                    localStorage.removeItem("nazarSearchHistory");
+                  }}
+                  className="text-[10px] text-red-500 hover:text-red-700 underline underline-offset-2 ml-2"
+                >
+                  Clear
+                </button>
+              </div>
+            </div>
+          )}
 
           {/* OR EXPLORE BY Section */}
           <div className="pt-6 space-y-6">

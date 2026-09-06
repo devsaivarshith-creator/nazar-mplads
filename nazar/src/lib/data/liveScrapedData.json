@@ -1,425 +1,11 @@
 {
-  "scraped_at": "2026-09-05T08:18:07.340965Z",
+  "scraped_at": "2026-09-06T14:02:26.062013Z",
   "source_authority": "Ministry of Statistics and Programme Implementation (MoSPI) - eSAKSHI",
   "state": "Telangana",
   "constituency": "HYDERABAD",
   "total_records": 19,
-  "flagged_records": 3,
+  "flagged_records": 4,
   "projects": [
-    {
-      "id": "IN-MOSPI-200883",
-      "external_id": "eSAKSHI-200883",
-      "project_name": "Additional class room block in Ground Floor and 1st to Indira Priyadarshini Degree College, Nampally, Hyderabad",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Education",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 5600000.0,
-      "recommended_amount": 5600000.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2025-05-19",
-      "sanction_date": "2025-10-01",
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "200883",
-      "retrieved_at": "2026-09-05T08:18:07.340965Z",
-      "raw_record_hash": "sha256:0eed4875d3a13fedd7739a81ae40e4299b7e7cd4c15bd3d898460d2989791bb8",
-      "findings": [
-        {
-          "id": "FND-FIN-IN-MOSPI-200883",
-          "project_id": "IN-MOSPI-200883",
-          "title": "Peer Financial Outlier (8.89\u00d7 Sector Median)",
-          "category": "financial",
-          "severity": "medium",
-          "confidence": 88,
-          "description": "Sanctioned outlay of \u20b95,600,000 is 8.89\u00d7 above the peer median for Education in this constituency (Median: \u20b9630,000).",
-          "reason_code": "FIN_OUTLIER_PEER_2X",
-          "detector": "financial",
-          "detector_version": "3.1.2",
-          "status": "new",
-          "created_at": "2026-09-05T08:18:07.343281Z",
-          "evidence": {
-            "metric": "Sanctioned vs Peer Median",
-            "value": "\u20b95,600,000",
-            "peer_median": "\u20b9630,000",
-            "ratio": "8.89\u00d7",
-            "details": "Peer comparison calculated across 7 Education works in this public register."
-          }
-        }
-      ],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2025-05-19",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2025-2026/7 submitted to District Authority.",
-          "amount": 5600000.0
-        },
-        {
-          "event_type": "Sanction",
-          "date": "2025-10-01",
-          "title": "Administrative Sanction Accorded",
-          "description": "Work cleared for technical implementation by HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
-          "amount": 5600000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-200884",
-      "external_id": "eSAKSHI-200884",
-      "project_name": "Laying of 900mm dia and 600mm dia Np-3 pipe line and CC road restoration from H.No. 17-4-387, Ashoorkhana Hazrat-e-Ameer Muqtar to H.No. 17-4-313 A and bylanes in Matha Kidiki Nala, Yakutpura Assembly Constituency",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Roads, Pathways & Bridges",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 5656600.0,
-      "recommended_amount": 5656600.0,
-      "expenditure_amount": null,
-      "status": "In Progress",
-      "recommendation_date": "2025-05-19",
-      "sanction_date": "2025-07-11",
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "200884",
-      "retrieved_at": "2026-09-05T08:18:07.341219Z",
-      "raw_record_hash": "sha256:1a5f3529d86b2db4d15695cfcf7de2e5560b3eaa772731628d3798bca718cc2d",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2025-05-19",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2025-2026/7 submitted to District Authority.",
-          "amount": 5656600.0
-        },
-        {
-          "event_type": "Sanction",
-          "date": "2025-07-11",
-          "title": "Administrative Sanction Accorded",
-          "description": "Work cleared for technical implementation by HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
-          "amount": 5656600.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-200885",
-      "external_id": "eSAKSHI-200885",
-      "project_name": "Construction of Multipurpose Community Hall in 1sr Floor at Press Colony, Champapet in Yakutpura, Assembly Constituency",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Community Infrastructure",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 5120000.0,
-      "recommended_amount": 5120000.0,
-      "expenditure_amount": null,
-      "status": "In Progress",
-      "recommendation_date": "2025-05-19",
-      "sanction_date": "2025-07-11",
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "200885",
-      "retrieved_at": "2026-09-05T08:18:07.341382Z",
-      "raw_record_hash": "sha256:b4b82e746e05d722e7204714455452beee8be362f39093501b9dcee549cd9a2f",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2025-05-19",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2025-2026/7 submitted to District Authority.",
-          "amount": 5120000.0
-        },
-        {
-          "event_type": "Sanction",
-          "date": "2025-07-11",
-          "title": "Administrative Sanction Accorded",
-          "description": "Work cleared for technical implementation by HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
-          "amount": 5120000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-204399",
-      "external_id": "eSAKSHI-204399",
-      "project_name": "Providing of  Motorized Activa Tri Cycle to Handicap Person Mr. Mohd Moin Uddin Son of Mohd Burhan Uddin, N M Guda, Kishan Bagh, Hyderabad",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Other Public Assets",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 109585.0,
-      "recommended_amount": 109585.0,
-      "expenditure_amount": null,
-      "status": "In Progress",
-      "recommendation_date": "2025-05-29",
-      "sanction_date": "2025-07-11",
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "204399",
-      "retrieved_at": "2026-09-05T08:18:07.341568Z",
-      "raw_record_hash": "sha256:8cc07333df01515322a86a1ab0dd1e592ed8fe80da3921466501137a056ef27e",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2025-05-29",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2025-2026/8 submitted to District Authority.",
-          "amount": 109585.0
-        },
-        {
-          "event_type": "Sanction",
-          "date": "2025-07-11",
-          "title": "Administrative Sanction Accorded",
-          "description": "Work cleared for technical implementation by HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
-          "amount": 109585.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-223765",
-      "external_id": "eSAKSHI-223765",
-      "project_name": "Construction of Community hall at Gulshan Iqbal Colony under Chandrayangutta Assembly Constituency Uppuguda Division",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Community Infrastructure",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 2000000.0,
-      "recommended_amount": 2000000.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2025-07-31",
-      "sanction_date": "2025-10-10",
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "223765",
-      "retrieved_at": "2026-09-05T08:18:07.341711Z",
-      "raw_record_hash": "sha256:9449f57e3aa5a5ad2db4aa384a9a9b6c102621055f4fb567925cefe9fba42e42",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2025-07-31",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2025-2026/10 submitted to District Authority.",
-          "amount": 2000000.0
-        },
-        {
-          "event_type": "Sanction",
-          "date": "2025-10-10",
-          "title": "Administrative Sanction Accorded",
-          "description": "Work cleared for technical implementation by HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
-          "amount": 2000000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-239366",
-      "external_id": "eSAKSHI-239366",
-      "project_name": "Drilling of Power Bore Well at H.No.18-2-118 by A by 48 by 5, Beda Budaga Janam Colony, Jangammet, Bandlaguda, Hyderabad",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Drinking Water",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 630000.0,
-      "recommended_amount": 630000.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2025-10-01",
-      "sanction_date": null,
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "239366",
-      "retrieved_at": "2026-09-05T08:18:07.341811Z",
-      "raw_record_hash": "sha256:fb2c0c950887ac1d696aa6625b6d5c57531e94b888669ade23969898dc27cf6a",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2025-10-01",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2025-2026/11 submitted to District Authority.",
-          "amount": 630000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-239367",
-      "external_id": "eSAKSHI-239367",
-      "project_name": "Drilling of 6.5 dia power bore well at near Park, Kishan Bagh, Bahadurpura, Hyderabad",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Drinking Water",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 630000.0,
-      "recommended_amount": 630000.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2025-10-01",
-      "sanction_date": null,
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "239367",
-      "retrieved_at": "2026-09-05T08:18:07.341906Z",
-      "raw_record_hash": "sha256:42ad4d99facb9b91d9525082e3da5fe4c74165c5be5c606c33b06afa9a5a3550",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2025-10-01",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2025-2026/11 submitted to District Authority.",
-          "amount": 630000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-239391",
-      "external_id": "eSAKSHI-239391",
-      "project_name": "Laying of 600 mm dia RCC Np3 sewer main pipe line from Seven Heaven Hotel, Fish Market to Sulabh Complex under ADMHO Office, Kosalwadi, Gowliguda in Goshamahal Assembly Constituency",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Sanitation & Sewerage",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 12522210.0,
-      "recommended_amount": 12522210.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2025-10-02",
-      "sanction_date": null,
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "239391",
-      "retrieved_at": "2026-09-05T08:18:07.342001Z",
-      "raw_record_hash": "sha256:6e40cd8eb09ea9c93582666cfdd90684608f953e240ff8bb659df2698614ea5f",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2025-10-02",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2025-2026/12 submitted to District Authority.",
-          "amount": 12522210.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-269021",
-      "external_id": "eSAKSHI-269021",
-      "project_name": "Providing of Hearing Aid o Device (Rando 3 Sound Processor Device) for Right Ear to Master Syed Noman, son of Syed Akram aged about 14 years, H.No.18-12-419 by C by3247, Bandlaguda, Hyderabad",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Special Assistance",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 577000.0,
-      "recommended_amount": 577000.0,
-      "expenditure_amount": null,
-      "status": "In Progress",
-      "recommendation_date": "2026-02-17",
-      "sanction_date": "2026-03-07",
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "269021",
-      "retrieved_at": "2026-09-05T08:18:07.342144Z",
-      "raw_record_hash": "sha256:9f6c7c04e72b83baf73d3ec4824b012b38f91c0011ee2b87a32effce35c3595d",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2026-02-17",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2025-2026/13 submitted to District Authority.",
-          "amount": 577000.0
-        },
-        {
-          "event_type": "Sanction",
-          "date": "2026-03-07",
-          "title": "Administrative Sanction Accorded",
-          "description": "Work cleared for technical implementation by HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
-          "amount": 577000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-278876",
-      "external_id": "eSAKSHI-278876",
-      "project_name": "Drilling of power bore well at Girls Hostel, Nizam College, Hyderabad.",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Education",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 630000.0,
-      "recommended_amount": 630000.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2026-05-21",
-      "sanction_date": null,
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "278876",
-      "retrieved_at": "2026-09-05T08:18:07.342229Z",
-      "raw_record_hash": "sha256:371707fada28347726368c0cb6a7bc90f082da2a41cf5993c6ebebe17be41bb3",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2026-05-21",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/14 submitted to District Authority.",
-          "amount": 630000.0
-        }
-      ]
-    },
     {
       "id": "IN-MOSPI-278877",
       "external_id": "eSAKSHI-278877",
@@ -439,302 +25,24 @@
       "status": "Recommended",
       "recommendation_date": "2026-05-21",
       "sanction_date": null,
+      "completion_date": null,
       "source_system": "MoSPI eSAKSHI Public Portal",
       "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
       "source_record_id": "278877",
-      "retrieved_at": "2026-09-05T08:18:07.342315Z",
-      "raw_record_hash": "sha256:9b69b0201abcd5f21216e20b6027bd4ee4444765bf79b00f710d3f271e316df3",
+      "retrieved_at": "2026-09-06T14:02:26.049987Z",
+      "raw_record_hash": "sha256:41693da0fa634b19191a737399af8359b4c552c1e624399c7f20ec232082fe5f",
       "findings": [],
       "timeline_events": [
         {
           "event_type": "Recommendation",
           "date": "2026-05-21",
           "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/14 submitted to District Authority.",
+          "description": "Letter No: LN/MP762/2026-2027/14",
           "amount": 630000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-278878",
-      "external_id": "eSAKSHI-278878",
-      "project_name": "Drilling of Power Bore Well at beside Principal Office, Nizam College, Hyderabad.",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Education",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 630000.0,
-      "recommended_amount": 630000.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2026-05-21",
-      "sanction_date": null,
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "278878",
-      "retrieved_at": "2026-09-05T08:18:07.342394Z",
-      "raw_record_hash": "sha256:5e6bf8f1bc3353461e91a68d7c850df772fd0868dcbfb6026da5dac1b88d25eb",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2026-05-21",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/14 submitted to District Authority.",
-          "amount": 630000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-278879",
-      "external_id": "eSAKSHI-278879",
-      "project_name": "Drilling of Power Bore Well at Exam Branch, Nizam College, Hyderabad.",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Education",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 630000.0,
-      "recommended_amount": 630000.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2026-05-21",
-      "sanction_date": null,
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "278879",
-      "retrieved_at": "2026-09-05T08:18:07.342471Z",
-      "raw_record_hash": "sha256:761b5453d20fa7fbf79a0c38f33475daa9b1044d9d340196244956a9f9cf80b0",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2026-05-21",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/14 submitted to District Authority.",
-          "amount": 630000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-278880",
-      "external_id": "eSAKSHI-278880",
-      "project_name": "Drilling of Power Bore Well at beside basketball ground, Nizam College, Hyderabad.",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Education",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 630000.0,
-      "recommended_amount": 630000.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2026-05-21",
-      "sanction_date": null,
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "278880",
-      "retrieved_at": "2026-09-05T08:18:07.342548Z",
-      "raw_record_hash": "sha256:3da0283a6cbd4e08cffca657ad57c1cb15a00ea6e927b35d77d66312ee32136e",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2026-05-21",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/14 submitted to District Authority.",
-          "amount": 630000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-278881",
-      "external_id": "eSAKSHI-278881",
-      "project_name": "Drilling of Power Bore Well at Opposite Health Centre, Nizam College, Hyderabad.",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Health & Family Welfare",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 630000.0,
-      "recommended_amount": 630000.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2026-05-21",
-      "sanction_date": null,
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "278881",
-      "retrieved_at": "2026-09-05T08:18:07.342622Z",
-      "raw_record_hash": "sha256:aacc3d67552d45bf8bab1214c755b6037e3492091c089963cd5723c2475abba7",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2026-05-21",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/14 submitted to District Authority.",
-          "amount": 630000.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-280168",
-      "external_id": "eSAKSHI-280168",
-      "project_name": "Motorized Tri-Cycle Vehicle (TVS Jupiter) to Mr.Feroz Khan, son of Osman Khan, H No. 14-4-164, Begum Bazar Chand Tara Masjid, Hyderabad.",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Special Assistance",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 118500.0,
-      "recommended_amount": 118500.0,
-      "expenditure_amount": null,
-      "status": "In Progress",
-      "recommendation_date": "2026-05-21",
-      "sanction_date": "2026-06-23",
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "280168",
-      "retrieved_at": "2026-09-05T08:18:07.342791Z",
-      "raw_record_hash": "sha256:0b10e8b42e1b23fd4bc7d18de6fdd86344f8a300b36c933ecfba9ae921576859",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2026-05-21",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/15 submitted to District Authority.",
-          "amount": 118500.0
-        },
-        {
-          "event_type": "Sanction",
-          "date": "2026-06-23",
-          "title": "Administrative Sanction Accorded",
-          "description": "Work cleared for technical implementation by HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
-          "amount": 118500.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-280169",
-      "external_id": "eSAKSHI-280169",
-      "project_name": "Motorized tri cycle for Mr. Chintakindi Prakas Son of Late Ch. Ramulu H.No.18-3-496 by 31 by 1, Lasmi Nagar Aliabad, Hyderabad",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Other Public Assets",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 103387.0,
-      "recommended_amount": 103387.0,
-      "expenditure_amount": null,
-      "status": "In Progress",
-      "recommendation_date": "2026-05-21",
-      "sanction_date": "2026-06-23",
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "280169",
-      "retrieved_at": "2026-09-05T08:18:07.342947Z",
-      "raw_record_hash": "sha256:f7a4481d1ea097df55560217139f19752592a31048151726783f69e9319aaa0d",
-      "findings": [],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2026-05-21",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/15 submitted to District Authority.",
-          "amount": 103387.0
-        },
-        {
-          "event_type": "Sanction",
-          "date": "2026-06-23",
-          "title": "Administrative Sanction Accorded",
-          "description": "Work cleared for technical implementation by HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
-          "amount": 103387.0
-        }
-      ]
-    },
-    {
-      "id": "IN-MOSPI-305195",
-      "external_id": "eSAKSHI-305195",
-      "project_name": "Specialized vehicles and equipment for the fire stations in Hyderabad Parliamentary Constituency",
-      "state": "Telangana",
-      "district": "Hyderabad",
-      "constituency": "Hyderabad",
-      "mp_name": "Asaduddin Owaisi",
-      "mp_house": "Lok Sabha",
-      "sector": "Other Public Assets",
-      "sub_sector": "Normal/Others",
-      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
-      "location": "HYDERABAD, Telangana",
-      "sanctioned_amount": 13149854.0,
-      "recommended_amount": 13149854.0,
-      "expenditure_amount": null,
-      "status": "Recommended",
-      "recommendation_date": "2026-08-18",
-      "sanction_date": null,
-      "source_system": "MoSPI eSAKSHI Public Portal",
-      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
-      "source_record_id": "305195",
-      "retrieved_at": "2026-09-05T08:18:07.343073Z",
-      "raw_record_hash": "sha256:d2e6395093b3501060e821555283cd6e69cdbb64e130ed13d355874688d7b845",
-      "findings": [
-        {
-          "id": "FND-FIN-IN-MOSPI-305195",
-          "project_id": "IN-MOSPI-305195",
-          "title": "Peer Financial Outlier (120.0\u00d7 Sector Median)",
-          "category": "financial",
-          "severity": "medium",
-          "confidence": 88,
-          "description": "Sanctioned outlay of \u20b913,149,854 is 120.0\u00d7 above the peer median for Other Public Assets in this constituency (Median: \u20b9109,585).",
-          "reason_code": "FIN_OUTLIER_PEER_2X",
-          "detector": "financial",
-          "detector_version": "3.1.2",
-          "status": "new",
-          "created_at": "2026-09-05T08:18:07.343326Z",
-          "evidence": {
-            "metric": "Sanctioned vs Peer Median",
-            "value": "\u20b913,149,854",
-            "peer_median": "\u20b9109,585",
-            "ratio": "120.0\u00d7",
-            "details": "Peer comparison calculated across 3 Other Public Assets works in this public register."
-          }
         }
       ],
-      "timeline_events": [
-        {
-          "event_type": "Recommendation",
-          "date": "2026-08-18",
-          "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/16 submitted to District Authority.",
-          "amount": 13149854.0
-        }
-      ]
+      "vendors": [],
+      "attachment_id": null
     },
     {
       "id": "IN-MOSPI-309577",
@@ -755,11 +63,12 @@
       "status": "Recommended",
       "recommendation_date": "2026-08-29",
       "sanction_date": null,
+      "completion_date": null,
       "source_system": "MoSPI eSAKSHI Public Portal",
       "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
       "source_record_id": "309577",
-      "retrieved_at": "2026-09-05T08:18:07.343167Z",
-      "raw_record_hash": "sha256:d52254b78e4b23c142ac6289c966d562c887f59a156fdb20aa355bb625358b39",
+      "retrieved_at": "2026-09-06T14:02:26.050399Z",
+      "raw_record_hash": "sha256:be60bb35dc5fc31e577f886cc54806ed0fae0bc47f251ded2b79379b05a8a4f9",
       "findings": [
         {
           "id": "FND-FIN-IN-MOSPI-309577",
@@ -768,18 +77,18 @@
           "category": "financial",
           "severity": "medium",
           "confidence": 88,
-          "description": "Sanctioned outlay of \u20b94,356,840 is 6.92\u00d7 above the peer median for Education in this constituency (Median: \u20b9630,000).",
+          "description": "Sanctioned outlay of \u20b94,356,840 is 6.92\u00d7 above the peer median for Education in this register (Median: \u20b9630,000).",
           "reason_code": "FIN_OUTLIER_PEER_2X",
           "detector": "financial",
           "detector_version": "3.1.2",
           "status": "new",
-          "created_at": "2026-09-05T08:18:07.343350Z",
+          "created_at": "2026-09-06T14:02:26.057008Z",
           "evidence": {
             "metric": "Sanctioned vs Peer Median",
             "value": "\u20b94,356,840",
             "peer_median": "\u20b9630,000",
             "ratio": "6.92\u00d7",
-            "details": "Peer comparison calculated across 7 Education works in this public register."
+            "details": "Peer group calculated across 7 Education works in this register."
           }
         }
       ],
@@ -788,10 +97,861 @@
           "event_type": "Recommendation",
           "date": "2026-08-29",
           "title": "MP Recommendation Logged",
-          "description": "Official letter LN/MP762/2026-2027/17 submitted to District Authority.",
+          "description": "Letter No: LN/MP762/2026-2027/17",
           "amount": 4356840.0
         }
-      ]
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-278880",
+      "external_id": "eSAKSHI-278880",
+      "project_name": "Drilling of Power Bore Well at beside basketball ground, Nizam College, Hyderabad.",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Education",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 630000.0,
+      "recommended_amount": 630000.0,
+      "expenditure_amount": null,
+      "status": "Recommended",
+      "recommendation_date": "2026-05-21",
+      "sanction_date": null,
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "278880",
+      "retrieved_at": "2026-09-06T14:02:26.050519Z",
+      "raw_record_hash": "sha256:f3be19d21063cabc10b53c8b5da12d12babfa88cd53d3f631011d18ccb66343f",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2026-05-21",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2026-2027/14",
+          "amount": 630000.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-239391",
+      "external_id": "eSAKSHI-239391",
+      "project_name": "Laying of 600 mm dia RCC Np3 sewer main pipe line from Seven Heaven Hotel, Fish Market to Sulabh Complex under ADMHO Office, Kosalwadi, Gowliguda in Goshamahal Assembly Constituency",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Sanitation & Sewerage",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 12522210.0,
+      "recommended_amount": 12522210.0,
+      "expenditure_amount": null,
+      "status": "Recommended",
+      "recommendation_date": "2025-10-02",
+      "sanction_date": null,
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "239391",
+      "retrieved_at": "2026-09-06T14:02:26.050660Z",
+      "raw_record_hash": "sha256:d87cf0e0506f69ce85346a5bfcace7175444d5345d0bcc5cac459d34620855e7",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2025-10-02",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2025-2026/12",
+          "amount": 12522210.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-278879",
+      "external_id": "eSAKSHI-278879",
+      "project_name": "Drilling of Power Bore Well at Exam Branch, Nizam College, Hyderabad.",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Education",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 630000.0,
+      "recommended_amount": 630000.0,
+      "expenditure_amount": null,
+      "status": "Recommended",
+      "recommendation_date": "2026-05-21",
+      "sanction_date": null,
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "278879",
+      "retrieved_at": "2026-09-06T14:02:26.050769Z",
+      "raw_record_hash": "sha256:bfa551e8feff3f65557cc76067e980c4e3d13a8c68144524b897bf1e012d62d5",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2026-05-21",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2026-2027/14",
+          "amount": 630000.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-280169",
+      "external_id": "eSAKSHI-280169",
+      "project_name": "Motorized tri cycle for Mr. Chintakindi Prakas Son of Late Ch. Ramulu H.No.18-3-496 by 31 by 1, Lasmi Nagar Aliabad, Hyderabad",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Other Public Assets",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "Assistant Director, Department for the Empowerment of Persons with Disabilities, Sr. Citizens & Tran",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 103387.0,
+      "recommended_amount": 103387.0,
+      "expenditure_amount": 103387.0,
+      "status": "In Progress",
+      "recommendation_date": "2026-05-21",
+      "sanction_date": "2026-06-23",
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "280169",
+      "retrieved_at": "2026-09-06T14:02:26.051125Z",
+      "raw_record_hash": "sha256:0309c4a0c6bb75e3cce4066ddebc3becac5ceb84b2481dba239ffbfe03e82074",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2026-05-21",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2026-2027/15",
+          "amount": 103387.0
+        },
+        {
+          "event_type": "Sanction",
+          "date": "2026-06-23",
+          "title": "Administrative Sanction Accorded",
+          "description": "Sanctioned by Nodal Authority (103,387 INR). Agency: Assistant Director, Department for the Empowerment of Persons with Disabilities, Sr. Citizens & Tran.",
+          "amount": 103387.0
+        },
+        {
+          "event_type": "Fund Disbursement",
+          "date": "2026-06-23",
+          "title": "Fund Disbursed (103,387 INR)",
+          "description": "Vendor: KIRAN auto HUB LLP | Status: Payment Success",
+          "amount": 103387.0
+        }
+      ],
+      "vendors": [
+        "KIRAN auto HUB LLP"
+      ],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-200884",
+      "external_id": "eSAKSHI-200884",
+      "project_name": "Laying of 900mm dia and 600mm dia Np-3 pipe line and CC road restoration from H.No. 17-4-387, Ashoorkhana Hazrat-e-Ameer Muqtar to H.No. 17-4-313 A and bylanes in Matha Kidiki Nala, Yakutpura Assembly Constituency",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Roads, Pathways & Bridges",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "TELANGANA STATE COOPERATIVE RURAL IRRIGATION CORPORATION LIMITED",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 5656600.0,
+      "recommended_amount": 5656600.0,
+      "expenditure_amount": 5656600.0,
+      "status": "Completed",
+      "recommendation_date": "2025-05-19",
+      "sanction_date": "2025-07-11",
+      "completion_date": "2026-01-21",
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "200884",
+      "retrieved_at": "2026-09-06T14:02:26.051813Z",
+      "raw_record_hash": "sha256:a2c63a7e7b797e5cd8c71d914e751088769fe3e7e1435d819982f0052f7a3ad5",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2025-05-19",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2025-2026/7",
+          "amount": 5656600.0
+        },
+        {
+          "event_type": "Sanction",
+          "date": "2025-07-11",
+          "title": "Administrative Sanction Accorded",
+          "description": "Sanctioned by Nodal Authority (5,656,600 INR). Agency: TELANGANA STATE COOPERATIVE RURAL IRRIGATION CORPORATION LIMITED.",
+          "amount": 5656600.0
+        },
+        {
+          "event_type": "Fund Disbursement",
+          "date": "2025-11-28",
+          "title": "Fund Disbursed (5,656,600 INR)",
+          "description": "Vendor: A F Construction op by Ismail | Status: Payment Success",
+          "amount": 5656600.0
+        },
+        {
+          "event_type": "Completion Recorded",
+          "date": "2026-01-21",
+          "title": "Physical Completion Certified",
+          "description": "Final Recorded Amount: \u20b95,656,600 | Attach ID: 1942663",
+          "amount": 5656600.0
+        }
+      ],
+      "vendors": [
+        "A F Construction op by Ismail"
+      ],
+      "attachment_id": 1942663
+    },
+    {
+      "id": "IN-MOSPI-305195",
+      "external_id": "eSAKSHI-305195",
+      "project_name": "Specialized vehicles and equipment for the fire stations in Hyderabad Parliamentary Constituency",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Other Public Assets",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 13149854.0,
+      "recommended_amount": 13149854.0,
+      "expenditure_amount": null,
+      "status": "Recommended",
+      "recommendation_date": "2026-08-18",
+      "sanction_date": null,
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "305195",
+      "retrieved_at": "2026-09-06T14:02:26.052113Z",
+      "raw_record_hash": "sha256:6e714a694f3969c3141f3c7f972e11380b334001eb5addc3ba3afaaf6245f530",
+      "findings": [
+        {
+          "id": "FND-FIN-IN-MOSPI-305195",
+          "project_id": "IN-MOSPI-305195",
+          "title": "Peer Financial Outlier (120.0\u00d7 Sector Median)",
+          "category": "financial",
+          "severity": "medium",
+          "confidence": 88,
+          "description": "Sanctioned outlay of \u20b913,149,854 is 120.0\u00d7 above the peer median for Other Public Assets in this register (Median: \u20b9109,585).",
+          "reason_code": "FIN_OUTLIER_PEER_2X",
+          "detector": "financial",
+          "detector_version": "3.1.2",
+          "status": "new",
+          "created_at": "2026-09-06T14:02:26.057483Z",
+          "evidence": {
+            "metric": "Sanctioned vs Peer Median",
+            "value": "\u20b913,149,854",
+            "peer_median": "\u20b9109,585",
+            "ratio": "120.0\u00d7",
+            "details": "Peer group calculated across 3 Other Public Assets works in this register."
+          }
+        }
+      ],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2026-08-18",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2026-2027/16",
+          "amount": 13149854.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-269021",
+      "external_id": "eSAKSHI-269021",
+      "project_name": "Providing of Hearing Aid o Device (Rando 3 Sound Processor Device) for Right Ear to Master Syed Noman, son of Syed Akram aged about 14 years, H.No.18-12-419 by C by3247, Bandlaguda, Hyderabad",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Special Assistance",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "Assistant Director, Department for the Empowerment of Persons with Disabilities, Sr. Citizens & Tran",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 577000.0,
+      "recommended_amount": 577000.0,
+      "expenditure_amount": 577000.0,
+      "status": "In Progress",
+      "recommendation_date": "2026-02-17",
+      "sanction_date": "2026-03-07",
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "269021",
+      "retrieved_at": "2026-09-06T14:02:26.052611Z",
+      "raw_record_hash": "sha256:927eed258d18c03c47342d3051d0ce4768fb9cfe84a0951ff23c35b44630d2d7",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2026-02-17",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2025-2026/13",
+          "amount": 577000.0
+        },
+        {
+          "event_type": "Sanction",
+          "date": "2026-03-07",
+          "title": "Administrative Sanction Accorded",
+          "description": "Sanctioned by Nodal Authority (577,000 INR). Agency: Assistant Director, Department for the Empowerment of Persons with Disabilities, Sr. Citizens & Tran.",
+          "amount": 577000.0
+        },
+        {
+          "event_type": "Fund Disbursement",
+          "date": "2026-03-16",
+          "title": "Fund Disbursed (577,000 INR)",
+          "description": "Vendor: Government ENT Hospital | Status: Payment Success",
+          "amount": 577000.0
+        }
+      ],
+      "vendors": [
+        "Government ENT Hospital"
+      ],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-200883",
+      "external_id": "eSAKSHI-200883",
+      "project_name": "Additional class room block in Ground Floor and 1st to Indira Priyadarshini Degree College, Nampally, Hyderabad",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Education",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 5600000.0,
+      "recommended_amount": 5600000.0,
+      "expenditure_amount": null,
+      "status": "In Progress",
+      "recommendation_date": "2025-05-19",
+      "sanction_date": "2025-10-01",
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "200883",
+      "retrieved_at": "2026-09-06T14:02:26.052956Z",
+      "raw_record_hash": "sha256:3dd76252432d99ca7a45c8d69a4a93442cc08f476a8fbc42eb5032411c27a940",
+      "findings": [
+        {
+          "id": "FND-FIN-IN-MOSPI-200883",
+          "project_id": "IN-MOSPI-200883",
+          "title": "Peer Financial Outlier (8.89\u00d7 Sector Median)",
+          "category": "financial",
+          "severity": "medium",
+          "confidence": 88,
+          "description": "Sanctioned outlay of \u20b95,600,000 is 8.89\u00d7 above the peer median for Education in this register (Median: \u20b9630,000).",
+          "reason_code": "FIN_OUTLIER_PEER_2X",
+          "detector": "financial",
+          "detector_version": "3.1.2",
+          "status": "new",
+          "created_at": "2026-09-06T14:02:26.057578Z",
+          "evidence": {
+            "metric": "Sanctioned vs Peer Median",
+            "value": "\u20b95,600,000",
+            "peer_median": "\u20b9630,000",
+            "ratio": "8.89\u00d7",
+            "details": "Peer group calculated across 7 Education works in this register."
+          }
+        },
+        {
+          "id": "FND-STAG-IN-MOSPI-200883",
+          "project_id": "IN-MOSPI-200883",
+          "title": "Extended Stagnation (475 Days Elapsed Since Recommendation)",
+          "category": "lifecycle",
+          "severity": "high",
+          "confidence": 90,
+          "description": "Work recommended on 2025-05-19 (475 days ago) with zero recorded ground expenditure or physical completion certificate.",
+          "reason_code": "LIFECYCLE_OVERDUE_STAGNANT",
+          "detector": "lifecycle",
+          "detector_version": "2.4.0",
+          "status": "new",
+          "created_at": "2026-09-06T14:02:26.057708Z",
+          "evidence": {
+            "details": "Elapsed time: 475 days with \u20b90 expenditure disbursed."
+          }
+        }
+      ],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2025-05-19",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2025-2026/7",
+          "amount": 5600000.0
+        },
+        {
+          "event_type": "Sanction",
+          "date": "2025-10-01",
+          "title": "Administrative Sanction Accorded",
+          "description": "Sanctioned by Nodal Authority (5,600,000 INR). Agency: HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
+          "amount": 5600000.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-239366",
+      "external_id": "eSAKSHI-239366",
+      "project_name": "Drilling of Power Bore Well at H.No.18-2-118 by A by 48 by 5, Beda Budaga Janam Colony, Jangammet, Bandlaguda, Hyderabad",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Drinking Water",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 630000.0,
+      "recommended_amount": 630000.0,
+      "expenditure_amount": null,
+      "status": "Recommended",
+      "recommendation_date": "2025-10-01",
+      "sanction_date": null,
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "239366",
+      "retrieved_at": "2026-09-06T14:02:26.053076Z",
+      "raw_record_hash": "sha256:a17f319a385de23032d6898ed560fbdb675384bcc70d7365c4d5cc68a4a9ea33",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2025-10-01",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2025-2026/11",
+          "amount": 630000.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-278878",
+      "external_id": "eSAKSHI-278878",
+      "project_name": "Drilling of Power Bore Well at beside Principal Office, Nizam College, Hyderabad.",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Education",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 630000.0,
+      "recommended_amount": 630000.0,
+      "expenditure_amount": null,
+      "status": "Recommended",
+      "recommendation_date": "2026-05-21",
+      "sanction_date": null,
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "278878",
+      "retrieved_at": "2026-09-06T14:02:26.053221Z",
+      "raw_record_hash": "sha256:50d3b15d74834cac2fcaafc54373eb31064fec1f7d4e918a8569140f1e1a8e69",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2026-05-21",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2026-2027/14",
+          "amount": 630000.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-278881",
+      "external_id": "eSAKSHI-278881",
+      "project_name": "Drilling of Power Bore Well at Opposite Health Centre, Nizam College, Hyderabad.",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Health & Family Welfare",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 630000.0,
+      "recommended_amount": 630000.0,
+      "expenditure_amount": null,
+      "status": "Recommended",
+      "recommendation_date": "2026-05-21",
+      "sanction_date": null,
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "278881",
+      "retrieved_at": "2026-09-06T14:02:26.053310Z",
+      "raw_record_hash": "sha256:18be4129aac12ffc9945796aafcdb7686671133bfbd4e82c156c82de4a0294f2",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2026-05-21",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2026-2027/14",
+          "amount": 630000.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-278876",
+      "external_id": "eSAKSHI-278876",
+      "project_name": "Drilling of power bore well at Girls Hostel, Nizam College, Hyderabad.",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Education",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 630000.0,
+      "recommended_amount": 630000.0,
+      "expenditure_amount": null,
+      "status": "Recommended",
+      "recommendation_date": "2026-05-21",
+      "sanction_date": null,
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "278876",
+      "retrieved_at": "2026-09-06T14:02:26.053393Z",
+      "raw_record_hash": "sha256:031b1b3eb3a815be73fdfe600f0223672bdd0a77f63297f3ad857a5350541f06",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2026-05-21",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2026-2027/14",
+          "amount": 630000.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-239367",
+      "external_id": "eSAKSHI-239367",
+      "project_name": "Drilling of 6.5 dia power bore well at near Park, Kishan Bagh, Bahadurpura, Hyderabad",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Drinking Water",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 630000.0,
+      "recommended_amount": 630000.0,
+      "expenditure_amount": null,
+      "status": "Recommended",
+      "recommendation_date": "2025-10-01",
+      "sanction_date": null,
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "239367",
+      "retrieved_at": "2026-09-06T14:02:26.053478Z",
+      "raw_record_hash": "sha256:1bac8517f2a2a452d2e69597d7cc788c974f62d5c682f1e33f752ddabf0ece03",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2025-10-01",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2025-2026/11",
+          "amount": 630000.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-200885",
+      "external_id": "eSAKSHI-200885",
+      "project_name": "Construction of Multipurpose Community Hall in 1sr Floor at Press Colony, Champapet in Yakutpura, Assembly Constituency",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Community Infrastructure",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "TELANGANA STATE COOPERATIVE RURAL IRRIGATION CORPORATION LIMITED",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 5120000.0,
+      "recommended_amount": 5120000.0,
+      "expenditure_amount": 4607245.0,
+      "status": "In Progress",
+      "recommendation_date": "2025-05-19",
+      "sanction_date": "2025-07-11",
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "200885",
+      "retrieved_at": "2026-09-06T14:02:26.053811Z",
+      "raw_record_hash": "sha256:aa184d8c1f0d26b79c049f0ded5003ce9a0bc7f879fed7e0e21933f47dbf697b",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2025-05-19",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2025-2026/7",
+          "amount": 5120000.0
+        },
+        {
+          "event_type": "Sanction",
+          "date": "2025-07-11",
+          "title": "Administrative Sanction Accorded",
+          "description": "Sanctioned by Nodal Authority (5,120,000 INR). Agency: TELANGANA STATE COOPERATIVE RURAL IRRIGATION CORPORATION LIMITED.",
+          "amount": 5120000.0
+        },
+        {
+          "event_type": "Fund Disbursement",
+          "date": "2026-03-30",
+          "title": "Fund Disbursed (1,484,703 INR)",
+          "description": "Vendor: A F Construction op by Ismail | Status: Payment Success",
+          "amount": 1484703.0
+        },
+        {
+          "event_type": "Fund Disbursement",
+          "date": "2026-06-19",
+          "title": "Fund Disbursed (3,122,542 INR)",
+          "description": "Vendor: A F Construction op by Ismail | Status: Payment Success",
+          "amount": 3122542.0
+        }
+      ],
+      "vendors": [
+        "A F Construction op by Ismail"
+      ],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-204399",
+      "external_id": "eSAKSHI-204399",
+      "project_name": "Providing of  Motorized Activa Tri Cycle to Handicap Person Mr. Mohd Moin Uddin Son of Mohd Burhan Uddin, N M Guda, Kishan Bagh, Hyderabad",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Other Public Assets",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "Assistant Director, Department for the Empowerment of Persons with Disabilities, Sr. Citizens & Tran",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 109585.0,
+      "recommended_amount": 109585.0,
+      "expenditure_amount": 109585.0,
+      "status": "In Progress",
+      "recommendation_date": "2025-05-29",
+      "sanction_date": "2025-07-11",
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "204399",
+      "retrieved_at": "2026-09-06T14:02:26.054168Z",
+      "raw_record_hash": "sha256:86864f1079155a689f904a341e43a22592179cc6755c898883ae57185edbda7d",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2025-05-29",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2025-2026/8",
+          "amount": 109585.0
+        },
+        {
+          "event_type": "Sanction",
+          "date": "2025-07-11",
+          "title": "Administrative Sanction Accorded",
+          "description": "Sanctioned by Nodal Authority (109,585 INR). Agency: Assistant Director, Department for the Empowerment of Persons with Disabilities, Sr. Citizens & Tran.",
+          "amount": 109585.0
+        },
+        {
+          "event_type": "Fund Disbursement",
+          "date": "2025-07-11",
+          "title": "Fund Disbursed (109,585 INR)",
+          "description": "Vendor: Om Sri Sai Srinivas Motors LLP | Status: Payment Success",
+          "amount": 109585.0
+        }
+      ],
+      "vendors": [
+        "Om Sri Sai Srinivas Motors LLP"
+      ],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-280168",
+      "external_id": "eSAKSHI-280168",
+      "project_name": "Motorized Tri-Cycle Vehicle (TVS Jupiter) to Mr.Feroz Khan, son of Osman Khan, H No. 14-4-164, Begum Bazar Chand Tara Masjid, Hyderabad.",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Special Assistance",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "Assistant Director, Department for the Empowerment of Persons with Disabilities, Sr. Citizens & Tran",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 118500.0,
+      "recommended_amount": 118500.0,
+      "expenditure_amount": 118500.0,
+      "status": "In Progress",
+      "recommendation_date": "2026-05-21",
+      "sanction_date": "2026-06-23",
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "280168",
+      "retrieved_at": "2026-09-06T14:02:26.054515Z",
+      "raw_record_hash": "sha256:173de52605f70a2032bf6660dbb48d7d110d827d4201f18bbd19143599f9664a",
+      "findings": [],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2026-05-21",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2026-2027/15",
+          "amount": 118500.0
+        },
+        {
+          "event_type": "Sanction",
+          "date": "2026-06-23",
+          "title": "Administrative Sanction Accorded",
+          "description": "Sanctioned by Nodal Authority (118,500 INR). Agency: Assistant Director, Department for the Empowerment of Persons with Disabilities, Sr. Citizens & Tran.",
+          "amount": 118500.0
+        },
+        {
+          "event_type": "Fund Disbursement",
+          "date": "2026-06-23",
+          "title": "Fund Disbursed (118,500 INR)",
+          "description": "Vendor: KIRAN auto HUB LLP | Status: Payment Success",
+          "amount": 118500.0
+        }
+      ],
+      "vendors": [
+        "KIRAN auto HUB LLP"
+      ],
+      "attachment_id": null
+    },
+    {
+      "id": "IN-MOSPI-223765",
+      "external_id": "eSAKSHI-223765",
+      "project_name": "Construction of Community hall at Gulshan Iqbal Colony under Chandrayangutta Assembly Constituency Uppuguda Division",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "constituency": "Hyderabad",
+      "mp_name": "Asaduddin Owaisi",
+      "mp_house": "Lok Sabha",
+      "sector": "Community Infrastructure",
+      "sub_sector": "Normal/Others",
+      "implementing_agency": "HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA)",
+      "location": "HYDERABAD, Telangana",
+      "sanctioned_amount": 2000000.0,
+      "recommended_amount": 2000000.0,
+      "expenditure_amount": null,
+      "status": "In Progress",
+      "recommendation_date": "2025-07-31",
+      "sanction_date": "2025-10-10",
+      "completion_date": null,
+      "source_system": "MoSPI eSAKSHI Public Portal",
+      "source_url": "https://mplads.mospi.gov.in/digigov/dashboard.html",
+      "source_record_id": "223765",
+      "retrieved_at": "2026-09-06T14:02:26.054730Z",
+      "raw_record_hash": "sha256:7062c3a96cfc554dc123a4607537e82ab0da0187498bc4b9bfe0a56e0466e7ff",
+      "findings": [
+        {
+          "id": "FND-STAG-IN-MOSPI-223765",
+          "project_id": "IN-MOSPI-223765",
+          "title": "Extended Stagnation (402 Days Elapsed Since Recommendation)",
+          "category": "lifecycle",
+          "severity": "high",
+          "confidence": 90,
+          "description": "Work recommended on 2025-07-31 (402 days ago) with zero recorded ground expenditure or physical completion certificate.",
+          "reason_code": "LIFECYCLE_OVERDUE_STAGNANT",
+          "detector": "lifecycle",
+          "detector_version": "2.4.0",
+          "status": "new",
+          "created_at": "2026-09-06T14:02:26.057992Z",
+          "evidence": {
+            "details": "Elapsed time: 402 days with \u20b90 expenditure disbursed."
+          }
+        }
+      ],
+      "timeline_events": [
+        {
+          "event_type": "Recommendation",
+          "date": "2025-07-31",
+          "title": "MP Recommendation Logged",
+          "description": "Letter No: LN/MP762/2025-2026/10",
+          "amount": 2000000.0
+        },
+        {
+          "event_type": "Sanction",
+          "date": "2025-10-10",
+          "title": "Administrative Sanction Accorded",
+          "description": "Sanctioned by Nodal Authority (2,000,000 INR). Agency: HYDERABAD(DISTRICT COLLECTOR HYDERABAD_IDA).",
+          "amount": 2000000.0
+        }
+      ],
+      "vendors": [],
+      "attachment_id": null
     }
   ]
 }

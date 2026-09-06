@@ -29,24 +29,37 @@ export default function MPIntelligencePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedParty, setSelectedParty] = useState("All");
 
+  // Helper to dynamically find an MP's id by name or constituency
+  const findMPId = (keyword: string) => {
+    const found = MP_PROFILES.find(
+      (p) =>
+        p.name.toLowerCase().includes(keyword.toLowerCase()) ||
+        p.constituency.toLowerCase().includes(keyword.toLowerCase())
+    );
+    return found ? found.id : MP_PROFILES[0]?.id || "";
+  };
+
   // Comparison State
-  const [mp1Id, setMp1Id] = useState<string>("MP-TS-HYD-01"); // Asaduddin Owaisi
-  const [mp2Id, setMp2Id] = useState<string>("MP-TS-KRN-02"); // Bandi Sanjay Kumar
+  const [mp1Id, setMp1Id] = useState<string>(() => findMPId("Owaisi"));
+  const [mp2Id, setMp2Id] = useState<string>(() => findMPId("Kishan Reddy"));
 
   // AI Comparison State
   const [aiAnalysis, setAiAnalysis] = useState<string | null>(null);
   const [aiLoading, setAiLoading] = useState(false);
 
   const mp1 = useMemo(() => getMPById(mp1Id) || MP_PROFILES[0], [mp1Id]);
-  const mp2 = useMemo(() => getMPById(mp2Id) || MP_PROFILES[1], [mp2Id]);
+  const mp2 = useMemo(() => getMPById(mp2Id) || MP_PROFILES[1] || MP_PROFILES[0], [mp2Id]);
 
   // Quick preset pairs
-  const presets = [
-    { label: "Owaisi vs Sanjay (Telangana)", mp1: "MP-TS-HYD-01", mp2: "MP-TS-KRN-02" },
-    { label: "Modi vs Rahul (Varanasi / Rae Bareli)", mp1: "MP-UP-VAR-03", mp2: "MP-UP-RBL-04" },
-    { label: "Tharoor vs Tejasvi (Tech Capitals)", mp1: "MP-KL-TVM-05", mp2: "MP-KA-BLR-08" },
-    { label: "Supriya vs Kanimozhi (West vs South)", mp1: "MP-MH-BRM-07", mp2: "MP-TN-TUT-09" }
-  ];
+  const presets = useMemo(
+    () => [
+      { label: "Owaisi vs Kishan Reddy (Telangana)", mp1: findMPId("Owaisi"), mp2: findMPId("Kishan Reddy") },
+      { label: "Modi vs Rahul (Varanasi / Rae Bareli)", mp1: findMPId("Modi"), mp2: findMPId("Rahul Gandhi") },
+      { label: "Tharoor vs Sudha Murty", mp1: findMPId("Tharoor"), mp2: findMPId("Sudha Murty") },
+      { label: "Supriya Sule vs Mahua Moitra", mp1: findMPId("Supriya"), mp2: findMPId("Mahua") }
+    ],
+    []
+  );
 
   // Directory filter
   const parties = ["All", ...Array.from(new Set(MP_PROFILES.map((p) => p.party)))];

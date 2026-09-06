@@ -31,7 +31,14 @@ export async function POST(req: Request) {
     const constituency = body.constituency || "HYDERABAD";
 
     const repoRoot = path.resolve(process.cwd(), "..");
-    const command = `py -m ingestion.cli --state "${state}" --constituency "${constituency}"`;
+    let command = "";
+    if (body.national) {
+      command = `py -m ingestion.cli --national`;
+    } else if (body.allConstituencies) {
+      command = `py -m ingestion.cli --state "${state}" --all-constituencies`;
+    } else {
+      command = `py -m ingestion.cli --state "${state}" --constituency "${constituency}"`;
+    }
 
     const result = await new Promise<{ stdout: string; stderr: string }>((resolve, reject) => {
       exec(command, { cwd: repoRoot }, (error, stdout, stderr) => {
